@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ăn uống healthy</title>
+  <meta name="description" content="Thực đơn hôm nay cho người tập gym">
+  <meta name="theme-color" content="#F2F4F7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0D1115" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Ăn healthy">
+  <link rel="preload" href="fonts/be-vietnam-pro-vietnamese-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="title-row">
+      <div class="title-text">
+        <p id="day-rel" class="day-rel"></p>
+        <h1 id="day-title">Đang tải…</h1>
+      </div>
+      <button id="go-today" class="pill-btn" type="button" hidden>Về hôm nay</button>
+    </div>
+    <nav class="week" aria-label="Chọn ngày">
+      <button id="prev-week" class="week-arrow" type="button" aria-label="Tuần trước">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <div id="week-days" class="week-days"></div>
+      <button id="next-week" class="week-arrow" type="button" aria-label="Tuần sau">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <section class="summary" aria-label="Tiến độ trong ngày">
+    <div class="ring-wrap">
+      <svg class="ring" viewBox="0 0 120 120" aria-hidden="true">
+        <circle class="ring-track" cx="60" cy="60" r="52"/>
+        <circle id="protein-ring" class="ring-fill" cx="60" cy="60" r="52"/>
+      </svg>
+      <div class="ring-center">
+        <b id="protein-eaten" class="ring-value">0</b>
+        <span class="ring-unit">/ <span id="protein-planned">0</span> g protein</span>
+      </div>
+    </div>
+    <div class="summary-side">
+      <p id="protein-left" class="protein-left"></p>
+      <div class="kcal">
+        <div class="kcal-label">
+          <span>Calo</span>
+          <span><b id="kcal-eaten">0</b> / <span id="kcal-planned">0</span> kcal</span>
+        </div>
+        <div class="bar"><div id="kcal-bar" class="bar-fill"></div></div>
+      </div>
+      <p class="dishes-done"><b id="dishes-done">0</b> / <span id="dishes-total">0</span> món đã ăn</p>
+    </div>
+  </section>
+
+  <main id="meals"></main>
+
+  <footer class="foot">
+    <p>Số liệu calo và dinh dưỡng là ước lượng.</p>
+    <p id="storage-warning" class="warn" hidden>Trình duyệt đang chặn lưu dữ liệu, nên món đã tick sẽ mất khi tải lại trang.</p>
+  </footer>
+
+  <dialog id="dish-sheet" class="sheet" aria-labelledby="sheet-title">
+    <div class="sheet-grip" aria-hidden="true"></div>
+    <div class="sheet-head">
+      <h2 id="sheet-title"></h2>
+      <button id="sheet-close" class="icon-btn" type="button" aria-label="Đóng">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div id="sheet-body"></div>
+    <button id="sheet-eat" class="primary-btn" type="button">Đã ăn món này</button>
+  </dialog>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
