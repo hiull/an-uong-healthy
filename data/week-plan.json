@@ -5,7 +5,14 @@
     "slot": "sang",
     "dishes": [
      {
-      "id": "pho-bo-nha-lam"
+      "id": "trung-hap",
+      "scale": 2
+     },
+     {
+      "id": "khoai-lang-luoc"
+     },
+     {
+      "id": "sua-tuoi"
      }
     ]
    },
@@ -13,7 +20,7 @@
     "slot": "phu1",
     "dishes": [
      {
-      "id": "sua-chua-thanh-long"
+      "id": "hanh-nhan"
      }
     ]
    },
@@ -21,7 +28,11 @@
     "slot": "trua",
     "dishes": [
      {
-      "id": "com-ca-hoi"
+      "id": "ga-nuong-han-quoc",
+      "scale": 2
+     },
+     {
+      "id": "com-trang"
      }
     ]
    },
@@ -29,7 +40,7 @@
     "slot": "phu2",
     "dishes": [
      {
-      "id": "hanh-nhan-tao"
+      "id": "sua-chua-hy-lap"
      }
     ]
    },
@@ -37,7 +48,14 @@
     "slot": "toi",
     "dishes": [
      {
-      "id": "ga-nuong-salad"
+      "id": "tom-hap-rau-cu",
+      "scale": 2
+     },
+     {
+      "id": "canh-chua-ca"
+     },
+     {
+      "id": "com-gao-lut"
      }
     ]
    }
@@ -47,7 +65,11 @@
     "slot": "sang",
     "dishes": [
      {
-      "id": "yen-mach-whey-chuoi"
+      "id": "chao-yen-mach-thit-bo",
+      "scale": 2
+     },
+     {
+      "id": "sua-tuoi"
      }
     ]
    },
@@ -55,7 +77,7 @@
     "slot": "phu1",
     "dishes": [
      {
-      "id": "hanh-nhan-tao"
+      "id": "sua-chua-chuoi"
      }
     ]
    },
@@ -63,7 +85,11 @@
     "slot": "trua",
     "dishes": [
      {
-      "id": "com-lut-uc-ga"
+      "id": "uc-ga-hap-cai-thao",
+      "scale": 2
+     },
+     {
+      "id": "com-gao-lut"
      }
     ]
    },
@@ -71,7 +97,7 @@
     "slot": "phu2",
     "dishes": [
      {
-      "id": "chuoi-bo-dau-phong"
+      "id": "whey-sua"
      }
     ]
    },
@@ -79,7 +105,11 @@
     "slot": "toi",
     "dishes": [
      {
-      "id": "com-tom-xao-rau"
+      "id": "salad-ca-ngu-rau-thom",
+      "scale": 1.5
+     },
+     {
+      "id": "com-trang"
      }
     ]
    }
@@ -89,7 +119,8 @@
     "slot": "sang",
     "dishes": [
      {
-      "id": "banh-mi-trung-op-la"
+      "id": "bun-gao-xao-thit-bo",
+      "scale": 1.5
      }
     ]
    },
@@ -97,7 +128,7 @@
     "slot": "phu1",
     "dishes": [
      {
-      "id": "sua-chua-thanh-long"
+      "id": "trung-luoc"
      }
     ]
    },
@@ -105,7 +136,11 @@
     "slot": "trua",
     "dishes": [
      {
-      "id": "bun-bo-xao"
+      "id": "salad-bit-tet",
+      "scale": 2
+     },
+     {
+      "id": "com-gao-lut"
      }
     ]
    },
@@ -113,7 +148,7 @@
     "slot": "phu2",
     "dishes": [
      {
-      "id": "whey-chuoi-sua"
+      "id": "sua-chua-chuoi"
      }
     ]
    },
@@ -121,7 +156,14 @@
     "slot": "toi",
     "dishes": [
      {
-      "id": "ca-hoi-nuong-khoai-lang"
+      "id": "muc-nhung-giam-2",
+      "scale": 2
+     },
+     {
+      "id": "canh-rong-bien-thit-bo"
+     },
+     {
+      "id": "com-trang"
      }
     ]
    }
@@ -131,7 +173,11 @@
     "slot": "sang",
     "dishes": [
      {
-      "id": "trung-khoai-lang"
+      "id": "dau-hu-hap-trung",
+      "scale": 2
+     },
+     {
+      "id": "sua-tuoi"
      }
     ]
    },
@@ -139,7 +185,7 @@
     "slot": "phu1",
     "dishes": [
      {
-      "id": "edamame-luoc"
+      "id": "chuoi"
      }
     ]
    },
@@ -147,7 +193,11 @@
     "slot": "trua",
     "dishes": [
      {
-      "id": "heo-ap-chao-khoai-lang"
+      "id": "ga-kho-rau-cu",
+      "scale": 2
+     },
+     {
+      "id": "com-gao-lut"
      }
     ]
    },
@@ -155,7 +205,7 @@
     "slot": "phu2",
     "dishes": [
      {
-      "id": "whey-chuoi-sua"
+      "id": "whey-sua"
      }
     ]
    },
@@ -163,7 +213,14 @@
     "slot": "toi",
     "dishes": [
      {
-      "id": "com-ca-basa-hap"
+      "id": "ca-ngu-dai-duong-luc-lac",
+      "scale": 2
+     },
+     {
+      "id": "cai-xoong-xao-tom"
+     },
+     {
+      "id": "com-gao-lut"
      }
     ]
    }
@@ -173,7 +230,11 @@
     "slot": "sang",
     "dishes": [
      {
-      "id": "banh-mi-ga-xe"
+      "id": "rong-bien-cuon-thit-xot-mayo",
+      "scale": 2
+     },
+     {
+      "id": "sua-tuoi"
      }
     ]
    },
@@ -181,7 +242,7 @@
     "slot": "phu1",
     "dishes": [
      {
-      "id": "sua-chua-yen-mach-chia"
+      "id": "sua-chua-hy-lap"
      }
     ]
    },
@@ -189,7 +250,11 @@
     "slot": "trua",
     "dishes": [
      {
-      "id": "com-bo-xao-bong-cai"
+      "id": "than-be-cuon-rau-thom",
+      "scale": 2
+     },
+     {
+      "id": "com-trang"
      }
     ]
    },
@@ -197,7 +262,7 @@
     "slot": "phu2",
     "dishes": [
      {
-      "id": "chuoi-bo-dau-phong"
+      "id": "khoai-lang-luoc"
      }
     ]
    },
@@ -205,7 +270,14 @@
     "slot": "toi",
     "dishes": [
      {
-      "id": "com-lut-canh-dau-hu-nam"
+      "id": "salad-ca-hoi-hung-que",
+      "scale": 1.5
+     },
+     {
+      "id": "canh-chua-tom-rau-muong"
+     },
+     {
+      "id": "com-gao-lut"
      }
     ]
    }
@@ -215,7 +287,11 @@
     "slot": "sang",
     "dishes": [
      {
-      "id": "chao-yen-mach-ca-hoi"
+      "id": "chao-yen-mach-thit-bo",
+      "scale": 2
+     },
+     {
+      "id": "trung-luoc"
      }
     ]
    },
@@ -223,7 +299,7 @@
     "slot": "phu1",
     "dishes": [
      {
-      "id": "hanh-nhan-tao"
+      "id": "sua-chua-chuoi"
      }
     ]
    },
@@ -231,7 +307,11 @@
     "slot": "trua",
     "dishes": [
      {
-      "id": "salad-ca-ngu"
+      "id": "ngheu-kho-nuoc-tuong",
+      "scale": 2
+     },
+     {
+      "id": "com-trang"
      }
     ]
    },
@@ -239,7 +319,7 @@
     "slot": "phu2",
     "dishes": [
      {
-      "id": "whey-chuoi-sua"
+      "id": "whey-sua"
      }
     ]
    },
@@ -247,7 +327,14 @@
     "slot": "toi",
     "dishes": [
      {
-      "id": "com-ga-kho-gung"
+      "id": "salad-bi-do",
+      "scale": 2
+     },
+     {
+      "id": "tom-tron-bong-cai"
+     },
+     {
+      "id": "com-gao-lut"
      }
     ]
    }
@@ -257,7 +344,14 @@
     "slot": "sang",
     "dishes": [
      {
-      "id": "bun-ga"
+      "id": "trung-hap",
+      "scale": 2
+     },
+     {
+      "id": "khoai-lang-luoc"
+     },
+     {
+      "id": "sua-tuoi"
      }
     ]
    },
@@ -265,7 +359,7 @@
     "slot": "phu1",
     "dishes": [
      {
-      "id": "sua-dau-nanh-banh-mi"
+      "id": "hanh-nhan"
      }
     ]
    },
@@ -273,7 +367,14 @@
     "slot": "trua",
     "dishes": [
      {
-      "id": "com-dau-hu-sot-ca"
+      "id": "ca-loc-cuon-nghe",
+      "scale": 2
+     },
+     {
+      "id": "canh-chua-ca"
+     },
+     {
+      "id": "com-trang"
      }
     ]
    },
@@ -281,7 +382,7 @@
     "slot": "phu2",
     "dishes": [
      {
-      "id": "khoai-lang-sua-chua"
+      "id": "sua-chua-hy-lap"
      }
     ]
    },
@@ -289,7 +390,14 @@
     "slot": "toi",
     "dishes": [
      {
-      "id": "bo-luc-lac-salad"
+      "id": "salad-bo-tom-thit-ap-chao",
+      "scale": 1.5
+     },
+     {
+      "id": "goi-muc-bap-cai"
+     },
+     {
+      "id": "com-gao-lut"
      }
     ]
    }

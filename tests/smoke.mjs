@@ -58,6 +58,9 @@ try {
   await page.locator('.dish-open').first().click();
   check(await page.isVisible('#dish-sheet'), 'chạm món mở bảng chi tiết');
   check((await page.locator('#dish-sheet .ingredients li').count()) > 0, 'bảng chi tiết có danh sách nguyên liệu');
+  const srcHref = await page.getAttribute('#dish-sheet a.source-link', 'href').catch(() => null);
+  check(/^https:\/\/(monngonmoingay\.com|fdc\.nal\.usda\.gov)\//.test(srcHref ?? ''), `bảng chi tiết có link nguồn (${srcHref})`);
+  check((await page.locator('#dish-sheet a[href*="fdc.nal.usda.gov"]').count()) > 0, 'bảng chi tiết có link số liệu USDA');
   await page.click('#sheet-eat');
   check(await page.locator('.dish input[type=checkbox]').first().isChecked(), 'nút trong bảng chi tiết đánh dấu đã ăn');
   check(!(await page.isVisible('#dish-sheet')), 'bảng chi tiết đóng sau khi đánh dấu');

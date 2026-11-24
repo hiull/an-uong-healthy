@@ -2,7 +2,12 @@
 
 Thực đơn mỗi ngày cho người tập gym. Mở trên điện thoại, xem các bữa hôm nay, tick món đã ăn và theo dõi protein, calo.
 
-Số liệu calo và protein là **ước lượng**, tính từ nguyên liệu theo USDA FoodData Central và bảng thành phần thực phẩm Việt Nam.
+Không có món hay con số nào tự đặt ra:
+
+- **Món ăn**: công thức thật từ [Món Ngon Mỗi Ngày](https://monngonmoingay.com/) (Ajinomoto), chủ yếu thuộc các chuyên mục *Hỗ trợ xây dựng khối cơ xương*, *Giảm khối mỡ thừa*, *Ăn kiêng*. Mỗi món trong app có link về trang gốc.
+- **Dinh dưỡng**: tính từ [USDA FoodData Central](https://fdc.nal.usda.gov/) theo từng nguyên liệu (mỗi nguyên liệu có mã `fdcId`, bấm "USDA" trong app để xem). Củ, quả, muỗng được đổi ra gram theo khẩu phần USDA công bố (vd 1 quả trứng lớn = 50 g).
+- Gia vị, rau nêm không ghi định lượng trong công thức gốc thì **không tính** và được liệt kê riêng, nên calo thực tế có thể cao hơn một chút. Khi trang gốc có ghi calo/người, app hiện cả số đó để đối chiếu.
+- Vài nguyên liệu USDA không có (cá lóc, cá basa, nấm đùi gà…) dùng loại gần nhất và ghi rõ trong tên, xem `data/ingredients.json`.
 
 ## Cài lên điện thoại
 
@@ -12,37 +17,27 @@ Số liệu calo và protein là **ước lượng**, tính từ nguyên liệu 
 
 Trạng thái tick lưu trên chính điện thoại đó (giữ 14 ngày gần nhất).
 
-## Sửa thực đơn và thêm món
-
-Mọi dữ liệu nằm trong thư mục `data/`:
+## Dữ liệu và cách thêm món
 
 | File | Nội dung |
 |---|---|
-| `ingredients.json` | Nguyên liệu và macro trên 100 g (`kcal`, `protein`, `carb`, `fat`) |
-| `dishes.json` | Món ăn: danh sách nguyên liệu × gram, bữa phù hợp (`slots`), thẻ (`tags`), cách nấu (`steps`) |
-| `week-plan.json` | Thực đơn 7 ngày; `"0"` là Chủ nhật, `"1"` là Thứ 2 … `"6"` là Thứ 7 |
+| `data/sources/monngonmoingay.json` | Công thức gốc đã đọc từ trang (nguyên liệu, sơ chế, thực hiện, cách dùng, số người) |
+| `data/sources/mapping.json` | Ghép tên nguyên liệu trong công thức với nguyên liệu chuẩn (`aliases`), bữa phù hợp của từng món (`recipes`), thực phẩm ăn kèm (`foods`) |
+| `data/ingredients.json` | Nguyên liệu chuẩn, mã USDA `fdcId` và số liệu lấy về từ USDA |
+| `data/dishes.json` | **Sinh tự động**, đừng sửa tay |
+| `data/week-plan.json` | Thực đơn 7 ngày; `"0"` là Chủ nhật … `"6"` là Thứ 7; `"scale": 2` = ăn 2 phần |
 
-Ví dụ một món:
-
-```json
-{
-  "id": "com-lut-uc-ga",
-  "name": "Cơm gạo lứt ức gà áp chảo",
-  "slots": ["trua", "toi"],
-  "tags": ["meal-prep", "sau-tap"],
-  "items": [{ "ing": "com-gao-lut", "g": 150 }, { "ing": "uc-ga", "g": 130 }],
-  "steps": "Ướp ức gà, áp chảo mỗi mặt 5–6 phút."
-}
-```
-
-- `slots`: `sang`, `phu1` (phụ sáng), `trua`, `phu2` (phụ chiều), `toi`.
-- `tags`: `truoc-tap`, `sau-tap`, `nhanh`, `meal-prep`, `an-ngoai`.
-- Món mua ngoài: thay `items` bằng `"macros": { "kcal": 450, "protein": 28, "carb": 55, "fat": 12 }`.
-- Trong `week-plan.json` có thể đổi khẩu phần: `{ "id": "com-lut-uc-ga", "scale": 1.2 }`.
-
-Sau khi sửa, kiểm tra dữ liệu:
+Thêm món mới từ Món Ngon Mỗi Ngày:
 
 ```bash
+# 1. Tải trang công thức về một thư mục, ví dụ pages/ten-mon.html, rồi đọc:
+node scripts/import-monngon.mjs pages/ > /tmp/recipes.json
+# 2. Chép công thức cần dùng vào data/sources/monngonmoingay.json,
+#    thêm món vào "recipes" trong data/sources/mapping.json, ghép tên nguyên liệu mới vào "aliases"
+#    (nguyên liệu mới thì thêm vào data/ingredients.json kèm fdcId tra trên fdc.nal.usda.gov)
+# 3. Lấy số liệu USDA (cần API key api.data.gov, đặt ở biến USDA_API_KEY) và dựng lại món:
+npm run data:usda
+npm run data:dishes
 node scripts/validate-data.mjs
 ```
 

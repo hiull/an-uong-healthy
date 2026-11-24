@@ -204,3 +204,10 @@ svg { display: block; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Nguồn và ghi chú trong bảng chi tiết */
+.sheet-note { margin: 6px 0 0; font-size: .82rem; color: var(--muted); }
+.ingredients li a { color: var(--muted); font-size: .75rem; font-weight: 500; text-decoration: none; border: 1px solid var(--hairline); border-radius: 99px; padding: 1px 8px; white-space: nowrap; align-self: center; }
+.steps + .steps { margin-top: 6px; }
+.sheet-source { margin: 22px 0 0; padding-top: 14px; border-top: 1px solid var(--hairline); font-size: .82rem; color: var(--muted); }
+.sheet-source a { color: var(--protein); font-weight: 600; }

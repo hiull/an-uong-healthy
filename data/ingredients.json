@@ -1,402 +1,1227 @@
 [
  {
   "id": "uc-ga",
-  "name": "Ức gà bỏ da (chín)",
+  "name": "Ức gà bỏ da (sống)",
+  "fdcId": 171077,
+  "fdcDescription": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 165,
-   "protein": 31,
+   "kcal": 120,
+   "protein": 22.5,
    "carb": 0,
-   "fat": 3.6
+   "fat": 2.62
   }
  },
  {
   "id": "dui-ga",
-  "name": "Đùi gà bỏ da (chín)",
+  "name": "Má đùi gà bỏ da (sống)",
+  "fdcId": 173627,
+  "fdcDescription": "Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 179,
-   "protein": 24.8,
+   "kcal": 121,
+   "protein": 19.66,
    "carb": 0,
-   "fat": 8.2
+   "fat": 4.12
   }
  },
  {
-  "id": "bo-nac",
-  "name": "Thịt bò nạc (chín)",
+  "id": "bo-phi-le",
+  "name": "Thịt bò phi lê, thăn (sống, phần nạc)",
+  "fdcId": 174762,
+  "fdcDescription": "Beef, tenderloin, steak, separable lean only, trimmed to 1/8\" fat, choice, raw",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 190,
-   "protein": 28,
+   "kcal": 158,
+   "protein": 22.17,
    "carb": 0,
-   "fat": 8
+   "fat": 7.07
   }
  },
  {
-  "id": "than-heo",
-  "name": "Thăn heo (chín)",
+  "id": "bo-xay",
+  "name": "Thịt bò xay 90% nạc (sống)",
+  "fdcId": 174030,
+  "fdcDescription": "Beef, ground, 90% lean meat / 10% fat, raw",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 143,
-   "protein": 26.2,
+   "kcal": 176,
+   "protein": 20,
    "carb": 0,
-   "fat": 3.5
+   "fat": 10
   }
  },
  {
-  "id": "ca-hoi",
-  "name": "Cá hồi (chín)",
+  "id": "bo-than-ngoai",
+  "name": "Thịt bò thăn ngoại / sirloin (sống, phần nạc)",
+  "fdcId": 174055,
+  "fdcDescription": "Beef, top sirloin, steak, separable lean only, trimmed to 1/8\" fat, all grades, raw",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 206,
-   "protein": 22,
+   "kcal": 131,
+   "protein": 22.09,
    "carb": 0,
-   "fat": 12.4
+   "fat": 4.08
   }
  },
  {
-  "id": "ca-basa",
-  "name": "Cá basa (chín)",
+  "id": "be-than",
+  "name": "Thịt thăn bê (sống)",
+  "fdcId": 173826,
+  "fdcDescription": "Veal, loin, separable lean only, raw",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 105,
-   "protein": 19,
+   "kcal": 114,
+   "protein": 21.85,
    "carb": 0,
-   "fat": 3
+   "fat": 2.9
   }
  },
  {
-  "id": "ca-ngu-hop",
-  "name": "Cá ngừ ngâm nước (hộp, để ráo)",
+  "id": "heo-nac-vai",
+  "name": "Thịt heo nạc vai, nạc dăm (sống)",
+  "fdcId": 168260,
+  "fdcDescription": "Pork, fresh, shoulder, (Boston butt), blade (steaks), separable lean only, raw",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 116,
-   "protein": 25.5,
+   "kcal": 132,
+   "protein": 18.73,
    "carb": 0,
-   "fat": 0.8
+   "fat": 5.71
+  }
+ },
+ {
+  "id": "heo-xay",
+  "name": "Thịt heo xay (sống)",
+  "fdcId": 167902,
+  "fdcDescription": "Pork, fresh, ground, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 263,
+   "protein": 16.88,
+   "carb": 0,
+   "fat": 21.19
   }
  },
  {
   "id": "tom",
-  "name": "Tôm (chín)",
+  "name": "Tôm bóc vỏ (sống)",
+  "fdcId": 175179,
+  "fdcDescription": "Crustaceans, shrimp, raw",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 99,
-   "protein": 24,
-   "carb": 0.2,
-   "fat": 0.3
+   "kcal": 85,
+   "protein": 20.1,
+   "carb": 0,
+   "fat": 0.51
+  }
+ },
+ {
+  "id": "muc",
+  "name": "Mực (sống)",
+  "fdcId": 174223,
+  "fdcDescription": "Mollusks, squid, mixed species, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 92,
+   "protein": 15.58,
+   "carb": 3.08,
+   "fat": 1.38
+  }
+ },
+ {
+  "id": "ngheu",
+  "name": "Thịt nghêu (sống)",
+  "fdcId": 174214,
+  "fdcDescription": "Mollusks, clam, mixed species, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 86,
+   "protein": 14.67,
+   "carb": 3.57,
+   "fat": 0.96
+  }
+ },
+ {
+  "id": "ca-hoi",
+  "name": "Cá hồi phi lê (sống)",
+  "fdcId": 175167,
+  "fdcDescription": "Fish, salmon, Atlantic, farmed, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 208,
+   "protein": 20.42,
+   "carb": 0,
+   "fat": 13.42
+  }
+ },
+ {
+  "id": "ca-ngu",
+  "name": "Cá ngừ phi lê (sống)",
+  "fdcId": 175159,
+  "fdcDescription": "Fish, tuna, fresh, yellowfin, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 109,
+   "protein": 24.4,
+   "carb": 0,
+   "fat": 0.49
+  }
+ },
+ {
+  "id": "ca-da-tron",
+  "name": "Cá lóc, cá basa phi lê (USDA không có; dùng số liệu cá trê nuôi gần nhất)",
+  "fdcId": 175165,
+  "fdcDescription": "Fish, catfish, channel, farmed, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 119,
+   "protein": 15.23,
+   "carb": 0,
+   "fat": 5.94
   }
  },
  {
   "id": "trung-ga",
-  "name": "Trứng gà (cả quả, ~50 g/quả)",
+  "name": "Trứng gà",
+  "fdcId": 171287,
+  "units": {
+   "quả": "large"
+  },
+  "fdcDescription": "Egg, whole, raw, fresh",
+  "fdcDataType": "SR Legacy",
   "per100g": {
    "kcal": 143,
-   "protein": 12.6,
-   "carb": 0.7,
-   "fat": 9.5
-  }
- },
- {
-  "id": "long-trang-trung",
-  "name": "Lòng trắng trứng",
-  "per100g": {
-   "kcal": 52,
-   "protein": 10.9,
-   "carb": 0.7,
-   "fat": 0.2
+   "protein": 12.56,
+   "carb": 0.72,
+   "fat": 9.51
+  },
+  "unitGrams": {
+   "quả": 50
   }
  },
  {
   "id": "dau-hu",
-  "name": "Đậu hũ (đậu phụ)",
+  "name": "Đậu hũ non",
+  "fdcId": 172449,
+  "fdcDescription": "Tofu, soft, prepared with calcium sulfate and magnesium chloride (nigari)",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 95,
-   "protein": 10.9,
-   "carb": 1.1,
-   "fat": 5.4
-  }
- },
- {
-  "id": "edamame",
-  "name": "Đậu nành Nhật (luộc, bỏ vỏ)",
-  "per100g": {
-   "kcal": 121,
-   "protein": 11.9,
-   "carb": 8.9,
-   "fat": 5.2
-  }
- },
- {
-  "id": "sua-chua-hy-lap",
-  "name": "Sữa chua Hy Lạp không đường, ít béo",
-  "per100g": {
-   "kcal": 59,
-   "protein": 10.2,
-   "carb": 3.6,
-   "fat": 0.4
-  }
- },
- {
-  "id": "sua-tuoi",
-  "name": "Sữa tươi ít béo không đường",
-  "per100g": {
-   "kcal": 42,
-   "protein": 3.4,
-   "carb": 5,
-   "fat": 1
-  }
- },
- {
-  "id": "sua-dau-nanh",
-  "name": "Sữa đậu nành không đường",
-  "per100g": {
-   "kcal": 33,
-   "protein": 2.9,
-   "carb": 1.7,
-   "fat": 1.6
-  }
- },
- {
-  "id": "whey",
-  "name": "Bột whey protein (~30 g/muỗng)",
-  "per100g": {
-   "kcal": 400,
-   "protein": 80,
-   "carb": 8,
-   "fat": 6
-  }
- },
- {
-  "id": "com-trang",
-  "name": "Cơm trắng (chín)",
-  "per100g": {
-   "kcal": 130,
-   "protein": 2.7,
-   "carb": 28.2,
-   "fat": 0.3
-  }
- },
- {
-  "id": "com-gao-lut",
-  "name": "Cơm gạo lứt (chín)",
-  "per100g": {
-   "kcal": 123,
-   "protein": 2.7,
-   "carb": 25.6,
-   "fat": 1
-  }
- },
- {
-  "id": "bun",
-  "name": "Bún tươi",
-  "per100g": {
-   "kcal": 110,
-   "protein": 1.7,
-   "carb": 25,
-   "fat": 0.1
-  }
- },
- {
-  "id": "banh-pho",
-  "name": "Bánh phở tươi",
-  "per100g": {
-   "kcal": 141,
-   "protein": 3.2,
-   "carb": 32.1,
-   "fat": 0.4
+   "kcal": 61,
+   "protein": 7.17,
+   "carb": 1.18,
+   "fat": 3.69
   }
  },
  {
   "id": "yen-mach",
   "name": "Yến mạch cán (khô)",
+  "fdcId": 173904,
+  "fdcDescription": "Cereals, oats, regular and quick, not fortified, dry",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 389,
-   "protein": 16.9,
-   "carb": 66.3,
-   "fat": 6.9
+   "kcal": 379,
+   "protein": 13.15,
+   "carb": 67.7,
+   "fat": 6.52
+  }
+ },
+ {
+  "id": "bun-gao",
+  "name": "Bún gạo khô",
+  "fdcId": 169742,
+  "fdcDescription": "Rice noodles, dry",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 364,
+   "protein": 5.95,
+   "carb": 80.18,
+   "fat": 0.56
   }
  },
  {
   "id": "khoai-lang",
-  "name": "Khoai lang (luộc)",
+  "name": "Khoai lang (sống)",
+  "fdcId": 168482,
+  "fdcDescription": "Sweet potato, raw, unprepared (Includes foods for USDA's Food Distribution Program)",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 76,
-   "protein": 1.4,
-   "carb": 17.7,
+   "kcal": 86,
+   "protein": 1.57,
+   "carb": 20.12,
+   "fat": 0.05
+  }
+ },
+ {
+  "id": "bi-do",
+  "name": "Bí đỏ (sống)",
+  "fdcId": 168448,
+  "fdcDescription": "Pumpkin, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 26,
+   "protein": 1,
+   "carb": 6.5,
    "fat": 0.1
   }
  },
  {
-  "id": "banh-mi-den",
-  "name": "Bánh mì nguyên cám",
+  "id": "bap-ngot",
+  "name": "Bắp ngọt hạt",
+  "fdcId": 169998,
+  "fdcDescription": "Corn, sweet, yellow, raw",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 247,
-   "protein": 13,
-   "carb": 41,
-   "fat": 3.4
+   "kcal": 86,
+   "protein": 3.27,
+   "carb": 18.7,
+   "fat": 1.35
   }
  },
  {
-  "id": "chuoi",
-  "name": "Chuối",
+  "id": "cu-sen",
+  "name": "Củ sen",
+  "fdcId": 169250,
+  "fdcDescription": "Lotus root, raw",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 89,
+   "kcal": 74,
+   "protein": 2.6,
+   "carb": 17.23,
+   "fat": 0.1
+  }
+ },
+ {
+  "id": "mang",
+  "name": "Măng luộc",
+  "fdcId": 169211,
+  "fdcDescription": "Bamboo shoots, cooked, boiled, drained, without salt",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 12,
+   "protein": 1.53,
+   "carb": 1.92,
+   "fat": 0.22
+  }
+ },
+ {
+  "id": "gao-rang",
+  "name": "Thính gạo rang (USDA: gạo trắng khô)",
+  "fdcId": 169756,
+  "fdcDescription": "Rice, white, long-grain, regular, raw, unenriched",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 365,
+   "protein": 7.13,
+   "carb": 79.95,
+   "fat": 0.66
+  }
+ },
+ {
+  "id": "ca-rot",
+  "name": "Cà rốt",
+  "fdcId": 170393,
+  "units": {
+   "củ": "medium"
+  },
+  "fdcDescription": "Carrots, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 41,
+   "protein": 0.93,
+   "carb": 9.58,
+   "fat": 0.24
+  },
+  "unitGrams": {
+   "củ": 61
+  }
+ },
+ {
+  "id": "hanh-tay",
+  "name": "Hành tây",
+  "fdcId": 170000,
+  "units": {
+   "củ": "medium"
+  },
+  "fdcDescription": "Onions, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 40,
    "protein": 1.1,
-   "carb": 22.8,
-   "fat": 0.3
-  }
- },
- {
-  "id": "tao",
-  "name": "Táo",
-  "per100g": {
-   "kcal": 52,
-   "protein": 0.3,
-   "carb": 13.8,
-   "fat": 0.2
-  }
- },
- {
-  "id": "thanh-long",
-  "name": "Thanh long",
-  "per100g": {
-   "kcal": 60,
-   "protein": 1.2,
-   "carb": 13,
-   "fat": 0.4
-  }
- },
- {
-  "id": "bo-trai",
-  "name": "Bơ (trái)",
-  "per100g": {
-   "kcal": 160,
-   "protein": 2,
-   "carb": 8.5,
-   "fat": 14.7
-  }
- },
- {
-  "id": "rau-xanh",
-  "name": "Rau xanh luộc (cải, rau muống)",
-  "per100g": {
-   "kcal": 25,
-   "protein": 2.5,
-   "carb": 4,
-   "fat": 0.3
-  }
- },
- {
-  "id": "bong-cai",
-  "name": "Bông cải xanh (luộc)",
-  "per100g": {
-   "kcal": 35,
-   "protein": 2.4,
-   "carb": 7.2,
-   "fat": 0.4
-  }
- },
- {
-  "id": "dua-leo",
-  "name": "Dưa leo",
-  "per100g": {
-   "kcal": 15,
-   "protein": 0.7,
-   "carb": 3.6,
+   "carb": 9.34,
    "fat": 0.1
+  },
+  "unitGrams": {
+   "củ": 110
   }
  },
  {
   "id": "ca-chua",
   "name": "Cà chua",
+  "fdcId": 170457,
+  "units": {
+   "trái": "medium whole"
+  },
+  "fdcDescription": "Tomatoes, red, ripe, raw, year round average",
+  "fdcDataType": "SR Legacy",
   "per100g": {
    "kcal": 18,
-   "protein": 0.9,
-   "carb": 3.9,
+   "protein": 0.88,
+   "carb": 3.89,
    "fat": 0.2
+  },
+  "unitGrams": {
+   "trái": 123
+  }
+ },
+ {
+  "id": "dua-leo",
+  "name": "Dưa leo",
+  "fdcId": 168409,
+  "units": {
+   "trái": "cucumber",
+   "quả": "cucumber"
+  },
+  "fdcDescription": "Cucumber, with peel, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 15,
+   "protein": 0.65,
+   "carb": 3.63,
+   "fat": 0.11
+  },
+  "unitGrams": {
+   "trái": 301,
+   "quả": 301
   }
  },
  {
   "id": "xa-lach",
   "name": "Xà lách",
+  "fdcId": 169249,
+  "fdcDescription": "Lettuce, green leaf, raw",
+  "fdcDataType": "SR Legacy",
   "per100g": {
    "kcal": 15,
-   "protein": 1.4,
-   "carb": 2.9,
+   "protein": 1.36,
+   "carb": 2.87,
+   "fat": 0.15
+  }
+ },
+ {
+  "id": "xa-lach-iceberg",
+  "name": "Xà lách iceberg",
+  "fdcId": 169248,
+  "fdcDescription": "Lettuce, iceberg (includes crisphead types), raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 14,
+   "protein": 0.9,
+   "carb": 2.97,
+   "fat": 0.14
+  }
+ },
+ {
+  "id": "xa-lach-tim",
+  "name": "Xà lách tím",
+  "fdcId": 168431,
+  "fdcDescription": "Lettuce, red leaf, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 13,
+   "protein": 1.33,
+   "carb": 2.26,
+   "fat": 0.22
+  }
+ },
+ {
+  "id": "bong-cai-xanh",
+  "name": "Bông cải xanh",
+  "fdcId": 747447,
+  "fdcDescription": "Broccoli, raw",
+  "fdcDataType": "Foundation",
+  "per100g": {
+   "kcal": 31,
+   "protein": 2.57,
+   "carb": 6.27,
+   "fat": 0.34
+  }
+ },
+ {
+  "id": "bong-cai-trang",
+  "name": "Bông cải trắng",
+  "fdcId": 2685573,
+  "fdcDescription": "Cauliflower, raw",
+  "fdcDataType": "Foundation",
+  "per100g": {
+   "kcal": 22.85237775,
+   "protein": 1.640625,
+   "carb": 4.723075,
+   "fat": 0.2375
+  }
+ },
+ {
+  "id": "bi-ngoi",
+  "name": "Bí ngòi",
+  "fdcId": 169291,
+  "fdcDescription": "Squash, summer, zucchini, includes skin, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 17,
+   "protein": 1.21,
+   "carb": 3.11,
+   "fat": 0.32
+  }
+ },
+ {
+  "id": "dau-bap",
+  "name": "Đậu bắp",
+  "fdcId": 169260,
+  "fdcDescription": "Okra, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 33,
+   "protein": 1.93,
+   "carb": 7.45,
+   "fat": 0.19
+  }
+ },
+ {
+  "id": "cai-thao",
+  "name": "Cải thảo",
+  "fdcId": 169979,
+  "fdcDescription": "Cabbage, chinese (pe-tsai), raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 16,
+   "protein": 1.2,
+   "carb": 3.23,
    "fat": 0.2
   }
  },
  {
-  "id": "nam",
-  "name": "Nấm (chín)",
+  "id": "bap-cai-tim",
+  "name": "Bắp cải tím",
+  "fdcId": 2346408,
+  "fdcDescription": "Cabbage, red, raw",
+  "fdcDataType": "Foundation",
   "per100g": {
-   "kcal": 28,
-   "protein": 2.2,
-   "carb": 5.3,
-   "fat": 0.5
+   "kcal": 29.943836,
+   "protein": 1.2425,
+   "carb": 6.7899,
+   "fat": 0.2138
+  }
+ },
+ {
+  "id": "rau-muong",
+  "name": "Rau muống (USDA: hàng đóng gói PAMANA Kangkong)",
+  "fdcId": 2627986,
+  "fdcDescription": "PAMANA, KANGKONG",
+  "fdcDataType": "Branded",
+  "per100g": {
+   "kcal": 18,
+   "protein": 2.38,
+   "carb": 3.57,
+   "fat": 0
+  }
+ },
+ {
+  "id": "gia",
+  "name": "Giá đỗ",
+  "fdcId": 169957,
+  "fdcDescription": "Mung beans, mature seeds, sprouted, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 30,
+   "protein": 3.04,
+   "carb": 5.94,
+   "fat": 0.18
+  }
+ },
+ {
+  "id": "cai-xoong",
+  "name": "Cải xoong",
+  "fdcId": 170068,
+  "fdcDescription": "Watercress, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 11,
+   "protein": 2.3,
+   "carb": 1.29,
+   "fat": 0.1
+  }
+ },
+ {
+  "id": "can-tay",
+  "name": "Rau cần, cần tàu",
+  "fdcId": 2346405,
+  "fdcDescription": "Celery, raw",
+  "fdcDataType": "Foundation",
+  "per100g": {
+   "kcal": 14.83215875,
+   "protein": 0.4921875,
+   "carb": 3.3165125,
+   "fat": 0.1625
+  }
+ },
+ {
+  "id": "he",
+  "name": "Bông hẹ",
+  "fdcId": 169994,
+  "fdcDescription": "Chives, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 30,
+   "protein": 3.27,
+   "carb": 4.35,
+   "fat": 0.73
+  }
+ },
+ {
+  "id": "nam",
+  "name": "Nấm (nấm nút, nấm linh chi; USDA: nấm trắng)",
+  "fdcId": 169251,
+  "fdcDescription": "Mushrooms, white, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 22,
+   "protein": 3.09,
+   "carb": 3.26,
+   "fat": 0.34
+  }
+ },
+ {
+  "id": "nam-kim-cham",
+  "name": "Nấm kim châm",
+  "fdcId": 169382,
+  "fdcDescription": "Mushrooms, enoki, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 37,
+   "protein": 2.66,
+   "carb": 7.81,
+   "fat": 0.29
+  }
+ },
+ {
+  "id": "nam-dui-ga",
+  "name": "Nấm đùi gà (USDA: nấm sò)",
+  "fdcId": 168580,
+  "fdcDescription": "Mushrooms, oyster, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 33,
+   "protein": 3.31,
+   "carb": 6.09,
+   "fat": 0.41
+  }
+ },
+ {
+  "id": "ot-chuong-do",
+  "name": "Ớt chuông đỏ",
+  "fdcId": 170108,
+  "units": {
+   "trái": "medium"
+  },
+  "fdcDescription": "Peppers, sweet, red, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 26,
+   "protein": 0.99,
+   "carb": 6.03,
+   "fat": 0.3
+  },
+  "unitGrams": {
+   "trái": 119
+  }
+ },
+ {
+  "id": "ot-chuong-vang",
+  "name": "Ớt chuông vàng",
+  "fdcId": 169383,
+  "units": {
+   "trái": "pepper, large"
+  },
+  "fdcDescription": "Peppers, sweet, yellow, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 27,
+   "protein": 1,
+   "carb": 6.32,
+   "fat": 0.21
+  },
+  "unitGrams": {
+   "trái": 186
+  }
+ },
+ {
+  "id": "ot-chuong-xanh",
+  "name": "Ớt chuông xanh",
+  "fdcId": 170427,
+  "units": {
+   "trái": "medium"
+  },
+  "fdcDescription": "Peppers, sweet, green, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 20,
+   "protein": 0.86,
+   "carb": 4.64,
+   "fat": 0.17
+  },
+  "unitGrams": {
+   "trái": 119
+  }
+ },
+ {
+  "id": "rau-thom",
+  "name": "Rau thơm, húng quế",
+  "fdcId": 172232,
+  "fdcDescription": "Basil, fresh",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 23,
+   "protein": 3.15,
+   "carb": 2.65,
+   "fat": 0.64
+  }
+ },
+ {
+  "id": "ngo-ri",
+  "name": "Ngò rí",
+  "fdcId": 169997,
+  "fdcDescription": "Coriander (cilantro) leaves, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 23,
+   "protein": 2.13,
+   "carb": 3.67,
+   "fat": 0.52
+  }
+ },
+ {
+  "id": "rau-mam",
+  "name": "Rau mầm",
+  "fdcId": 168384,
+  "fdcDescription": "Alfalfa seeds, sprouted, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 23,
+   "protein": 3.99,
+   "carb": 2.1,
+   "fat": 0.69
+  }
+ },
+ {
+  "id": "thom",
+  "name": "Thơm (dứa)",
+  "fdcId": 169124,
+  "units": {
+   "trái": "fruit"
+  },
+  "fdcDescription": "Pineapple, raw, all varieties",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 50,
+   "protein": 0.54,
+   "carb": 13.12,
+   "fat": 0.12
+  },
+  "unitGrams": {
+   "trái": 905
+  }
+ },
+ {
+  "id": "dau-ha-lan",
+  "name": "Đậu Hà Lan",
+  "fdcId": 170419,
+  "fdcDescription": "Peas, green, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 81,
+   "protein": 5.42,
+   "carb": 14.45,
+   "fat": 0.4
+  }
+ },
+ {
+  "id": "dau-co-ve",
+  "name": "Đậu cô ve",
+  "fdcId": 2346400,
+  "fdcDescription": "Beans, snap, green, raw",
+  "fdcDataType": "Foundation",
+  "per100g": {
+   "kcal": 33.5679465,
+   "protein": 1.96875,
+   "carb": 7.41245,
+   "fat": 0.275
   }
  },
  {
   "id": "dau-an",
-  "name": "Dầu ăn / dầu ô liu",
+  "name": "Dầu ăn",
+  "fdcId": 171411,
+  "units": {
+   "M": "tbsp",
+   "m": "tsp"
+  },
+  "fdcDescription": "Oil, soybean, salad or cooking",
+  "fdcDataType": "SR Legacy",
   "per100g": {
    "kcal": 884,
    "protein": 0,
    "carb": 0,
    "fat": 100
+  },
+  "unitGrams": {
+   "M": 13.6,
+   "m": 4.5
   }
  },
  {
-  "id": "dau-phong",
-  "name": "Đậu phộng rang",
+  "id": "dau-me",
+  "name": "Dầu mè",
+  "fdcId": 171016,
+  "units": {
+   "M": "tablespoon",
+   "m": "tsp"
+  },
+  "fdcDescription": "Oil, sesame, salad or cooking",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 567,
-   "protein": 25.8,
-   "carb": 16.1,
-   "fat": 49.2
+   "kcal": 884,
+   "protein": 0,
+   "carb": 0,
+   "fat": 100
+  },
+  "unitGrams": {
+   "M": 13.6,
+   "m": 4.5
   }
  },
  {
-  "id": "hanh-nhan",
-  "name": "Hạnh nhân",
+  "id": "bo-lat",
+  "name": "Bơ lạt",
+  "fdcId": 173430,
+  "fdcDescription": "Butter, without salt",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 579,
-   "protein": 21.2,
-   "carb": 21.6,
-   "fat": 49.9
+   "kcal": 717,
+   "protein": 0.85,
+   "carb": 0.06,
+   "fat": 81.11
   }
  },
  {
-  "id": "bo-dau-phong",
-  "name": "Bơ đậu phộng",
+  "id": "bo-trai",
+  "name": "Bơ (trái)",
+  "fdcId": 171705,
+  "fdcDescription": "Avocados, raw, all commercial varieties",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 588,
-   "protein": 25,
-   "carb": 20,
-   "fat": 50
+   "kcal": 160,
+   "protein": 2,
+   "carb": 8.53,
+   "fat": 14.66
   }
  },
  {
-  "id": "hat-chia",
-  "name": "Hạt chia",
+  "id": "mayonnaise",
+  "name": "Xốt mayonnaise",
+  "fdcId": 171009,
+  "units": {
+   "M": "tbsp",
+   "m": "tbsp/3"
+  },
+  "fdcDescription": "Salad dressing, mayonnaise, regular",
+  "fdcDataType": "SR Legacy",
   "per100g": {
-   "kcal": 486,
-   "protein": 16.5,
-   "carb": 42.1,
-   "fat": 30.7
+   "kcal": 680,
+   "protein": 0.96,
+   "carb": 0.57,
+   "fat": 74.85
+  },
+  "unitGrams": {
+   "M": 13.8,
+   "m": 4.6
+  }
+ },
+ {
+  "id": "me",
+  "name": "Mè",
+  "fdcId": 170150,
+  "units": {
+   "M": "tbsp",
+   "m": "tbsp/3"
+  },
+  "fdcDescription": "Seeds, sesame seeds, whole, dried",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 573,
+   "protein": 17.73,
+   "carb": 23.45,
+   "fat": 49.67
+  },
+  "unitGrams": {
+   "M": 9,
+   "m": 3
   }
  },
  {
   "id": "mat-ong",
   "name": "Mật ong",
+  "fdcId": 169640,
+  "units": {
+   "M": "tbsp",
+   "m": "tbsp/3"
+  },
+  "fdcDescription": "Honey",
+  "fdcDataType": "SR Legacy",
   "per100g": {
    "kcal": 304,
    "protein": 0.3,
    "carb": 82.4,
    "fat": 0
+  },
+  "unitGrams": {
+   "M": 21,
+   "m": 7
+  }
+ },
+ {
+  "id": "duong",
+  "name": "Đường",
+  "fdcId": 746784,
+  "units": {
+   "M": "teaspoon*3",
+   "m": "teaspoon"
+  },
+  "fdcDescription": "Sugars, granulated",
+  "fdcDataType": "Foundation",
+  "per100g": {
+   "kcal": 385,
+   "protein": 0,
+   "carb": 99.6,
+   "fat": 0.32
+  },
+  "unitGrams": {
+   "M": 12,
+   "m": 4
   }
  },
  {
   "id": "nuoc-mam",
   "name": "Nước mắm",
+  "fdcId": 174531,
+  "units": {
+   "M": "tbsp",
+   "m": "tbsp/3"
+  },
+  "fdcDescription": "Sauce, fish, ready-to-serve",
+  "fdcDataType": "SR Legacy",
   "per100g": {
    "kcal": 35,
-   "protein": 5.1,
-   "carb": 3.6,
-   "fat": 0
+   "protein": 5.06,
+   "carb": 3.64,
+   "fat": 0.01
+  },
+  "unitGrams": {
+   "M": 18,
+   "m": 6
+  }
+ },
+ {
+  "id": "nuoc-tuong",
+  "name": "Nước tương",
+  "fdcId": 174277,
+  "units": {
+   "M": "tbsp",
+   "m": "tsp"
+  },
+  "fdcDescription": "Soy sauce made from soy and wheat (shoyu)",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 53,
+   "protein": 8.14,
+   "carb": 4.93,
+   "fat": 0.57
+  },
+  "unitGrams": {
+   "M": 16,
+   "m": 5.3
+  }
+ },
+ {
+  "id": "tuong-ot",
+  "name": "Tương ớt",
+  "fdcId": 171186,
+  "units": {
+   "M": "tsp*3",
+   "m": "tsp"
+  },
+  "fdcDescription": "Sauce, hot chile, sriracha",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 93,
+   "protein": 1.93,
+   "carb": 19.16,
+   "fat": 0.93
+  },
+  "unitGrams": {
+   "M": 19.5,
+   "m": 6.5
+  }
+ },
+ {
+  "id": "tuong-ca",
+  "name": "Tương cà",
+  "fdcId": 168556,
+  "units": {
+   "M": "tbsp",
+   "m": "tbsp/3"
+  },
+  "fdcDescription": "Catsup",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 101,
+   "protein": 1.04,
+   "carb": 27.4,
+   "fat": 0.1
+  },
+  "unitGrams": {
+   "M": 17,
+   "m": 5.67
+  }
+ },
+ {
+  "id": "xot-me",
+  "name": "Xốt mè rang",
+  "fdcId": 171006,
+  "units": {
+   "M": "tablespoon",
+   "m": "tablespoon/3"
+  },
+  "fdcDescription": "Salad dressing, sesame seed dressing, regular",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 443,
+   "protein": 3.1,
+   "carb": 8.6,
+   "fat": 45.2
+  },
+  "unitGrams": {
+   "M": 15,
+   "m": 5
+  }
+ },
+ {
+  "id": "bot-bap",
+  "name": "Bột bắp",
+  "fdcId": 169698,
+  "units": {
+   "M": "cup/16",
+   "m": "cup/48"
+  },
+  "fdcDescription": "Cornstarch",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 381,
+   "protein": 0.26,
+   "carb": 91.27,
+   "fat": 0.05
+  },
+  "unitGrams": {
+   "M": 8,
+   "m": 2.67
+  }
+ },
+ {
+  "id": "nuoc-cot-chanh",
+  "name": "Nước cốt chanh",
+  "fdcId": 168156,
+  "units": {
+   "M": "fl oz/2",
+   "m": "fl oz/6"
+  },
+  "fdcDescription": "Lime juice, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 25,
+   "protein": 0.42,
+   "carb": 8.42,
+   "fat": 0.07
+  },
+  "unitGrams": {
+   "M": 15.4,
+   "m": 5.13
+  }
+ },
+ {
+  "id": "nuoc-dua",
+  "name": "Nước dừa tươi",
+  "fdcId": 170174,
+  "fdcDescription": "Nuts, coconut water (liquid from coconuts)",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 19,
+   "protein": 0.72,
+   "carb": 3.71,
+   "fat": 0.2
+  }
+ },
+ {
+  "id": "nuoc-dung",
+  "name": "Nước dùng gà",
+  "fdcId": 172884,
+  "fdcDescription": "Soup, stock, chicken, home-prepared",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 36,
+   "protein": 2.52,
+   "carb": 3.53,
+   "fat": 1.2
+  }
+ },
+ {
+  "id": "rong-nho",
+  "name": "Rong nho (USDA: rong wakame)",
+  "fdcId": 170496,
+  "fdcDescription": "Seaweed, wakame, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 45,
+   "protein": 3.03,
+   "carb": 9.14,
+   "fat": 0.64
+  }
+ },
+ {
+  "id": "com-gao-lut",
+  "name": "Cơm gạo lứt (chín)",
+  "fdcId": 169704,
+  "fdcDescription": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 123,
+   "protein": 2.74,
+   "carb": 25.58,
+   "fat": 0.97
+  }
+ },
+ {
+  "id": "com-trang",
+  "name": "Cơm trắng (chín)",
+  "fdcId": 168878,
+  "fdcDescription": "Rice, white, long-grain, regular, enriched, cooked",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 130,
+   "protein": 2.69,
+   "carb": 28.17,
+   "fat": 0.28
+  }
+ },
+ {
+  "id": "trung-luoc",
+  "name": "Trứng gà luộc",
+  "fdcId": 173424,
+  "units": {
+   "quả": "large"
+  },
+  "fdcDescription": "Egg, whole, cooked, hard-boiled",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 155,
+   "protein": 12.58,
+   "carb": 1.12,
+   "fat": 10.61
+  },
+  "unitGrams": {
+   "quả": 50
+  }
+ },
+ {
+  "id": "khoai-lang-luoc",
+  "name": "Khoai lang luộc",
+  "fdcId": 168484,
+  "fdcDescription": "Sweet potato, cooked, boiled, without skin",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 76,
+   "protein": 1.37,
+   "carb": 17.72,
+   "fat": 0.14
+  }
+ },
+ {
+  "id": "sua-chua-hy-lap",
+  "name": "Sữa chua Hy Lạp không đường",
+  "fdcId": 330137,
+  "fdcDescription": "Yogurt, Greek, plain, nonfat",
+  "fdcDataType": "Foundation",
+  "per100g": {
+   "kcal": 61,
+   "protein": 10.3,
+   "carb": 3.64,
+   "fat": 0.37
+  }
+ },
+ {
+  "id": "sua-tuoi",
+  "name": "Sữa tươi ít béo",
+  "fdcId": 746772,
+  "fdcDescription": "Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",
+  "fdcDataType": "Foundation",
+  "per100g": {
+   "kcal": 43,
+   "protein": 3.38,
+   "carb": 5.18,
+   "fat": 0.95
+  }
+ },
+ {
+  "id": "chuoi",
+  "name": "Chuối",
+  "fdcId": 173944,
+  "units": {
+   "quả": "medium"
+  },
+  "fdcDescription": "Bananas, raw",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 89,
+   "protein": 1.09,
+   "carb": 22.84,
+   "fat": 0.33
+  },
+  "unitGrams": {
+   "quả": 118
+  }
+ },
+ {
+  "id": "hanh-nhan",
+  "name": "Hạnh nhân",
+  "fdcId": 170567,
+  "fdcDescription": "Nuts, almonds",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 579,
+   "protein": 21.15,
+   "carb": 21.55,
+   "fat": 49.93
+  }
+ },
+ {
+  "id": "whey",
+  "name": "Bột whey protein isolate",
+  "fdcId": 173177,
+  "fdcDescription": "Beverages, Whey protein powder isolate",
+  "fdcDataType": "SR Legacy",
+  "per100g": {
+   "kcal": 359,
+   "protein": 58.14,
+   "carb": 29.07,
+   "fat": 1.16
   }
  }
 ]

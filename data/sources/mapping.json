@@ -1,0 +1,568 @@
+{
+ "aliases": {
+  "ức gà không da": "uc-ga",
+  "thịt má đùi gà": "dui-ga",
+  "má đùi gà": "dui-ga",
+  "má đùi gà rút xương": "dui-ga",
+  "đùi gà": "dui-ga",
+  "thịt bò filet": "bo-phi-le",
+  "thịt bò phi lê": "bo-phi-le",
+  "thịt bò mềm": "bo-phi-le",
+  "thịt bò băm": "bo-xay",
+  "bò sirlion úc": "bo-than-ngoai",
+  "thịt thăn bê": "be-than",
+  "nạc dăm": "heo-nac-vai",
+  "thịt nạc vai": "heo-nac-vai",
+  "thịt nạc xay": "heo-xay",
+  "tôm bóc vỏ": "tom",
+  "tôm sú": "tom",
+  "tôm sú size 50 con/1kg": "tom",
+  "tôm thẻ": "tom",
+  "tôm tươi": "tom",
+  "tôm đất tươi": "tom",
+  "mực sữa": "muc",
+  "mực tươi": "muc",
+  "mực ống": "muc",
+  "thịt nghêu đông lạnh": "ngheu",
+  "cá hồi phi lê": "ca-hoi",
+  "cá ngừ phi-lê": "ca-ngu",
+  "phi lê cá ngừ": "ca-ngu",
+  "cá lóc phi lê": "ca-da-tron",
+  "cá lóc/cá hú/cá basa": "ca-da-tron",
+  "trứng gà": "trung-ga",
+  "đậu hũ nhật": "dau-hu",
+  "đậu hủ non": "dau-hu",
+  "yến mạch": "yen-mach",
+  "bún gạo khô": "bun-gao",
+  "khoai lang": "khoai-lang",
+  "khoai lang vàng": "khoai-lang",
+  "bí đỏ": "bi-do",
+  "bí đỏ baby": "bi-do",
+  "bắp hạt": "bap-ngot",
+  "bắp hạt vàng": "bap-ngot",
+  "bắp mỹ hạt": "bap-ngot",
+  "bắp non": "bap-ngot",
+  "củ sen": "cu-sen",
+  "măng luộc": "mang",
+  "thính gạo rang": "gao-rang",
+  "cà rốt": "ca-rot",
+  "cà rốt cắt nhỏ": "ca-rot",
+  "cà rốt cắt sợi": "ca-rot",
+  "hành tây": "hanh-tay",
+  "hành tây tím": "hanh-tay",
+  "cà chua": "ca-chua",
+  "cà chua bi": "ca-chua",
+  "cà chua bi nâu": "ca-chua",
+  "cà chua bi đỏ": "ca-chua",
+  "dưa leo": "dua-leo",
+  "dưa leo nhật": "dua-leo",
+  "xà lách": "xa-lach",
+  "xà lách búp": "xa-lach",
+  "xà lách carol": "xa-lach",
+  "xà lách giòn": "xa-lach",
+  "xà lách mỡ": "xa-lach",
+  "xà lách iceberg": "xa-lach-iceberg",
+  "xà lách tím": "xa-lach-tim",
+  "bông cải xanh": "bong-cai-xanh",
+  "bông cải trắng": "bong-cai-trang",
+  "bí ngòi xanh, vàng": "bi-ngoi",
+  "đậu bắp": "dau-bap",
+  "cải thảo": "cai-thao",
+  "bắp cải tím": "bap-cai-tim",
+  "rau muống": "rau-muong",
+  "rau mầm": "rau-mam",
+  "mầm rau muống": "rau-mam",
+  "giá": "gia",
+  "cải xoong": "cai-xoong",
+  "rau cần cạn": "can-tay",
+  "cần tàu": "can-tay",
+  "bông hẹ": "he",
+  "nấm linh chi nâu": "nam",
+  "nấm nút": "nam",
+  "nấm kim châm": "nam-kim-cham",
+  "nấm đùi gà": "nam-dui-ga",
+  "ớt chuông đỏ": "ot-chuong-do",
+  "ớt ngọt đà lạt": "ot-chuong-do",
+  "ớt chuông vàng": "ot-chuong-vang",
+  "ớt đà lạt vàng": "ot-chuong-vang",
+  "ớt đà lạt xanh": "ot-chuong-xanh",
+  "húng quế": "rau-thom",
+  "lá húng quế": "rau-thom",
+  "rau thơm các loại": "rau-thom",
+  "rau răm": "rau-thom",
+  "ngò rí": "ngo-ri",
+  "thơm": "thom",
+  "đậu hà lan": "dau-ha-lan",
+  "đậu hà lan luộc chín": "dau-ha-lan",
+  "đậu cô ve nhật": "dau-co-ve",
+  "dầu ăn": "dau-an",
+  "dầu tỏi phi": "dau-an",
+  "dầu mè": "dau-me",
+  "bơ lạt": "bo-lat",
+  "bơ": "bo-lat",
+  "bơ chín": "bo-trai",
+  "xốt mayonnaise aji-mayo® vị nguyên bản": "mayonnaise",
+  "mè rang": "me",
+  "mè trắng rang": "me",
+  "mật ong": "mat-ong",
+  "đường": "duong",
+  "nước mắm": "nuoc-mam",
+  "nước tương": "nuoc-tuong",
+  "nước tương \"phú sĩ\"": "nuoc-tuong",
+  "nước tương \"phú sĩ\" giảm muối": "nuoc-tuong",
+  "tương ớt": "tuong-ot",
+  "tương ớt hàn quốc": "tuong-ot",
+  "tương cà chua": "tuong-ca",
+  "xốt mè rang \"aji-xốt\"": "xot-me",
+  "bột bắp": "bot-bap",
+  "nước cốt chanh": "nuoc-cot-chanh",
+  "nước dừa tươi": "nuoc-dua",
+  "nước dùng": "nuoc-dung",
+  "rong nho": "rong-nho"
+ },
+ "recipes": {
+  "uc-ga-hap-cai-thao": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  },
+  "ga-kho-rau-cu": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  },
+  "ga-nuong-han-quoc": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "xay-dung-co"
+   ]
+  },
+  "ga-nuong-chanh-sa-mayo": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "xay-dung-co"
+   ]
+  },
+  "salad-ga-nuong-thom": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  },
+  "salad-bi-do": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "salad-dua-leo-thit-ga": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "bun-gao-xao-thit-bo": {
+   "slots": [
+    "sang",
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  },
+  "goi-rau-can-thit-bo": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "thit-bo-tron-rau-muong-che": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "salad-khoai-tron-thit-bo": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "chao-yen-mach-thit-bo": {
+   "slots": [
+    "sang"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "salad-bit-tet": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  },
+  "than-be-cuon-rau-thom": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  },
+  "tom-hap-rau-cu": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "tom-tron-bong-cai": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "salad-tom-dau-hu": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "cai-xoong-xao-tom": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "canh-chua-tom-rau-muong": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  },
+  "salad-ca-hoi-hung-que": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "salad-ca-ngu-rau-thom": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "xay-dung-co"
+   ]
+  },
+  "ca-ngu-dai-duong-luc-lac": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "ca-loc-cuon-nghe": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  },
+  "canh-chua-ca": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "xay-dung-co"
+   ]
+  },
+  "muc-nhung-giam-2": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  },
+  "muc-xao-dau-ha-lan": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  },
+  "goi-muc-bap-cai": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kieng"
+   ]
+  },
+  "dau-hu-hap-trung": {
+   "slots": [
+    "sang"
+   ],
+   "tags": [
+    "an-kieng",
+    "giam-mo"
+   ]
+  },
+  "trung-hap": {
+   "slots": [
+    "sang"
+   ],
+   "tags": [
+    "can-bang"
+   ]
+  },
+  "rong-bien-cuon-thit-xot-mayo": {
+   "slots": [
+    "sang",
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "xay-dung-co"
+   ]
+  },
+  "ngheu-kho-nuoc-tuong": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  },
+  "salad-bo-tom-thit-ap-chao": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  },
+  "canh-rong-bien-thit-bo": {
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "giam-mo"
+   ]
+  }
+ },
+ "foods": [
+  {
+   "id": "com-gao-lut",
+   "name": "Cơm gạo lứt",
+   "ing": "com-gao-lut",
+   "g": 150,
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kem"
+   ]
+  },
+  {
+   "id": "com-trang",
+   "name": "Cơm trắng",
+   "ing": "com-trang",
+   "g": 150,
+   "slots": [
+    "trua",
+    "toi"
+   ],
+   "tags": [
+    "an-kem"
+   ]
+  },
+  {
+   "id": "khoai-lang-luoc",
+   "name": "Khoai lang luộc",
+   "ing": "khoai-lang-luoc",
+   "g": 150,
+   "slots": [
+    "sang",
+    "phu1",
+    "phu2"
+   ],
+   "tags": [
+    "truoc-tap"
+   ]
+  },
+  {
+   "id": "sua-chua-hy-lap",
+   "name": "Sữa chua Hy Lạp không đường",
+   "ing": "sua-chua-hy-lap",
+   "g": 170,
+   "slots": [
+    "phu1",
+    "phu2"
+   ],
+   "tags": []
+  },
+  {
+   "id": "sua-chua-chuoi",
+   "name": "Sữa chua Hy Lạp và chuối",
+   "ing": "sua-chua-hy-lap",
+   "g": 170,
+   "extra": [
+    {
+     "ing": "chuoi",
+     "g": 118,
+     "text": "Chuối 1 quả vừa (118 g)"
+    }
+   ],
+   "slots": [
+    "phu1",
+    "phu2"
+   ],
+   "tags": [
+    "truoc-tap"
+   ]
+  },
+  {
+   "id": "chuoi",
+   "name": "Chuối",
+   "ing": "chuoi",
+   "g": 118,
+   "text": "Chuối 1 quả vừa (118 g)",
+   "slots": [
+    "phu1",
+    "phu2"
+   ],
+   "tags": [
+    "truoc-tap"
+   ]
+  },
+  {
+   "id": "sua-tuoi",
+   "name": "Sữa tươi ít béo",
+   "ing": "sua-tuoi",
+   "g": 250,
+   "text": "Sữa tươi ít béo 250 ml",
+   "slots": [
+    "sang",
+    "phu1",
+    "phu2"
+   ],
+   "tags": []
+  },
+  {
+   "id": "hanh-nhan",
+   "name": "Hạnh nhân",
+   "ing": "hanh-nhan",
+   "g": 20,
+   "slots": [
+    "phu1",
+    "phu2"
+   ],
+   "tags": []
+  },
+  {
+   "id": "trung-luoc",
+   "name": "Trứng gà luộc",
+   "ing": "trung-luoc",
+   "g": 100,
+   "text": "Trứng gà luộc 2 quả (100 g)",
+   "slots": [
+    "sang",
+    "phu1",
+    "phu2"
+   ],
+   "tags": []
+  },
+  {
+   "id": "whey-sua",
+   "name": "Whey pha sữa tươi",
+   "ing": "whey",
+   "g": 30,
+   "text": "Bột whey 30 g",
+   "extra": [
+    {
+     "ing": "sua-tuoi",
+     "g": 250,
+     "text": "Sữa tươi ít béo 250 ml"
+    }
+   ],
+   "slots": [
+    "phu1",
+    "phu2"
+   ],
+   "tags": [
+    "sau-tap"
+   ],
+   "steps": "Lắc đều whey với sữa. Uống trong khoảng 1 giờ sau tập."
+  }
+ ]
+}

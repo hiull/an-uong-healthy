@@ -20,6 +20,7 @@ export function validateData({ ingredients, dishes, plan }) {
 
   const ingIds = checkIds(ingredients, 'Nguyên liệu');
   for (const i of ingredients) {
+    if (!Number.isInteger(i.fdcId)) errors.push(`Nguyên liệu ${i.id}: thiếu fdcId (mã USDA FoodData Central)`);
     for (const k of ['kcal', 'protein', 'carb', 'fat']) {
       if (typeof i.per100g?.[k] !== 'number' || i.per100g[k] < 0) errors.push(`Nguyên liệu ${i.id}: thiếu hoặc sai per100g.${k}`);
     }
@@ -28,6 +29,8 @@ export function validateData({ ingredients, dishes, plan }) {
   const dishIds = checkIds(dishes, 'Món');
   for (const d of dishes) {
     if (!d.name) errors.push(`Món ${d.id}: thiếu tên`);
+    if (!/^https:\/\//.test(d.source?.url ?? '')) errors.push(`Món ${d.id}: thiếu nguồn (link công thức hoặc trang USDA)`);
+    if (d.servings != null && !(d.servings >= 1)) errors.push(`Món ${d.id}: servings phải ≥ 1`);
     if (!d.items?.length && !d.macros) errors.push(`Món ${d.id}: cần items hoặc macros`);
     for (const it of d.items ?? []) {
       if (!ingIds.has(it.ing)) errors.push(`Món ${d.id}: nguyên liệu không tồn tại: ${it.ing}`);
