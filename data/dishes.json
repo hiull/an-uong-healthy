@@ -1,860 +1,2518 @@
 [
  {
-  "id": "yen-mach-whey-chuoi",
-  "name": "Yến mạch whey chuối",
+  "id": "uc-ga-hap-cai-thao",
+  "name": "Ức gà hấp cải thảo",
   "slots": [
-   "sang"
+   "trua",
+   "toi"
   ],
   "tags": [
-   "nhanh",
-   "sau-tap"
+   "giam-mo"
   ],
+  "servings": 2,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/uc-ga-hap-cai-thao/",
+   "kcalPerServing": null
+  },
   "items": [
    {
-    "ing": "yen-mach",
-    "g": 50
+    "ing": "uc-ga",
+    "g": 250,
+    "text": "Ức gà không da: 250g"
    },
    {
-    "ing": "whey",
-    "g": 30
+    "ing": "cai-thao",
+    "g": 50,
+    "text": "Cải thảo: 50g"
    },
    {
-    "ing": "chuoi",
-    "g": 100
+    "ing": "nam",
+    "g": 25,
+    "text": "Nấm linh chi nâu: 25g"
    },
    {
-    "ing": "sua-tuoi",
-    "g": 200
+    "ing": "hanh-tay",
+    "g": 25,
+    "text": "Hành tây: 25g (1/4 củ)"
+   },
+   {
+    "ing": "bot-bap",
+    "g": 1.34,
+    "text": "Bột bắp: 1/2m"
+   },
+   {
+    "ing": "ca-rot",
+    "g": 25,
+    "text": "Cà rốt: 25g"
    }
   ],
-  "steps": "Nấu yến mạch với sữa 3 phút, tắt bếp rồi khuấy whey vào, thêm chuối thái lát."
+  "unmeasured": [
+   "Gừng mài: 1m",
+   "Hành tím băm: 1m",
+   "ĂN KÈM: Cơm",
+   "Gia vị: Muối, tiêu, đường, dầu hào, dầu mè, tương ớt",
+   "Nước tương \"Phú Sĩ\"",
+   "Hạt nêm Aji-ngon® Gà"
+  ],
+  "prep": [
+   "Ức gà không da rửa qua nước muỗi loãng, để ráo, cắt xuôi lát mỏng xuôi thớ.",
+   "Cải thảo băm nhuyễn.",
+   "Nấm linh chi nâu làm sạch rửa nhanh dưới vòi nước.",
+   "Hành tây cắt múi cau cạnh 2cm.",
+   "Bột bắp pha loãng với 4M nước."
+  ],
+  "steps": [
+   "Chuẩn bị",
+   "Ướp thịt ức gà với 1m hạt nêm Aji-ngon gà, 1/4m tiêu, 1/2m đường, 2m nước bột bắp, 1m dầu mè 5 phút.",
+   "Xếp cải thảo đã chần xung quanh thành tô, cho lần lượt thịt gà, nấm, cà rốt. hành tây ép dẻ chặt.",
+   "Chế biến",
+   "Cho tô gà vào nồi đậy đĩa lên trên, hấp đến khi chín (khoảng 15 phút) để nguội.",
+   "Làm xốt: phi thơm hành, gừng mài rồi cho hết nước hấp gà vào. Thêm 1/2m dầu hào, 1m tương ớt, 1m nước tương, nếm vị vừa ăn. Hạ lửa thêm nước bột bắp vào làm sệt xốt. Tắt bếp cho 1m dầu mè vào đảo đều."
+  ],
+  "serve": [
+   "Úp ngược tô gà ra đĩa, rưới nước xốt lên trên, dùng với cơm trắng.",
+   "Món ăn ngon đi kèm:",
+   "Cơm gạo lứt trộn"
+  ]
  },
  {
-  "id": "banh-mi-trung-op-la",
-  "name": "Bánh mì đen trứng ốp la",
+  "id": "ga-kho-rau-cu",
+  "name": "Gà kho rau củ",
   "slots": [
-   "sang"
+   "trua",
+   "toi"
   ],
   "tags": [
-   "nhanh"
+   "giam-mo"
   ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/ga-kho-rau-cu/",
+   "kcalPerServing": null
+  },
   "items": [
    {
-    "ing": "banh-mi-den",
-    "g": 80
+    "ing": "dui-ga",
+    "g": 400,
+    "text": "Thịt má đùi gà 400g"
    },
    {
-    "ing": "trung-ga",
-    "g": 100
+    "ing": "cu-sen",
+    "g": 100,
+    "text": "Củ sen 100g"
    },
    {
-    "ing": "dau-an",
-    "g": 5
+    "ing": "mang",
+    "g": 100,
+    "text": "Măng luộc 100g"
+   },
+   {
+    "ing": "ca-rot",
+    "g": 100,
+    "text": "Cà rốt 100g"
+   },
+   {
+    "ing": "hanh-tay",
+    "g": 55,
+    "text": "Hành tây 1/2 củ"
+   }
+  ],
+  "unmeasured": [
+   "Nấm đông cô ngâm nở 8 tai",
+   "Ớt hiểm, hành lá, sả cây",
+   "Muối, đường, tiêu, ớt bột",
+   "Hành tỏi băm, dầu mè, màu dầu điều, nước dừa tươi",
+   "Hạt nêm Aji-ngon® Gà",
+   "Nước tương \"Phú Sĩ\""
+  ],
+  "prep": [
+   "Thịt gà cắt miếng vừa ăn 3-4cm. Ướp gà với 1m muối, 1M đường 1m ớt bột, 1,5m hạt nêm Aji-ngon®, 1M hành tỏi băm, 3M nước tương “Phú Sĩ”.",
+   "Củ sen cắt lát dày 5 li. Cà rốt, măng cắt miếng. Nấm đông cô ngăm nở cắt bỏ chân, luộc lại với một ít hạt nêm, cắt đôi. Hành tây cắt múi cau. Sả cây (4 cây) đập dập, cắt khúc 5cm."
+  ],
+  "steps": [
+   "Đun nóng 2M dầu màu điều, cho sả cây vào xào thơm, cho thịt vào đảo cho thật săn, cho thêm cà rốt, củ sen, măng vào kho, thêm nước hoặc 1 chén nước dừa tươi cho xăm xắp thịt, kho lửa vừa đến khi thịt gà vừa chín.",
+   "Khi thịt vừa chín, thêm 2 trái ớt hiểm đập dập, nấm đông cô và kho thêm 3 phút cho thịt gà chín mềm. Khi nước kho hơi cạn, thêm hành tây, hành lá cắt khúc, đảo đều rồi tắt lửa, cho thêm 1m dầu mè."
+  ],
+  "serve": [
+   "Múc thịt gà và rau củ ra đĩa. Dùng nóng với cơm trắng."
+  ]
+ },
+ {
+  "id": "ga-nuong-han-quoc",
+  "name": "Gà Nướng Hàn Quốc",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "xay-dung-co"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/ga-nuong-han-quoc/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "dui-ga",
+    "g": 500,
+    "text": "Má đùi gà 500g"
+   },
+   {
+    "ing": "bi-ngoi",
+    "g": 200,
+    "text": "Bí ngòi xanh, vàng 200g"
    },
    {
     "ing": "ca-chua",
-    "g": 50
+    "g": 50,
+    "text": "Cà chua bi đỏ 50g"
+   },
+   {
+    "ing": "dau-bap",
+    "g": 100,
+    "text": "Đậu bắp 100g"
+   }
+  ],
+  "unmeasured": [
+   "Gia vị nêm sẵn Aji-Quick® Xốt Ướp Thịt Nướng Kiểu Hàn Quốc"
+  ],
+  "prep": [
+   "Ướp gà trước khi nướng giúp xốt phủ đều từng miếng thịt, tạo hương vị đậm đà cho món gà nướng Hàn Quốc:",
+   "Ướp má đùi gà: Cho má đùi gà đã sơ chế sạch, thấm ráo vào tô. Thêm 1 gói Gia vị nêm sẵn Aji-Quick® Xốt Ướp Thịt Nướng Kiểu Hàn Quốc, trộn và xoa nhẹ để xốt phủ đều các mặt thịt. Đậy kín tô, để trong ngăn mát tủ lạnh 10 phút cho gà thấm gia vị trước khi nướng."
+  ],
+  "steps": [
+   "Nướng gà và rau củ theo từng lượt giúp bạn dễ điều chỉnh nhiệt độ, thời gian để các nguyên liệu chín vừa ngon:",
+   "Nướng gà: Xếp má đùi gà đã thấm gia vị vào giỏ nồi chiên không dầu, tránh chồng lên nhau. Nướng ở 180°C trong khoảng 20 phút, lật mặt sau 10 phút để gà chín đều. Kiểm tra phần thịt dày nhất và điều chỉnh thời gian tùy kích thước miếng gà.",
+   "Ướp và nướng rau củ: Trong lúc nướng gà lượt đầu, trộn rau củ với phần xốt sạch đã để riêng trước khi ướp thịt. Sau khi lấy gà ra, cho rau củ vào nồi, nướng ở 190°C trong khoảng 8 phút. Nếu tận dụng xốt đã tiếp xúc với gà sống, cần đun sôi kỹ phần xốt trước khi trộn với rau củ."
+  ],
+  "serve": [
+   "Cắt và trình bày gà: Gà chín để nghỉ vài phút rồi cắt thành từng miếng dài vừa ăn. Xếp gà ra đĩa, bày các loại rau củ nướng bên cạnh và thưởng thức khi còn nóng để cảm nhận thịt gà mềm mọng, đậm đà cùng rau củ ngọt thơm."
+  ]
+ },
+ {
+  "id": "ga-nuong-chanh-sa-mayo",
+  "name": "Gà Nướng Chanh Sả Mayo",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "xay-dung-co"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/ga-nuong-chanh-sa-mayo/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "dui-ga",
+    "g": 250,
+    "text": "Má đùi gà 250g"
+   },
+   {
+    "ing": "mat-ong",
+    "g": 10.5,
+    "text": "Mật ong 1/2M"
+   },
+   {
+    "ing": "mayonnaise",
+    "g": 69,
+    "text": "Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản 5M"
+   },
+   {
+    "ing": "tuong-ot",
+    "g": 39,
+    "text": "Tương ớt 2M"
+   }
+  ],
+  "unmeasured": [
+   "Dưa leo, củ cải và cà rốt ngâm chua ngọt, rau răm 100g",
+   "Lá chúc cắt nhỏ 2m",
+   "Sả băm 1M, tỏi băm 1M, ớt băm 1/2m",
+   "ĂN KÈM: Dưa leo, củ cải và cà rốt ngâm chua ngọt, rau răm",
+   "Gia vị: mật ong, tắc, bột canh Ajinomoto",
+   "Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản"
+  ],
+  "prep": [
+   "Để thịt gà thấm đều gia vị và giữ được độ mềm thơm khi chế biến, bạn thực hiện phần sơ chế và ướp theo các bước sau đây:",
+   "Sơ chế thịt gà: Dùng dao rạch mở phần má đùi gà để miếng thịt dàn mỏng, giúp gia vị dễ thấm sâu hơn.",
+   "Chuẩn bị xốt ướp: Xay hoặc giã nhuyễn hỗn hợp gồm 1 muỗng canh sả băm, 1 muỗng canh tỏi băm, ½ muỗng cà phê ớt băm, ½ muỗng canh bột canh, 1 muỗng cà phê lá chúc băm, ½ muỗng canh mật ong và 2 muỗng canh Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản.",
+   "Ướp thịt gà: Cho ⅔ lượng xốt đã chuẩn bị vào thịt gà, trộn đều rồi ướp khoảng 15 phút để gia vị thấm kỹ."
+  ],
+  "steps": [
+   "Sau khi thịt gà đã thấm gia vị, bạn tiến hành nướng, pha xốt chấm và kiểm tra thành phẩm theo hướng dẫn dưới đây:",
+   "Nướng gà",
+   "Nướng lần 1: Cho thịt gà vào nồi chiên không dầu, nướng ở 160°C trong 10 phút.",
+   "Nướng lần 2: Lấy gà ra, phết phần xốt còn lại lên bề mặt rồi tiếp tục nướng ở 160°C thêm 5 phút đến khi gà chín và vàng xém nhẹ.",
+   "Pha xốt chấm",
+   "Trộn đều 3 muỗng canh Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản, 2 muỗng canh tương ớt và 1 muỗng cà phê lá chúc băm.",
+   "Yêu cầu thành phẩm",
+   "Trạng thái: Thịt gà chín mềm, không bị khô, bề mặt vàng xém nhẹ.",
+   "Màu sắc: Gà có màu vàng nâu đặc trưng của món nướng.",
+   "Hương vị: Thịt gà thấm vị, thơm mùi sả và lá chúc; xốt chấm béo nhẹ, cay vừa."
+  ],
+  "serve": [
+   "Sau khi gà chín vàng và dậy mùi thơm, bạn trình bày món và thưởng thức như sau:",
+   "Bày món: Xếp gà nướng ra đĩa, dùng kèm rau sống và đồ chua.",
+   "Thưởng thức: Chấm gà cùng phần xốt đã pha để tăng vị béo thơm và đậm đà."
+  ]
+ },
+ {
+  "id": "salad-ga-nuong-thom",
+  "name": "Salad gà nướng thơm",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "giam-mo"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/salad-ga-nuong-thom/",
+   "kcalPerServing": 150
+  },
+  "items": [
+   {
+    "ing": "dui-ga",
+    "g": 200,
+    "text": "Má đùi gà rút xương 200g"
+   },
+   {
+    "ing": "thom",
+    "g": 226.25,
+    "text": "Thơm 1/4 trái"
+   },
+   {
+    "ing": "xa-lach",
+    "g": 100,
+    "text": "Xà lách mỡ 100g"
+   },
+   {
+    "ing": "ca-chua",
+    "g": 50,
+    "text": "Cà chua bi 50g"
+   },
+   {
+    "ing": "bap-ngot",
+    "g": 20,
+    "text": "Bắp Mỹ hạt 20g"
    },
    {
     "ing": "dua-leo",
-    "g": 50
+    "g": 50,
+    "text": "Dưa leo 50g"
    }
   ],
-  "steps": "Ốp la 2 quả trứng với ít dầu, ăn cùng bánh mì nguyên cám, cà chua và dưa leo."
+  "unmeasured": [
+   "Gia vị: Nướng tương, dầu ăn, mật ong, tiêu",
+   "Xốt Mayonnaise Aji-mayo® Giảm 30 % Chất Béo*",
+   "Hạt nêm Aji-ngon® Heo"
+  ],
+  "prep": [
+   "Má đùi gà lạng mỏng, đập sơ, ướp má đùi gà với 1m hành tỏi băm nhuyễn, 1/2m Hạt nêm Aji-ngon® Heo, 1/2m Bột ngọt AJI-NO-MOTO®, 1/3m tiêu, 1m nước tương “Phú Sĩ”, 1/2M mật ong, để thấm 10 phút.",
+   "Xà lách cắt miếng vừa ăn. Cà chua cắt đôi. Bắp Mỹ hạt luộc chín. Dưa leo cắt khoanh tròn. Húng lủi cắt nhỏ Cho salad vào tủ mát.",
+   "Thơm bỏ cùi, cắt lát dày 1cm ướp với xíu muối."
+  ],
+  "steps": [
+   "Áp chảo thơm không dầu, trút ra. Tiếp tục áp chảo gà với 1m dầu cho chín vàng, để nguội cắt miếng ngang 1cm."
+  ],
+  "serve": [
+   "Xếp gà lên dĩa salad, bắt Xốt Mayonnaise Aji-mayo® Phiên bản ít béo lên trên, khi ăn trộn đều."
+  ]
  },
  {
-  "id": "pho-bo-nha-lam",
-  "name": "Phở bò nạc nhà làm",
+  "id": "salad-bi-do",
+  "name": "Salad bí đỏ",
   "slots": [
-   "sang",
-   "trua"
+   "trua",
+   "toi"
   ],
-  "tags": [],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/salad-bi-do/",
+   "kcalPerServing": null
+  },
   "items": [
    {
-    "ing": "banh-pho",
-    "g": 150
+    "ing": "dui-ga",
+    "g": 300,
+    "text": "Đùi gà 300g"
    },
    {
-    "ing": "bo-nac",
-    "g": 100
+    "ing": "bi-do",
+    "g": 150,
+    "text": "Bí đỏ baby 150g"
    },
    {
-    "ing": "rau-xanh",
-    "g": 50
+    "ing": "xa-lach",
+    "g": 100,
+    "text": "Xà lách carol 100g"
+   },
+   {
+    "ing": "ca-chua",
+    "g": 50,
+    "text": "Cà chua bi 50g"
+   },
+   {
+    "ing": "xa-lach-tim",
+    "g": 50,
+    "text": "Xà lách tím 50g"
+   },
+   {
+    "ing": "hanh-tay",
+    "g": 27.5,
+    "text": "Hành tây 1/4 củ"
+   },
+   {
+    "ing": "nuoc-cot-chanh",
+    "g": 46.2,
+    "text": "Nước cốt chanh 3M"
+   },
+   {
+    "ing": "bo-lat",
+    "g": 20,
+    "text": "Bơ lạt 20g"
+   }
+  ],
+  "unmeasured": [
+   "Vỏ chanh mài 1M",
+   "RAU NÊM: lá húng lủi cắt rối",
+   "Gia vị: mật ong, mù tạt vàng, muối, tiêu, dầu ôliu, xốt ớt Tabasco",
+   "Hạt nêm Aji-ngon® Gà",
+   "Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản"
+  ],
+  "prep": [
+   "Thịt đùi gà lóc bỏ xương, ướp 1m Hạt nêm Aji-ngon® Gà, 1m nước cốt chanh, để thấm 5 đến 10 phút sau đó áp chảo vàng 2 mặt với 1 ít dầu ăn. Để nguội, cắt lát vừa ăn.",
+   "Các loại xà lách cắt khúc vừa ăn. Bí đỏ cắt làm tư, sau đó cắt lát mỏng. Cà chua bi cắt đôi. Hành tây cắt khoanh tròn mỏng. Lá húng lủi cắt rối.",
+   "Pha xốt: trộn đều 3M mật ong, 2M nước cốt chanh, 2M dầu ôliu, 1/4m muối, 1/4m tiêu, 1M vỏ chanh mài, 1/2M xốt ớt Tabasco, trộn đều."
+  ],
+  "steps": [
+   "Nướng áp chảo bí đỏ với bơ và ít muối đến khi xém cạnh cùng với cà chua bi. Để nguội.",
+   "Trộn salad: Cho bí đỏ, hành tây, xà lách carol, xà lách tím, cà chua bi, húng lủi vào tô, rưới xốt đã pha vào rồi trộn đều."
+  ],
+  "serve": [
+   "Trình bày salad ra đĩa cùng với thịt gà nướng, topping Xốt Mayonnaise Aji-mayo® lên trên. Dùng làm món khai vị.",
+   "Món ăn ngon đi kèm:",
+   "Mực nhồi tôm xốt tiêu xanh"
+  ]
+ },
+ {
+  "id": "salad-dua-leo-thit-ga",
+  "name": "Salad dưa leo thịt gà",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/salad-dua-leo-thit-ga/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "dui-ga",
+    "g": 150,
+    "text": "Má đùi gà : 150g"
+   },
+   {
+    "ing": "dua-leo",
+    "g": 301,
+    "text": "Dưa leo : 1 trái"
+   },
+   {
+    "ing": "rau-mam",
+    "g": 30,
+    "text": "Rau mầm : 30g"
+   },
+   {
+    "ing": "bap-cai-tim",
+    "g": 30,
+    "text": "Bắp cải tím : 30g"
+   }
+  ],
+  "unmeasured": [
+   "Ớt sừng : 1 trái",
+   "Hành tỏi băm",
+   "Muối, tiêu, đường, dầu ăn",
+   "\"AJINOMOTO\" Giấm gạo lên men",
+   "Bột ngọt AJI-NO-MOTO®",
+   "Nước tương \"Phú Sĩ\"",
+   "Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản"
+  ],
+  "prep": [
+   "Má đùi gà lọc bỏ xương, ướp với 1M hành tỏi băm, 1/2M nước tương “Phú Sĩ”, 1/2m bột ngọt AJI-NO-MOTO® để thấm.",
+   "Dưa leo bỏ ruột, cắt sợi, ướp với một ít đường, vớt ra để ráo. Ớt sừng cắt sợi. Bắp cải tím bào sợi mỏng. Rau mầm rửa sạch, để ráo.",
+   "Pha xốt: Hoà tan 1M đường với 1M Giấm gạo lên men LISA®, 2M nước lọc, 2M xốt Mayonnaise Aji-Mayo®, một ít muối và một ít tiêu."
+  ],
+  "steps": [
+   "Đun nóng một ít dầu ăn, cho gà vào áp chảo đến khi vàng đều hai mặt, tắt lửa, cắt gà thành miếng vừa ăn.",
+   "Trộn đều dưa leo, ớt sừng, bắp cải tím và rau mầm, xếp ra dĩa, cho vào ngăn mát tủ lạnh."
+  ],
+  "serve": [
+   "Khi ăn xếp gà xé lên trên salad, rưới hỗn hợp xốt đã pha và trộn đều."
+  ]
+ },
+ {
+  "id": "bun-gao-xao-thit-bo",
+  "name": "Bún gạo xào thịt bò",
+  "slots": [
+   "sang",
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "giam-mo"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/bun-gao-xao-thit-bo/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "bun-gao",
+    "g": 200,
+    "text": "Bún gạo khô : 200g"
+   },
+   {
+    "ing": "bo-phi-le",
+    "g": 200,
+    "text": "Thịt bò filet : 200g"
+   },
+   {
+    "ing": "ca-rot",
+    "g": 50,
+    "text": "Cà rốt cắt sợi : 50g"
+   },
+   {
+    "ing": "he",
+    "g": 50,
+    "text": "Bông hẹ : 50g"
+   },
+   {
+    "ing": "can-tay",
+    "g": 30,
+    "text": "Cần tàu : 30g"
+   }
+  ],
+  "unmeasured": [
+   "Nấm đông cô : 8 tai nhỏ",
+   "Ớt sừng cắt sợi : 1 trái",
+   "Tỏi băm, ngò rí",
+   "Muối, đường, tiêu, bột năng, dầu ăn",
+   "Bột ngọt AJI-NO-MOTO®",
+   "Nước tương \"Phú Sĩ\""
+  ],
+  "prep": [
+   "Bún gạo ngâm vào nước ấm khoảng 15 phút cho mềm, vớt ra để ráo nước.",
+   "Thịt bò cắt lát mỏng, ướp với 1M tỏi băm, 1m đường,1/2m bột ngọt AJI-NO-MOTO®, 1M nước tương “Phú Sĩ”, 1/2m tiêu và 1/2m bột năng, để thấm.",
+   "Nấm đông cô cắt lát mỏng, bông hẹ và cần tàu cắt khúc 4cm."
+  ],
+  "steps": [
+   "Khuấy đều hỗn hợp gia vị gồm: 1M đường, 1/2m bột ngọt AJI-NO-MOTO®, 2M nước tương “ Phú Sĩ” và 2M nước.",
+   "Đun nóng dầu phi thơm tỏi, cho thịt bò vào xào nhanh tay, trút ra. Cho tiếp dầu vào phi tỏi, cho cà rốt, nấm vào xào nhanh, cho tiếp bông hẹ, cần tàu, ớt sừng vào, nêm 2M hỗn hợp gia vị và cho bún gạo vào, trộn nhanh tay cho các nguyên liệu đều nhau, nêm gia vị còn lại vào, xào 2 phút. Trút thịt bò vào chung, trộn đều. Tắt lửa."
+  ],
+  "serve": [
+   "Múc thịt bò xào ra đĩa, thêm vài cọng ngò rí, rắc tiêu"
+  ]
+ },
+ {
+  "id": "goi-rau-can-thit-bo",
+  "name": "Gỏi rau cần thịt bò",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/goi-rau-can-thit-bo/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "bo-phi-le",
+    "g": 150,
+    "text": "Thịt bò phi lê: 150g"
+   },
+   {
+    "ing": "can-tay",
+    "g": 200,
+    "text": "Rau cần cạn: 200g"
+   },
+   {
+    "ing": "hanh-tay",
+    "g": 110,
+    "text": "Hành tây: 1 củ"
+   },
+   {
+    "ing": "me",
+    "g": 18,
+    "text": "Mè rang: 2M"
+   }
+  ],
+  "unmeasured": [
+   "Hành tím: 3 củ",
+   "Ớt sừng cắt sợi: 1 trái",
+   "Ăn kèm: bánh đa chiên",
+   "Muối, đường, nước mắm, tương ớt",
+   "Tỏi băm, ớt băm, rau răm",
+   "\"AJINOMOTO\" Giấm gạo lên men",
+   "Bột ngọt AJI-NO-MOTO®"
+  ],
+  "prep": [
+   "Thịt bò cắt lát mỏng, trụng sơ với nước giấm đường, vớt ra để nguội.",
+   "Rau cần nhặt rửa sạch, chỉ lấy 1 ít phần lá non. Hành tây cắt sợi nhuyễn. Hành tím bào mỏng. Rau răm nhặt sạch. Ngâm rau cần, hành tím, hành tây và rau răm với 1 chén nước, 1/2 chén Giấm gạo lên men LISA®, 3M đường, 1/2m Bột ngọt AJI-NO-MOTO® khoảng 15 phút, vớt ra để ráo.",
+   "Pha nước trộn gỏi: trộn đều 2M Giấm gạo lên men LISA® với 1.5M đường, 1M nước mắm, 1m tỏi băm, 1.5m ớt băm, 1M tương ớt và 1/5m muối."
+  ],
+  "steps": [
+   "Trộn tất cả nguyên liệu với nước trộn gỏi."
+  ],
+  "serve": [
+   "Xếp món ăn ra dĩa, rắc mè rang và ớt sừng cắt sợi lên trên, dùng kèm bánh đa chiên."
+  ]
+ },
+ {
+  "id": "thit-bo-tron-rau-muong-che",
+  "name": "Thịt bò trộn rau muống chẻ",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/thit-bo-tron-rau-muong-che/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "bo-phi-le",
+    "g": 200,
+    "text": "Thịt bò filet: 200g"
+   },
+   {
+    "ing": "rau-muong",
+    "g": 300,
+    "text": "Rau muống: 300g"
+   },
+   {
+    "ing": "gia",
+    "g": 100,
+    "text": "Giá: 100g"
+   },
+   {
+    "ing": "hanh-tay",
+    "g": 50,
+    "text": "Hành tây: 50g"
+   }
+  ],
+  "unmeasured": [
+   "Húng quế, rau răm, cần tàu, ớt, muối, đường",
+   "Hành tím, tỏi, dầu ăn, cà chua",
+   "Nước tương LISA",
+   "Hạt nêm Aji-ngon® Heo",
+   "\"AJINOMOTO\" Giấm gạo lên men",
+   "Nước tương \"Phú Sĩ\""
+  ],
+  "prep": [
+   "Rau muống bào sợi mỏng, ngâm nước có vắt 1 chút chanh, vớt ra để ráo.",
+   "Thịt bò cắt lát mỏng, ướp hành tỏi, tiêu, hạt nêm Aji-ngon®, dầu ăn, đường, nước tương LISA, để ít phút cho thấm.",
+   "Giá lặt bỏ đầu và đuôi rửa sạch, để ráo.",
+   "Hành tây, húng quế, ớt cắt sợi",
+   "Hành tím cắt lát",
+   "Cần tây cắt khúc 3cm"
+  ],
+  "steps": [
+   "Phi thơm tỏi, xào thịt bò vừa chín tái, trút ra dĩa, để nguội.",
+   "Pha nước trộn: 2M nước, 2M đường, 1/2m muối, 1/2m tiêu, 1m hành tím băm khuấy đều rồi cho tiếp 1/2 M Giấm gạo lên men LISA® và 1M dầu ăn.",
+   "Pha nước mắm chua ngọt: 1M đường, 1M nước mắm, 5 M nước, 1m tỏi ớt băm và 0.5M Giấm gạo lên men LISA®",
+   "Trộn chung rau muống, giá, rau thơm, cần, hành tây, dầu Giấm gạo lên men LISA® và ớt sợi."
+  ],
+  "serve": [
+   "Gắp rau muống ra đĩa, trình bày thịt bò, ớt cắt lát và cần tàu. Dùng chung nước mắm loãng pha chua ngọt."
+  ]
+ },
+ {
+  "id": "salad-khoai-tron-thit-bo",
+  "name": "Salad khoai trộn thịt bò",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/salad-khoai-tron-thit-bo/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "bo-phi-le",
+    "g": 100,
+    "text": "Thịt bò phi lê: 100g"
+   },
+   {
+    "ing": "khoai-lang",
+    "g": 150,
+    "text": "Khoai lang: 150g"
+   },
+   {
+    "ing": "rau-mam",
+    "g": 50,
+    "text": "Mầm rau muống: 50g"
+   },
+   {
+    "ing": "bi-do",
+    "g": 100,
+    "text": "Bí đỏ: 100g"
+   }
+  ],
+  "unmeasured": [
+   "Rau húng quế: 3 cây",
+   "Hành tỏi băm, bột năng",
+   "Ớt sợi, mè rang",
+   "Tương cà, tương ớt",
+   "Muối, tiêu, dầu ăn",
+   "Hạt nêm Aji-ngon® Heo",
+   "Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản",
+   "Nước tương \"Phú Sĩ\""
+  ],
+  "prep": [
+   "Thịt bò cắt lát 1cm, dần thịt mềm rồi cắt khối 1cm, ướp 1/2m hạt nêm Aji-ngon® , 1/2m tiêu, 1m dầu ăn, 1m nước tương LISA, để thấm.",
+   "Khoai lang, bí đỏ gọt vỏ, cắt hạt lựu 1cm, tẩm bột năng rồi chiên vàng, vớt ra để ráo dầu.",
+   "Dưa leo gọt sơ vỏ, bỏ ruột, cắt dọc làm 4, cắt mỏng 3 li. Húng quế cắt nhuyễn. Rau mầm rửa sạch, để ráo, xếp ra dĩa.",
+   "Pha xốt: trộn đều 2M xốt Mayonnaise Aji-Mayo®, 1/2M tương cà, 1m tương ớt."
+  ],
+  "steps": [
+   "Phi thơm hành tỏi, xào thịt bò vừa chín, trút ra để nguội.",
+   "Cho khoai lang, bí đỏ và dưa leo vào tô, rắc ít muối tiêu, mè rang, rồi cho thịt bò và xốt đã pha vào trộn đều."
+  ],
+  "serve": [
+   "Cho salad ra dĩa, rắc mè lên trên, trang trí với ớt cắt sợi và rau húng quế."
+  ]
+ },
+ {
+  "id": "chao-yen-mach-thit-bo",
+  "name": "Cháo yến mạch thịt bò",
+  "slots": [
+   "sang"
+  ],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/chao-yen-mach-thit-bo/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "yen-mach",
+    "g": 70,
+    "text": "Yến mạch 70g"
+   },
+   {
+    "ing": "bo-xay",
+    "g": 100,
+    "text": "Thịt bò băm 100g"
+   },
+   {
+    "ing": "ca-rot",
+    "g": 50,
+    "text": "Cà rốt 50g"
+   },
+   {
+    "ing": "bong-cai-xanh",
+    "g": 50,
+    "text": "Bông cải xanh 50g"
+   },
+   {
+    "ing": "nuoc-dung",
+    "g": 800,
+    "text": "Nước dùng 800 ml"
+   }
+  ],
+  "unmeasured": [
+   "Phô mai viên 4 viên",
+   "Hành tỏi băm 2m",
+   "Rau nêm: Hành lá, ngò rí",
+   "Gia vị: Muối, đường, tiêu, dầu olive, hạt nêm Aji-ngon®",
+   "Bột ngọt AJI-NO-MOTO®",
+   "Hạt nêm Aji-ngon® Heo"
+  ],
+  "prep": [
+   "Cà rốt cắt hạt lựu 0.5cm. Bông cải xanh cắt nhỏ cỡ cà rốt. Phô mai viên cắt làm 8.",
+   "Thịt bò xay ướp với 1/2m hạt nêm Aji-ngon®, 1/4m bột ngọt AJI-NO-MOTO®, 1m hành tỏi băm, 1m dầu olive, 1M nước lạnh, để thấm."
+  ],
+  "steps": [
+   "Đun sôi 800ml nước dùng, cho cà rốt và bông cải vào nấu chín, cho yến mạch vào nấu mềm.",
+   "Phi thơm 1m hành tỏi băm với dầu olive, xào thịt bò vừa chín, đổ vào nồi cháo yến mạch, nêm 1/2m muối, 1/4m bột ngọt AJI-NO-MOTO®, 1m hạt nêm Aji-ngon®. Tắt lửa, cho hành ngò và tiêu vào."
+  ],
+  "serve": [
+   "Múc cháo yến mạch ra bát, thêm viên phô mai, dùng nóng."
+  ]
+ },
+ {
+  "id": "salad-bit-tet",
+  "name": "Salad bít tết",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "giam-mo"
+  ],
+  "servings": 2,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/salad-bit-tet/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "bo-than-ngoai",
+    "g": 200,
+    "text": "Bò Sirlion Úc (200g/miếng) 1 miếng"
+   },
+   {
+    "ing": "dua-leo",
+    "g": 80,
+    "text": "Dưa leo Nhật 80g (1/2 trái)"
+   },
+   {
+    "ing": "xa-lach",
+    "g": 100,
+    "text": "Xà lách búp 100g (1 búp)"
+   },
+   {
+    "ing": "ca-chua",
+    "g": 30,
+    "text": "Cà chua bi 30g (5 quả)"
+   },
+   {
+    "ing": "hanh-tay",
+    "g": 20,
+    "text": "Hành tây tím 20g (1/4 củ)"
+   },
+   {
+    "ing": "ca-rot",
+    "g": 15,
+    "text": "Cà rốt 15g (1/4 củ)"
+   },
+   {
+    "ing": "bap-ngot",
+    "g": 6,
+    "text": "Bắp hạt vàng 6g (1m)"
+   },
+   {
+    "ing": "rong-nho",
+    "g": 30,
+    "text": "Rong nho 30g"
+   },
+   {
+    "ing": "khoai-lang",
+    "g": 80,
+    "text": "Khoai lang vàng 80g (1/2 củ)"
+   }
+  ],
+  "unmeasured": [
+   "Ngò rí 1 cây",
+   "Nước cốt hành tím, tỏi 1m (Giã 1m hành và 1m tỏi thêm 1M vắt lấy nước)",
+   "Gia vị: Dầu ăn, tiêu đen cà bể",
+   "Hạt nêm Aji-ngon® Heo",
+   "Nước tương \"Phú Sĩ\"",
+   "Xốt mè rang \"Aji-Xốt\""
+  ],
+  "prep": [
+   "Ướp bò với nước cốt hành tỏi, 1/2m tiêu đen, 1m hạt nêm Aji-ngon heo, 1m nước tương Phú Sĩ 10 phút.",
+   "Cà rốt, hành tây tím, khoai lang tím, khoai lang vàng cắt sợi. Hành tây tím ngâm qua nước lạnh 5 phút, vớt ra để ráo, xà lách cắt miếng vừa ăn, cà chua bi cắt đôi, dưa leo nhật cắt 1/2 mặt trăng độ dày 3 ly. Giữ lạnh."
+  ],
+  "steps": [
+   "Chiên phần mỡ của miếng bò trước, sau đó chiên hai mặt còn lại đến khi vừa chín, để nguội.",
+   "Chiên giòn khoai lang tím, khoai lang vàng."
+  ],
+  "serve": [
+   "Cho xà lách ra dĩa sâu lòng, các thành phần còn lại lên trên, cắt thịt bò lát xéo dày 3 ly để xung quanh, cho khoai lang tím, khoai lang vàng, ngò rí trên cùng. Rưới xốt Aji Mè Rang, trộn đều.",
+   "🍴 Ăn kèm: Tráng miệng Yaourt",
+   "Món ăn ngon đi kèm:",
+   "Bánh mì nướng tỏi"
+  ]
+ },
+ {
+  "id": "than-be-cuon-rau-thom",
+  "name": "Thăn Bê Cuộn Rau Thơm",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "giam-mo"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/than-be-cuon-rau-thom/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "be-than",
+    "g": 300,
+    "text": "Thịt thăn bê 300g Từng miếng dày 0,5cm dài 5cm"
+   },
+   {
+    "ing": "xa-lach",
+    "g": 150,
+    "text": "Xà lách 150g Nguyên lá dài"
+   },
+   {
+    "ing": "rau-thom",
+    "g": 120,
+    "text": "Rau thơm các loại 120g Có thêm lá sá xị, lá cóc non"
+   },
+   {
+    "ing": "tuong-ot",
+    "g": 29.25,
+    "text": "Tương ớt Hàn Quốc 1.5M"
+   },
+   {
+    "ing": "nuoc-tuong",
+    "g": 40,
+    "text": "Nước tương \"Phú Sĩ\" giảm muối 2.5M"
+   },
+   {
+    "ing": "dau-an",
+    "g": 10,
+    "text": "Dầu ăn 10g 1M + 1M"
+   },
+   {
+    "ing": "mat-ong",
+    "g": 31.5,
+    "text": "Mật ong 1.5M"
+   },
+   {
+    "ing": "dau-me",
+    "g": 3,
+    "text": "Dầu mè 3g 1.5m"
+   }
+  ],
+  "unmeasured": [
+   "Bánh tráng cuốn mè 12 cái xịt nước, cắt đôi sẵn",
+   "Dưa leo 1 trái Bào thành miếng mỏng",
+   "Thơm chín 1/4 trái Cắt lát dài mỏng",
+   "Tương đậu Hàn Quốc 1.5M",
+   "Mè trắng rang 1.5M Giã bể (rang thơm rồi giã bể)",
+   "Hành tím băm 2.5M",
+   "Nước gừng 1M",
+   "Hạt nêm Aji-ngon® Heo 2g 1/2m",
+   "Bột ngọt AJI-NO-MOTO® 2g 1/2m",
+   "Ớt bột Hàn Quốc 1m",
+   "\"AJINOMOTO\" Giấm gạo lên men 1M",
+   "Gia vị: Nước tương \"Phú Sĩ\" giảm muối, Hạt nêm Aji-ngon® Heo, Bột ngọt AJI-NO-MOTO®, dầu ăn, giấm, tiêu",
+   "Nước tương \"Phú Sĩ\" giảm muối"
+  ],
+  "prep": [
+   "Ướp thịt nướng: Cho vào thịt bê 1M hành tím băm, 1M nước gừng, cùng với 1/2m Hạt nêm Aji-ngon® Heo, 1/2m Bột ngọt AJI-NO-MOTO®, 1/4m tiêu sau đó cho thêm 1M Nước tương “Phú Sĩ” và 1M dầu ăn vào trộn đều để thấm 10 phút.",
+   "Làm nước xốt: Cho 1.5M dầu ăn vào chảo phi thơm 1.5M hành tím băm sau đó thêm 2.5M nước lọc cùng với 1.5M xốt tương ớt hàn quốc, 1.5M xốt tương đậu hàn quốc, 1.5M mật ong và 1.5m dầu mè, và 1m ớt bột hàn quốc, và 1M “AJINOMOTO” Giấm gạo lên men, cuối cùng cho 1.5M Nước tương “Phú Sĩ” giảm muối, nấu lên khuấy đều cho tan sau đó tắt lửa, để nguội cho thêm 1.5M mè trắng rang."
+  ],
+  "steps": [
+   "Nướng thịt bê: Cho thịt vào chảo nướng áp chảo với lửa vừa cho thịt vàng 2 mặt. Sau đó lấy thịt ra dĩa cắt thịt thành từng thanh nhỏ. Cuộn bánh tráng: bánh tráng xịt qua nước lọc cho mềm sau đó xếp lần lượt xà lách, thơm cắt lát, dưa leo, cùng với rau thơm các loại, thêm thịt bê sau đó cuộn lại và cắt đôi."
+  ],
+  "serve": [
+   "Trình bày ra dĩa chấm cùng với nước xốt tương mè.",
+   "Yêu cầu thành phẩm:",
+   "Trạng thái: Bánh cuộn chặt tay cùng thịt bê và rau thơm các loại.",
+   "Màu sắc: Màu trắng của bánh tráng cùng với màu xanh từ các nguyên liệu rau thơm.",
+   "Hương vị: Xốt mè có vị chua và cay nhẹ cùng với thịt bê mềm xen lẫn mùi thơm của các loại rau thơm."
+  ]
+ },
+ {
+  "id": "tom-hap-rau-cu",
+  "name": "Tôm hấp rau củ",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/tom-hap-rau-cu/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "tom",
+    "g": 250,
+    "text": "Tôm bóc vỏ: 250g"
+   },
+   {
+    "ing": "bong-cai-xanh",
+    "g": 100,
+    "text": "Bông cải xanh: 100g"
+   },
+   {
+    "ing": "bong-cai-trang",
+    "g": 100,
+    "text": "Bông cải trắng: 100g"
+   },
+   {
+    "ing": "bap-ngot",
+    "g": 100,
+    "text": "Bắp non: 100g"
+   },
+   {
+    "ing": "bi-do",
+    "g": 100,
+    "text": "Bí đỏ: 100g"
+   },
+   {
+    "ing": "ca-rot",
+    "g": 50,
+    "text": "Cà rốt cắt nhỏ: 50g"
+   }
+  ],
+  "unmeasured": [
+   "Tiêu, đường, bột bắp, tương xí muội, dầu ăn, hành tỏi băm",
+   "Hành lá, thì là",
+   "Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản",
+   "Hạt nêm Aji-ngon® Heo"
+  ],
+  "prep": [
+   "Tôm lau khô, đập dập, quết dai với 1M đầu hành lá băm, 1/2m hạt nêm Aji-ngon®, 1/4m đường, 1/3m tiêu, trộn đều với cà rốt, 1m cọng thì là băm, 1 ít tỏi và hành băm.",
+   "Bông cải cắt miếng vừa ăn. Bí cắt lát 2 mm, dùng dao chẻ đôi miếng bí nhưng không cắt rời. Xóc đều bông cải và bí đỏ với 1 ít hạt nêm Aji-ngon®."
+  ],
+  "steps": [
+   "Bọc tôm lên phần đầu nhọn của bông cải, đoạn giữa trái bắp non, và giữa miếng bí, rắc một ít bột bắp lên phần nhân tôm. Đem hấp chín."
+  ],
+  "serve": [
+   "Trình bày món hấp ra dĩa, dùng nóng, chấm với xốt Mayonnaise Aji-Mayo® trộn tương xí muội theo tỷ lệ 2:1."
+  ]
+ },
+ {
+  "id": "tom-tron-bong-cai",
+  "name": "Tôm trộn bông cải",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/tom-tron-bong-cai/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "tom",
+    "g": 300,
+    "text": "- Tôm đất tươi: 300g"
+   },
+   {
+    "ing": "bong-cai-xanh",
+    "g": 300,
+    "text": "- Bông cải xanh: 300g"
+   }
+  ],
+  "unmeasured": [
+   "- Ngò tây: 3 cây",
+   "- Tương ớt, tiêu, chanh",
+   "Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản"
+  ],
+  "prep": [
+   "Tôm rửa sạch, lấy chỉ lưng, luộc chín trong nước sôi có nêm 1/2m muối, bóc bỏ vỏ.",
+   "Bông cải tách ra, rửa sạch, cắt miếng nhỏ, chần sơ, vớt ra ngâm vào nước đá, để ráo, để riêng bông và cọng.",
+   "Củ hành tây cắt múi cao, trộn với 1m đường.",
+   "Ngò tây 2 cây băm nhỏ, 1 cây để trang trí."
+  ],
+  "steps": [
+   "Tôm ướp với 1/3m tiêu, 1/2m nước cốt chanh, 2m tương ớt và ngò tây băm, trộn tôm với cọng bông cải và 3M xốt mayonnaise Aji-mayo®. Đun nóng 1m dầu ăn, cho 1M xả băm, 1M ớt băm cho tôm vào xào cho chín kỹ."
+  ],
+  "serve": [
+   "Xếp bông cải xanh ra dĩa, cho tôm trộn vào giữa, trang trí với ngò tây."
+  ]
+ },
+ {
+  "id": "salad-tom-dau-hu",
+  "name": "Salad tôm đậu hũ",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/salad-tom-dau-hu/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "dau-hu",
+    "g": 100,
+    "text": "Đậu hũ Nhật 100g"
+   },
+   {
+    "ing": "tom",
+    "g": 200,
+    "text": "Tôm sú 200g"
+   },
+   {
+    "ing": "bong-cai-xanh",
+    "g": 100,
+    "text": "Bông cải xanh 100g"
+   },
+   {
+    "ing": "ca-chua",
+    "g": 30,
+    "text": "Cà chua bi 30g"
+   },
+   {
+    "ing": "dau-co-ve",
+    "g": 20,
+    "text": "Đậu cô ve Nhật 20g"
+   },
+   {
+    "ing": "xa-lach",
+    "g": 20,
+    "text": "Xà lách carol 20g"
+   },
+   {
+    "ing": "hanh-tay",
+    "g": 55,
+    "text": "Hành tây 1/2 củ"
+   },
+   {
+    "ing": "nuoc-cot-chanh",
+    "g": 30.8,
+    "text": "Nước cốt chanh 2M"
+   }
+  ],
+  "unmeasured": [
+   "Tỏi băm 1M",
+   "Gừng băm nhỏ 1M",
+   "RAU NÊM: Ngò cắt khúc, húng lủi, mè rang",
+   "Gia vị: Đường, tiêu, muối, dầu ăn",
+   "Nước tương \"Phú Sĩ\"",
+   "Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản"
+  ],
+  "prep": [
+   "Tôm bóc vỏ, chẻ lưng, bỏ chỉ đen.",
+   "Đậu hũ non cắt vuông. Bông cải tách miếng vừa ăn. Cà chua bi cắt đôi. Đậu cove cắt khúc. Rau xà lách cắt khúc. Hành tây cắt lát mỏng.",
+   "Đun sôi nước, chần sơ bông cải, đậu cô ve với ít muối, vớt ra ngâm vào nước đá lạnh."
+  ],
+  "steps": [
+   "Pha nước sốt: Trộn đều 2M Nước tương “Phú Sĩ” cùng 1M nước, 1M gừng băm nhỏ, 1M đường, 2M nước cốt chanh khuấy đều.",
+   "Phi thơm tỏi với dầu ăn, áp chảo tôm và cho hết phần sốt đã pha vào rim tôm cho sốt hơi sánh lại. Tắt lửa."
+  ],
+  "serve": [
+   "Xếp bông cải, đậu cô ve, cà chua bi, xà lách, hành tây ra đĩa sau đó cho đậu hũ lên trên cùng với tôm, tiếp theo là rưới phần nước sốt xung quanh, rắc ngò, lá húng lủi và mè rang, cuối cùng topping Xốt Mayonnaise Aji-mayo®."
+  ]
+ },
+ {
+  "id": "cai-xoong-xao-tom",
+  "name": "Cải xoong xào tôm",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/cai-xoong-xao-tom/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "cai-xoong",
+    "g": 400,
+    "text": "Cải xoong 400g"
+   },
+   {
+    "ing": "tom",
+    "g": 200,
+    "text": "Tôm tươi 200g"
+   },
+   {
+    "ing": "nam-dui-ga",
+    "g": 100,
+    "text": "Nấm đùi gà 100g"
+   }
+  ],
+  "unmeasured": [
+   "Ớt sừng 1 trái",
+   "Tỏi đập dập 10 tép",
+   "Hành tím băm 1m",
+   "Ngò rí cắt nhỏ 1m",
+   "Gia vị: đường, muối, dầu ăn, ớt bột, dầu hào, nước bột năng",
+   "Bột ngọt AJI-NO-MOTO®"
+  ],
+  "prep": [
+   "Nấm đùi gà chẻ đôi rồi cắt lát xéo. Cải xoong cắt khúc 6cm. Ớt sừng bỏ hạt, cắt sợi.",
+   "Tôm bóc vỏ, chừa đuôi, xẻ lưng, ướp với 1/4m muối, 1/2m bột ngọt AJI-NO-MOTO®, 1/2m ớt bột, 1m hành tím băm, 1m ngò rí cắt nhỏ, để thấm."
+  ],
+  "steps": [
+   "Đun nóng 1M dầu ăn, cho tôm vào xào áp chảo cho săn, cho nấm đùi gà vào xào, nêm 1/2M dầu hào, xào tôm và nấm chín, đổ ra dĩa.",
+   "Phi thơm tỏi với 2M dầu ăn, cho cải xoong vào, nêm 1/3m muối, 1/2m bột ngọt AJI-NO-MOTO®, 1/2m đường, 1M dầu hào, xào xà lách xoong vừa chín, cho ớt sợi vào đảo đều, nếm vị vừa ăn, tắt lửa."
+  ],
+  "serve": [
+   "Cho cải xoong xào ra dĩa, cho phần tôm và nấm lên trên, dùng nóng với cơm."
+  ]
+ },
+ {
+  "id": "canh-chua-tom-rau-muong",
+  "name": "Canh chua tôm rau muống",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "giam-mo"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/canh-chua-tom-rau-muong/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "tom",
+    "g": 250,
+    "text": "Tôm thẻ: 250g"
+   },
+   {
+    "ing": "ca-chua",
+    "g": 150,
+    "text": "Cà chua: 150g"
+   },
+   {
+    "ing": "rau-muong",
+    "g": 100,
+    "text": "Rau muống: 100g"
+   }
+  ],
+  "unmeasured": [
+   "Rau om, ngò gai",
+   "Hành tỏi băm",
+   "Gia vị: dầu ăn, đường, nước mắm, tỏi phi",
+   "Gia vị nêm sẵn Aji-Quick® Lẩu Thái"
+  ],
+  "prep": [
+   "Tôm thẻ: sau đó bóc vỏ, đập dập, băm nhỏ.",
+   "Cà chua: cắt múi cau.",
+   "Rau muống: lặt rồi rửa sạch, cắt khúc vừa ăn.",
+   "Rau om, ngò gai: cắt nhỏ"
+  ],
+  "steps": [
+   "Phi thơm hành tỏi băm, cho cà chua và tôm vào xào sơ.",
+   "Thêm 1.5 lít nước đun sôi, nêm 4M Gia vị nêm sẵn Aji-Quick® Lẩu Thái, 1.5M đường, nếm vị chua nhẹ vừa ăn.",
+   "Cho rau muống vào nấu chín, thêm 1.5M nước mắm, rau om, ngò gai rồi tắt lửa.",
+   "Múc canh ra tô, rắc tỏi phi lên trên."
+  ],
+  "serve": [
+   "Dùng nóng.",
+   "Xem thêm các món ngon từ tôm"
+  ]
+ },
+ {
+  "id": "salad-ca-hoi-hung-que",
+  "name": "Salad cá hồi húng quế",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/salad-ca-hoi-hung-que/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "ca-hoi",
+    "g": 300,
+    "text": "Cá hồi phi lê 300g"
+   },
+   {
+    "ing": "rau-thom",
+    "g": 15,
+    "text": "Lá húng quế 15g"
+   },
+   {
+    "ing": "hanh-tay",
+    "g": 110,
+    "text": "Hành tây 1 củ"
+   },
+   {
+    "ing": "ca-chua",
+    "g": 123,
+    "text": "Cà chua 1 trái"
+   },
+   {
+    "ing": "ot-chuong-xanh",
+    "g": 59.5,
+    "text": "Ớt đà lạt xanh 1/2 trái"
+   },
+   {
+    "ing": "ot-chuong-vang",
+    "g": 93,
+    "text": "Ớt đà lạt vàng 1/2 trái"
+   },
+   {
+    "ing": "dau-an",
+    "g": 13.6,
+    "text": "Dầu tỏi phi 1M"
+   },
+   {
+    "ing": "nuoc-cot-chanh",
+    "g": 5.13,
+    "text": "Nước cốt chanh 1m"
+   },
+   {
+    "ing": "me",
+    "g": 3,
+    "text": "Mè trắng rang 1m"
+   }
+  ],
+  "unmeasured": [
+   "Xốt Tasbaco 1M",
+   "Muối, đường, tiêu, dầu ăn",
+   "Hạt nêm Aji-ngon® Heo",
+   "\"AJINOMOTO\" Giấm gạo lên men"
+  ],
+  "prep": [
+   "Cá hồi làm sạch để da, cắt làm ba theo chiều ngang, ướp vào 1/2m tiêu trắng, 1/4m muối, 1m hạt nêm Aji-ngon®, 1m nước cốt chanh, 1M dầu ăn, trộn đều, để 15 phút cho thấm.",
+   "Hành tây cắt đôi theo chiều dọc bỏ bớt phần nhỏ ở giữa cắt khoanh tròn. Cà chua bỏ hạt, cắt thanh. Ớt đà lạt vàng, xanh bỏ hạt, cắt khoanh tròn. Cho tất cả hành tây, ớt đà lạt xanh, vàng vào tô nước đá ngâm 10 phút, vớt ra để ráo. Lá húng quế cắt đôi."
+  ],
+  "steps": [
+   "Pha xốt: hòa tan 1m muối, 2M đường, 1M xốt Tasbaco, 1M Giấm gạo lên men LISA®, sau đó cho 1M dầu tỏi vào.",
+   "Đun nóng dầu, cho cá hồi vào chiên áp chảo đến khi chín vàng.",
+   "Trộn salad: Cho 1/2 lượng xốt vào trộn đều cùng hành tây, ớt đà lạt vàng, xanh, cà chua, lá húng quế để 3 phút cho xốt thấm đều."
+  ],
+  "serve": [
+   "Cho rau trộn ra dĩa, xếp cá hồi lên trên, cho phần xốt còn lại và rắc mè trắng rang lên mặt."
+  ]
+ },
+ {
+  "id": "salad-ca-ngu-rau-thom",
+  "name": "Salad cá ngừ rau thơm",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "xay-dung-co"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/salad-ca-ngu-rau-thom/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "ca-ngu",
+    "g": 300,
+    "text": "Cá ngừ phi-lê 300g"
+   },
+   {
+    "ing": "ot-chuong-do",
+    "g": 100,
+    "text": "Ớt ngọt đà lạt (tái dài) 100g"
+   },
+   {
+    "ing": "ca-chua",
+    "g": 100,
+    "text": "Cà chua bi nâu 100g"
+   },
+   {
+    "ing": "rau-thom",
+    "g": 150,
+    "text": "Rau thơm các loại 150g"
+   },
+   {
+    "ing": "gao-rang",
+    "g": 30,
+    "text": "Thính gạo rang 30g"
+   },
+   {
+    "ing": "xa-lach-iceberg",
+    "g": 150,
+    "text": "Xà lách iceberg 150g"
+   },
+   {
+    "ing": "xot-me",
+    "g": 70,
+    "text": "Xốt mè rang \"Aji-Xốt\" 70g (3M)"
+   }
+  ],
+  "unmeasured": [
+   "Gia vị nêm sẵn Aji-Quick® Bột Tẩm Khô Chiên Giòn 2M",
+   "Bữa chiều: Ăn kèm Ăn kèm: Bánh mì sanwich, Tráng miệng: Bưởi",
+   "Gia vị: dầu ăn.",
+   "Xốt mè rang \"Aji-Xốt\""
+  ],
+  "prep": [
+   "Ớt ngọt đà lạt cắt lát",
+   "Cà chua bi nâu cắt đôi",
+   "Rau thơm các loại cắt rối",
+   "Xà lách iceberg cắt khúc"
+  ],
+  "steps": [
+   "Trộn salad: Ớt ngọt cắt lát, xà lách iceberg cắt khúc, cà chua bi cắt đôi, rau thơm cắt rối. Tất cả các nguyên liệu trộn đều.",
+   "Chiên cá: Trộn bột, cho 2M Gia vị nêm sẵn Aji-Quick® Bột Tẩm Khô Chiên Giòn cùng với thính gạo rang trộn đều sau đó cá ngừ cắt khối hình chữ nhật dài, tiếp theo lăn cá qua bột gạo thính và mang chiên vàng các cạnh cùng với ít dầu với lửa vừa cho cá chín vừa. Vớt ra giấy thấm dầu."
+  ],
+  "serve": [
+   "Cho salad trộn ra dĩa sau đó cắt cá thành những miếng với độ dày 3mm và xếp lên mặt cuối cùng là cho lá húng lủi lên và rưới 3M xốt mè rang Aji – Xốt lên."
+  ]
+ },
+ {
+  "id": "ca-ngu-dai-duong-luc-lac",
+  "name": "Cá ngừ đại dương lúc lắc",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/ca-ngu-dai-duong-luc-lac/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "ca-ngu",
+    "g": 300,
+    "text": "Phi lê cá ngừ 300g"
+   },
+   {
+    "ing": "ot-chuong-vang",
+    "g": 50,
+    "text": "Ớt chuông vàng 50g"
+   },
+   {
+    "ing": "ot-chuong-do",
+    "g": 50,
+    "text": "Ớt chuông đỏ 50g"
+   },
+   {
+    "ing": "hanh-tay",
+    "g": 55,
+    "text": "Hành tây 1/2 củ"
+   },
+   {
+    "ing": "nuoc-cot-chanh",
+    "g": 30.8,
+    "text": "Nước cốt chanh 2M"
+   },
+   {
+    "ing": "bo-lat",
+    "g": 10,
+    "text": "Bơ 10g"
+   }
+  ],
+  "unmeasured": [
+   "Tỏi củ 15g",
+   "Mù tạt vàng 1M",
+   "ĂN KÈM: Khoai tây chiên, salad, cà chua",
+   "Gia vị: dầu ăn, tiêu, muối, đường",
+   "Bột ngọt AJI-NO-MOTO®",
+   "Hạt nêm Aji-ngon® Heo",
+   "Nước tương \"Phú Sĩ\""
+  ],
+  "prep": [
+   "Phi lê cá ngừ, hành tây, ớt chuông vàng, đỏ cắt vuông cờ.",
+   "Tỏi củ đập dập."
+  ],
+  "steps": [
+   "Ướp cá: Ướp cá với 1M nước tương “Phú Sĩ”, 1m nước cốt chanh, 1/2m tiêu, 1/2m Hạt nêm Aji-ngon® (Heo), để thấm 5 – 7 phút.",
+   "Pha xốt: Cho 2M nước lọc hòa cùng 1M Nước tương “Phú Sĩ”, 1/2m Bột ngọt AJI-NO-MOTO®, 1M mù tạt vàng, 1M nước cốt chanh và 1/2M tương ớt, 1M tương cà, 1m đường, khuấy đều.",
+   "Chiên: Đun nóng dầu, cho khoai tây vào chiên vàng, vớt ra giấy thấm dầu. Tiếp theo, cho cá ngừ vào chiên ngập dầu với lửa lớn, chiên cá vàng rồi nhanh tay vớt ra giấy thấm dầu.",
+   "Xào: Cho 1M dầu vào chảo, phi thơm tỏi đập dập, cho ớt chuông và hành tây vào xóc đều, tiếp theo cho cá cùng với xốt đã pha xóc nhanh tay cho sốt bám đều lên các nguyên liệu. Cuối cùng, cho 10g bơ vào đảo đều rồi tắt lửa."
+  ],
+  "serve": [
+   "Cho cá ngừ đại dương lúc lắc ra dĩa cùng với salad, cà chua và khoai tây chiên. Khi ăn chấm cùng nước tương và ớt."
+  ]
+ },
+ {
+  "id": "ca-loc-cuon-nghe",
+  "name": "Cá lóc cuộn nghệ",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "giam-mo"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/ca-loc-cuon-nghe/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "ca-da-tron",
+    "g": 400,
+    "text": "Cá lóc phi lê 400g"
+   },
+   {
+    "ing": "dau-an",
+    "g": 20,
+    "text": "Dầu ăn 20g"
+   }
+  ],
+  "unmeasured": [
+   "Hành tím 40g",
+   "Nghệ củ 40g",
+   "Ớt sừng đỏ 1 quả",
+   "Tiêu đen xay 4g",
+   "Ớt hiểm 3 quả",
+   "Tỏi 2 tép",
+   "Hạt nêm Aji-ngon® Heo",
+   "Bột ngọt AJI-NO-MOTO®",
+   "Aji-Quick® Bột Tẩm Khô Chiên Giòn"
+  ],
+  "prep": [
+   "Cá lóc phile bỏ xương rồi lấy phần thịt cắt thành từng lát dài theo chiều dọc có độ dày khoảng 5mm"
+  ],
+  "steps": [
+   "Xay nhuyễn 40g hành tím, 40g nghệ, 1 quả ớt sừng đỏ lại với nhau. Trộn đều hỗn hợp vừa xay cùng 400g cá lóc, và nêm vào 1m Hạt nêm Aji-ngon® Heo, 1/2m bột ngọt, 1m tiêu xay rồi trộn đều cho vào ngăn mát tủ lạnh 15 phút cho thấm gia vị",
+   "Cuộn cá lóc lại rồi lăn đều qua 4M Gia vị nêm sẵn Aji-Quick® Bột tẩm khô chiên giòn. Chiên ngập 1/4 cuộn cá đến khi vàng giòn là đạt. Vớt ra để lên giấy thấm dầu.",
+   "🥣Nước mắm chấm: Cho 3 quả ớt hiểm, 2 tép tỏi, 1M đường, 1/3m bột ngột Ajinomoto® rồi giã nát. Để nghỉ 15 phút, sau đó cho thêm 2M nước mắm vào khuấy đều."
+  ],
+  "serve": [
+   "Chuẩn bị đĩa, trình bày cá lóc và thêm một ít rau thơm. Cho một ít nước mắm chấm lên trên cá, ăn kèm cơm trắng"
+  ]
+ },
+ {
+  "id": "canh-chua-ca",
+  "name": "Canh chua cá",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "xay-dung-co"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/canh-chua-ca/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "ca-da-tron",
+    "g": 250,
+    "text": "Cá lóc/cá hú/cá basa: 250g"
+   },
+   {
+    "ing": "ca-chua",
+    "g": 100,
+    "text": "Cà chua: 100g"
+   },
+   {
+    "ing": "thom",
+    "g": 100,
+    "text": "Thơm: 100g"
+   },
+   {
+    "ing": "gia",
+    "g": 70,
+    "text": "Giá: 70g"
+   },
+   {
+    "ing": "dau-bap",
+    "g": 70,
+    "text": "Đậu bắp: 70g"
+   }
+  ],
+  "unmeasured": [
+   "Bạc hà: 70g",
+   "Ngò gai, rau om",
+   "Hành tỏi băm",
+   "Gia vị: dầu ăn, tỏi phi, đường, nước mắm",
+   "Gia vị nêm sẵn Aji-Quick® Lẩu Thái"
+  ],
+  "prep": [
+   "Cá lóc/cá hú/cá basa: cắt khứa vừa ăn",
+   "Cà chua: cắt múi cau",
+   "Thơm, Bạc hà, ngò gai, rau om: cắt lát mỏng",
+   "Đậu bắp: bỏ đầu, cắt lát xéo"
+  ],
+  "steps": [
+   "Phi thơm 1M hành tỏi băm, cho cà chua vào xào sơ, thêm 1.5 lít nước vào đun sôi.",
+   "Cho thơm và cá vào nấu chín, nêm 4M Gia vị nêm sẵn Aji-Quick® Lẩu Thái, 1.5M đường, nếm vị chua nhẹ vừa ăn.",
+   "Cho bạc hà, đậu bắp, giá vào, khi nước sôi trở lại thì thêm 1.5M nước mắm, rau om, ngò gai, tắt lửa.",
+   "Múc canh ra tô, rắc tỏi phi lên trên."
+  ],
+  "serve": [
+   "Dùng nóng.",
+   "Xem thêm các món canh ngon"
+  ]
+ },
+ {
+  "id": "muc-nhung-giam-2",
+  "name": "Mực nhúng giấm",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "giam-mo"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/muc-nhung-giam-2/",
+   "kcalPerServing": 200
+  },
+  "items": [
+   {
+    "ing": "muc",
+    "g": 400,
+    "text": "Mực ống 400g"
+   },
+   {
+    "ing": "hanh-tay",
+    "g": 100,
+    "text": "Hành tây 100g (1 củ)"
+   },
+   {
+    "ing": "nuoc-dua",
+    "g": 200,
+    "text": "Nước dừa tươi 200ml (2 chén nước dừa tươi nguyên chất)"
+   },
+   {
+    "ing": "ngo-ri",
+    "g": 100,
+    "text": "Ngò rí 100g"
+   },
+   {
+    "ing": "duong",
+    "g": 42,
+    "text": "Đường 42g (3.5M)"
    },
    {
     "ing": "nuoc-mam",
-    "g": 10
+    "g": 16,
+    "text": "Nước mắm 16g (2M)"
    }
   ],
-  "steps": "Trụng bánh phở, chần bò nạc thái mỏng, chan nước dùng hớt sạch mỡ, thêm rau thơm."
+  "unmeasured": [
+   "Sả 4 cây",
+   "Gừng nhỏ 1 củ",
+   "Hành tím 5 củ",
+   "Tỏi 2 tép",
+   "Muối 8g (2m)",
+   "Bột ngọt 4g (1m)",
+   "Gia vị: Đường, muối, nước mắm, bột ngọt AJI-NO-MOTO®",
+   "\"AJINOMOTO\" Giấm gạo lên men"
+  ],
+  "prep": [
+   "Mực làm sạch, để ráo, khứa ca rô mặt trong, cắt miếng vừa ăn khoảng 4cm.",
+   "Sả đập dập, cắt khúc. Hành tây cắt sợi. Hành tím cắt lát. Gừng cắt sợi. Tỏi giã nhuyễn. Ngò cắt nhỏ.",
+   "Xà lách, rau thơm lặt rửa sạch. Dưa leo cắt khúc. Chuối, khế bào mỏng, ngâm nước có pha chanh."
+  ],
+  "steps": [
+   "Pha nước giấm: nấu sôi hỗn hợp gồm 2 chén nước dừa (2 trái), 1/2 chén giấm gạo lên men “Ajinomoto”, 2m muối, 2.5M đường, 1m bột ngọt AJI-NO-MOTO®, hành tây, gừng sợi, hành tím và sả đập dập, nấu sôi.",
+   "Pha nước mắm ngò: khuấy tan 3M nước với 2M nước mắm, 1/2M giấm gạo lên men “Ajinomoto”, 1M đường, sau đó cho hỗn hợp giã nhuyễn gồm ớt hiểm xanh 3 trái, cọng ngò rí, ít tỏi vào."
+  ],
+  "serve": [
+   "Khi ăn ta nấu sôi nước giấm, nhúng mực vào vừa chín, cuốn bánh tráng và rau dưa, chấm nước mắm ngò."
+  ]
  },
  {
-  "id": "sua-chua-yen-mach-chia",
-  "name": "Sữa chua Hy Lạp yến mạch hạt chia",
+  "id": "muc-xao-dau-ha-lan",
+  "name": "Mực xào đậu Hà Lan",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "giam-mo"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/muc-xao-dau-ha-lan/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "muc",
+    "g": 250,
+    "text": "Mực sữa: 250g"
+   },
+   {
+    "ing": "dau-ha-lan",
+    "g": 200,
+    "text": "Đậu Hà Lan: 200g"
+   },
+   {
+    "ing": "tuong-ot",
+    "g": 19.5,
+    "text": "Tương ớt: 1M"
+   },
+   {
+    "ing": "rau-thom",
+    "g": 20,
+    "text": "Rau răm: 20g"
+   },
+   {
+    "ing": "nuoc-tuong",
+    "g": 11,
+    "text": "Nước tương \"Phú Sĩ\" 11g (1M )"
+   },
+   {
+    "ing": "duong",
+    "g": 4,
+    "text": "Đường 4g (1m)"
+   }
+  ],
+  "unmeasured": [
+   "Hành tây: 1 củ ( 90g )",
+   "Ớt sừng cắt quả trám: 1 trái",
+   "Tỏi băm: 1M",
+   "Hạt nêm Aji-ngon® Heo 2g (1/2m )",
+   "Giấm gạo lên men Ajinomoto 5g (1M)",
+   "Bột ngọt AJI-NO-MOTO® 6g (1/3m)",
+   "ĂN KÈM Cơm, Canh sườn non xuyên tiêu, Khổ qua nhồi nấm kho nước tương",
+   "GIA VỊ: Muối, dầu ăn, tiêu, Hạt nêm Aji-ngon® Heo",
+   "Tráng miệng: Mận",
+   "Hạt nêm Aji-ngon® Heo",
+   "Bột ngọt AJI-NO-MOTO®",
+   "\"AJINOMOTO\" Giấm gạo lên men",
+   "Nước tương \"Phú Sĩ\""
+  ],
+  "prep": [
+   "Mực sữa rửa sạch, để nguyên con.",
+   "Pha hỗn hợp gia vị: 1/3m tiêu, 1/3m Bột ngọt AJI-NO-MOTO® , 1/2m hạt nêm Aji-ngon® Heo, 1m đường, 1M nước tương “Phú Sĩ”, 1M giấm gạo lên men Ajinomoto, 1M tương ớt.",
+   "Đậu Hà Lan tước bỏ xơ, cắt xéo. Hành tây cắt múi cau. Rau răm cắt nhỏ.",
+   "Chần sơ đậu Hà Lan trong nước sôi có chút muối, vớt ra ngâm đá, để ráo."
+  ],
+  "steps": [
+   "Phi thơm tỏi, cho mực vào xào lửa lớn, tiếp tục cho hành tây, đậu Hà Lan vào, cho hết hỗn hợp nước gia vị vào, tắt lửa. Cho ớt sừng, rau răm vào và rắc thêm 1 ít tỏi phi sẵn."
+  ],
+  "serve": [
+   "Cho ra dĩa. Dùng nóng với cơm."
+  ]
+ },
+ {
+  "id": "goi-muc-bap-cai",
+  "name": "Gỏi mực bắp cải",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kieng"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/goi-muc-bap-cai/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "muc",
+    "g": 250,
+    "text": "Mực tươi: 250g"
+   },
+   {
+    "ing": "bap-cai-tim",
+    "g": 300,
+    "text": "Bắp cải tím: 300g"
+   },
+   {
+    "ing": "rau-thom",
+    "g": 30,
+    "text": "Húng quế: 30g"
+   },
+   {
+    "ing": "hanh-tay",
+    "g": 55,
+    "text": "Hành tây:1/2 củ"
+   },
+   {
+    "ing": "ca-rot",
+    "g": 30.5,
+    "text": "Cà rốt: 1/2 củ"
+   },
+   {
+    "ing": "me",
+    "g": 9,
+    "text": "Mè rang: 1M"
+   }
+  ],
+  "unmeasured": [
+   "Ớt băm: 1M",
+   "Muối, đường, nước mắm, dầu mè",
+   "\"AJINOMOTO\" Giấm gạo lên men",
+   "Nước tương \"Phú Sĩ\""
+  ],
+  "prep": [
+   "Mực lá làm sạch, khứa miếng ca rô, cắt miếng vừa ăn, luộc mực vừa chín tới (2-3 phút), vớt ra xả nước lạnh, để ráo.",
+   "Bắp cải tím tách lá, rửa sạch, để ráo, cắt sợi nhuyễn. Hành tây cắt sợi dày 0.3cm. Cà rốt cắt sợi dài 5cm. Ướp bắp cải, hành tây, cà rốt với ít đường, để ráo, giữ lạnh. Lưu ý, ướp bắp cải tím riêng.",
+   "Húng quế cắt nhỏ."
+  ],
+  "steps": [
+   "Pha nước trộn gỏi: trộn đều 2M nước mắm, 1.5M đường, 2M giấm gạo lên men AJI-NO-MOTO®, 1M ớt băm, 1m muối, 1m dầu mè.",
+   "Trộn đều tất cả nguyên liệu với nước trộn gỏi."
+  ],
+  "serve": [
+   "Cho gỏi bắp cải ra dĩa, rắc mè rang lên trên."
+  ]
+ },
+ {
+  "id": "dau-hu-hap-trung",
+  "name": "Đậu hũ hấp trứng",
+  "slots": [
+   "sang"
+  ],
+  "tags": [
+   "an-kieng",
+   "giam-mo"
+  ],
+  "servings": 2,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/dau-hu-hap-trung/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "dau-hu",
+    "g": 50,
+    "text": "Đậu hủ non: 50g"
+   },
+   {
+    "ing": "ca-rot",
+    "g": 30,
+    "text": "Cà rốt: 30g"
+   },
+   {
+    "ing": "trung-ga",
+    "g": 100,
+    "text": "Trứng gà: 100g"
+   },
+   {
+    "ing": "heo-xay",
+    "g": 20,
+    "text": "Thịt nạc xay: 20g"
+   },
+   {
+    "ing": "bot-bap",
+    "g": 5.34,
+    "text": "Bột bắp: 2m"
+   }
+  ],
+  "unmeasured": [
+   "Hành tím: 2 củ",
+   "Tỏi: 2 tép",
+   "Hành lá: 1 cọng",
+   "Rượu sake/rượu trắng: 1m",
+   "RAU NÊM: Ngò rí, ớt sợi",
+   "Gia vị: Dầu ăn, muối, đường, dầu hào, tiêu",
+   "Hạt nêm Aji-ngon® Heo",
+   "Nước tương \"Phú Sĩ\""
+  ],
+  "prep": [
+   "Đậu hủ non chần qua nước sôi, cắt hạt lựu.",
+   "Cà rốt cắt hạt lựu.",
+   "Hành tím, tỏi băm nhuyễn.",
+   "Bột bắp pha với 2M nước, khuấy tan.",
+   "Hành lá cắt nhỏ.",
+   "Cho 1M dầu ăn phi thơm hành tỏi băm, cho ra chén/tô.",
+   "Cho trứng, đậu hũ, 1m hạt nêm Aji-Ngon heo, 1m dầu hành tỏi phi, 1m nước tương, 1/2m đường, tiêu xay, 1m sake, 50ml nước. Khuấy đều."
+  ],
+  "steps": [
+   "Cho hỗn hợp trứng đậu vào khuôn hoặc bất kỳ dụng cụ sứ sâu lòng tùy ý. Hấp cách thủy ở lửa trung bình 15-17 phút.",
+   "Cho 1m dầu hành tỏi phi,cho thịt vào xào đến khi tái, thêm cà rốt, hành lá, 1m hành tỏi phi, 1/2m dầu hào, 1/2m đường, 1m hạt nêm. Xào đến khi thịt chín thấm gia vị. Thêm 50ml nước nấu cho sôi, thêm bột bắp nấu đến khi hỗn hợp sánh sệt, thêm ít tiêu hoàn tất."
+  ],
+  "serve": [
+   "Cho hỗn hợp xốt lên mặt đậu hũ, trứng đã hấp. Trang trí thêm ngò rí, ớt sợi."
+  ]
+ },
+ {
+  "id": "trung-hap",
+  "name": "Trứng hấp",
+  "slots": [
+   "sang"
+  ],
+  "tags": [
+   "can-bang"
+  ],
+  "servings": 2,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/trung-hap/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "trung-ga",
+    "g": 100,
+    "text": "Trứng gà: 2 quả"
+   },
+   {
+    "ing": "bi-do",
+    "g": 20,
+    "text": "Bí đỏ: 20 g"
+   },
+   {
+    "ing": "ca-rot",
+    "g": 20,
+    "text": "Cà rốt: 20 g"
+   },
+   {
+    "ing": "nam",
+    "g": 20,
+    "text": "Nấm nút: 20 g"
+   },
+   {
+    "ing": "bap-ngot",
+    "g": 20,
+    "text": "Bắp hạt: 20 g"
+   }
+  ],
+  "unmeasured": [
+   "Rong biển ăn liền: 1 muỗng canh",
+   "Hạt nêm Aji-ngon® Nấm",
+   "Nước tương \"Phú Sĩ\""
+  ],
+  "prep": [
+   "– Luộc rau củ, vớt ra để riêng, lược lấy 300g nước luộc rau.",
+   "– Pha 300g nước luộc rau với 1/2m nước tương Phú Sĩ, 1m hạt nêm Aji-ngon® Nấm.",
+   "– Trứng gà đánh tan, lọc qua rây, sau đó trộn đều với nước rau củ luộc."
+  ],
+  "steps": [
+   "Múc hỗn hợp trứng vào chén sứ, hấp 8 phút, sau đó thêm rau củ lên trên, tiếp tục hấp thêm 7 phút với lửa vừa."
+  ],
+  "serve": [
+   "Dùng nóng, khi ăn rắc thêm rong biển ăn liền."
+  ]
+ },
+ {
+  "id": "rong-bien-cuon-thit-xot-mayo",
+  "name": "Rong biển cuộn thịt xốt mayo",
+  "slots": [
+   "sang",
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "xay-dung-co"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/rong-bien-cuon-thit-xot-mayo/",
+   "kcalPerServing": 220
+  },
+  "items": [
+   {
+    "ing": "heo-nac-vai",
+    "g": 200,
+    "text": "Nạc dăm 200g"
+   },
+   {
+    "ing": "ca-rot",
+    "g": 150,
+    "text": "Cà rốt 150g"
+   },
+   {
+    "ing": "xa-lach",
+    "g": 50,
+    "text": "Xà lách 50g"
+   },
+   {
+    "ing": "trung-ga",
+    "g": 150,
+    "text": "Trứng gà 3 quả"
+   },
+   {
+    "ing": "ot-chuong-do",
+    "g": 70,
+    "text": "Ớt chuông đỏ 70g"
+   },
+   {
+    "ing": "tuong-ot",
+    "g": 14,
+    "text": "Tương ớt 14g (1M)"
+   },
+   {
+    "ing": "tuong-ca",
+    "g": 14,
+    "text": "Tương cà chua 14g (1M)"
+   },
+   {
+    "ing": "bot-bap",
+    "g": 2.67,
+    "text": "Bột bắp 1m"
+   }
+  ],
+  "unmeasured": [
+   "Rong biển lá cuộn 1 gói",
+   "Ngò rí băm 1m",
+   "Đậu hà lan luộc chín 30g (lấy hạt còn 15g)",
+   "Tiêu trắng 1/3m",
+   "Muối 1g (1/4m)",
+   "Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản",
+   "Hạt nêm Aji-ngon® Heo",
+   "Aji-Quick® Bột Tẩm Khô Chiên Giòn"
+  ],
+  "prep": [
+   "Nạc lưng cắt lát mỏng dần sơ, ướp với 1M gia vị nêm sẵn Aji Quick® bột tẩm khô chiên giòn, áp chảo rồi cắt sợi.",
+   "Trứng gà: Trứng cho vào chén cùng 1 ít muối, 1/3m tiêu, 1/2m hạt nêm Aji-ngon® Heo, 1m bột bắp/bột năng đánh đều mang đi chiên.",
+   "1 phần mình cắt sợi còn 1 phần để nguyên khi cuộn bên ngoài."
+  ],
+  "steps": [
+   "Bước 1: Chuẩn bị cái máy xay rồi cho 4M xốt Mayonnaise Aji-mayo® Vị Nguyên Bản, 1M Tương ớt, 1M tương cà chua, 1m ngò rí băm, hạt đậu Hà lan, tiêu, muối vào xay nhuyễn thu được xốt.",
+   "Bước 2: Trải trứng chiên trước rồi kèm 1 lá rong biển lên trên rồi cho thịt nạc dăm, xà lách, cà rốt, trứng chiên đã cắt, ớt chuông với 1 lượng vừa đủ vào và cuộn lại."
+  ],
+  "serve": [
+   "Cắt cuộn rong biển thành từng miếng vừa ăn rồi trình bày ra đĩa. Rưới 1 phần xốt lên trên, thêm ngò rí để trang trí."
+  ]
+ },
+ {
+  "id": "ngheu-kho-nuoc-tuong",
+  "name": "Nghêu kho nước tương",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "giam-mo"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/ngheu-kho-nuoc-tuong/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "ngheu",
+    "g": 500,
+    "text": "Thịt nghêu đông lạnh 500g"
+   },
+   {
+    "ing": "hanh-tay",
+    "g": 27.5,
+    "text": "Hành tây 1/4 củ"
+   },
+   {
+    "ing": "nuoc-tuong",
+    "g": 44,
+    "text": "Nước tương 44g (4M)"
+   },
+   {
+    "ing": "duong",
+    "g": 12,
+    "text": "Đường 12g (1M)"
+   }
+  ],
+  "unmeasured": [
+   "Gừng băm 1/2m",
+   "Hành tím băm 1M",
+   "Tỏi băm 1m",
+   "Ớt hiểm khô 2 trái (Ngâm mềm)",
+   "Hành lá 1 nhánh",
+   "Cải ngọt 4 cây",
+   "Ajinomoto 4g (1m)",
+   "Tiêu 4g (1m)",
+   "Ớt sừng 1 trái",
+   "Bữa trưa: Ăn kèm Cơm, Tôm Mực Xào Rau Nhút, Canh Khoai Rau Đắng",
+   "Gia vị: Dầu ăn, rượu trắng, nước tương Phú Sĩ, tiêu, đường",
+   "Bột ngọt AJI-NO-MOTO®",
+   "Nước tương \"Phú Sĩ\""
+  ],
+  "prep": [
+   "Ướp thịt nghêu với 4M nước tương, 1M đường, 1m Ajinomoto, 1m tiêu.",
+   "Hành tây cắt muối cau, hành lá cắt khúc 3cm, ớt khô cắt đôi.",
+   "Cải ngọt cắt nhỏ 2cm"
+  ],
+  "steps": [
+   "Phi thơm gừng, hành tím băm, tỏi băm, ớt hiểm khô, đầu hành lá. Cho thịt nghêu vào đảo đều đến khi săn lại, thêm 1 chén nước lọc kho đến khi sệt lại. Thêm hành tây cắt múi cau, hành lá cắt khúc, ớt sừng, trộn đều.",
+   "Luộc cải ngọt vừa chín, để ráo."
+  ],
+  "serve": [
+   "Bày thố kho ra bàn dùng chung với cháo trắng và rau cải ngọt luộc.",
+   "Món ăn ngon đi kèm:",
+   "Tôm mực xào rau nhút"
+  ]
+ },
+ {
+  "id": "salad-bo-tom-thit-ap-chao",
+  "name": "Salad Bơ Tôm Thịt Áp Chảo",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "giam-mo"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/salad-bo-tom-thit-ap-chao/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "xa-lach",
+    "g": 100,
+    "text": "Xà lách giòn 100g Cắt ngang 2cm"
+   },
+   {
+    "ing": "bo-trai",
+    "g": 300,
+    "text": "Bơ chín (bơ sáp) 300g Cắt miếng vừa ăn"
+   },
+   {
+    "ing": "ca-chua",
+    "g": 100,
+    "text": "Cà chua bi 100g"
+   },
+   {
+    "ing": "heo-nac-vai",
+    "g": 100,
+    "text": "Thịt nạc vai 100g"
+   },
+   {
+    "ing": "tom",
+    "g": 200,
+    "text": "Tôm sú size 50 con/1kg 200g"
+   }
+  ],
+  "unmeasured": [
+   "Trứng cút 10 quả Luộc chín, lột vỏ",
+   "ĂN KÈM: Snack tôm (Hanami)",
+   "Gia vị: Nước hành tỏi băm, hành tím cắt lát, dầu ăn",
+   "Xốt phô mai Caesar “Aji-Xốt”"
+  ],
+  "prep": [
+   "Sơ chế nguyên liệu cho món Salad Bơ Tôm Thịt Áp Chảo:",
+   "Cắt thịt: Cắt thịt dày khoảng 1 cm để khi áp chảo giữ được độ mềm và mọng nước.",
+   "Ướp thịt và tôm: Trộn thịt và tôm với 1 muỗng nước hành tỏi băm, 1 muỗng Hạt nêm Aji-ngon® Giảm Muối, 1 muỗng dầu ăn, ướp trong 10 phút để thấm gia vị.",
+   "Chuẩn bị rau củ và trứng: Cà chua bi cắt đôi, trứng cút cắt đôi, sẵn sàng cho bước trộn salad."
+  ],
+  "steps": [
+   "Thực hiện bước áp chảo và chuẩn bị nguyên liệu cho món Salad Bơ Tôm Thịt Áp Chảo:",
+   "Áp chảo tôm: Áp chảo tôm đến khi chín, sau đó lột vỏ và cắt thành hạt lựu nhỏ để dễ trộn salad.",
+   "Áp chảo thịt: Áp chảo thịt đến khi chín thơm, để nguội và cắt thành miếng vuông khoảng 1 cm, giữ độ mềm và mọng nước."
+  ],
+  "serve": [
+   "Cách dùng món Salad Bơ Tôm Thịt Áp Chảo để thưởng thức món ăn thêm trọn vẹn hương vị:",
+   "Bày nguyên liệu ra đĩa: Xếp xà lách, cà chua bi, bơ xung quanh đĩa, sau đó bày thêm trứng cút, tôm, thịt và snack tôm lên trên.",
+   "Thêm xốt: Khi ăn, rưới 3 muỗng Xốt phô mai Caesar “Aji-Xốt” lên salad để tăng hương vị béo thơm và hòa quyện các nguyên liệu.",
+   "Trang trí và thưởng thức: Rắc lá chúc cắt sợi lên trên, sau đó trộn đều khi ăn để các nguyên liệu thấm vị hoàn hảo.",
+   "Yêu cầu thành phẩm:",
+   "Trạng thái: Tôm và thịt chín ngọt, rau giòn, bơ chín tới vừa ăn.",
+   "Màu sắc: Salad nhiều màu sắc hài hòa, bắt mắt.",
+   "Hương vị: Các nguyên liệu thấm vị, cân bằng giữa chua thanh, béo thơm phô mai và hương thảo mộc."
+  ]
+ },
+ {
+  "id": "canh-rong-bien-thit-bo",
+  "name": "Canh rong biển thịt bò",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "giam-mo"
+  ],
+  "servings": 4,
+  "source": {
+   "name": "Món Ngon Mỗi Ngày (Ajinomoto)",
+   "url": "https://monngonmoingay.com/canh-rong-bien-thit-bo/",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "bo-phi-le",
+    "g": 100,
+    "text": "Thịt bò mềm 100g"
+   },
+   {
+    "ing": "bi-do",
+    "g": 200,
+    "text": "Bí đỏ 200g"
+   },
+   {
+    "ing": "nam-kim-cham",
+    "g": 50,
+    "text": "Nấm kim châm 50g"
+   }
+  ],
+  "unmeasured": [
+   "Rong biển khô 10g (wakame)",
+   "Hành tím băm 1M",
+   "Ngò rí",
+   "Tiêu, muối, dầu ăn",
+   "Hạt nêm Aji-ngon® Heo",
+   "Nước tương \"Phú Sĩ\"",
+   "Bột ngọt AJI-NO-MOTO®"
+  ],
+  "prep": [
+   "Thịt bò cắt lát mỏng ướp với 1/3m bột ngọt AJI-NO-MOTO®, 1m nước tương “Phú Sĩ”, 1m dầu ăn, để thấm.",
+   "Rong biển khô ngâm với nước lạnh đến khi nở hết, vớt ra để ráo nước. Bí đỏ cắt khối 2cm. Nấm kim châm tách nhỏ. Ngò rí cắt nhỏ."
+  ],
+  "steps": [
+   "Phi thơm hành tím băm với dầu ăn, cho bí đỏ vào xào săn, thêm 1.2 lít nước vào nấu sôi, nêm 1/2m muối, 1m hạt nêm Aji-ngon®, 1m bột ngọt AJI-NO-MOTO®, nấu đến khi bí chín mềm, cuối cùng cho rong biển, nấm kim châm và thịt bò vào nấu sôi, nếm vị vừa ăn, tắt lửa."
+  ],
+  "serve": [
+   "Cho canh ra tô, rắc ít tiêu, ngò rí, dùng nóng với cơm."
+  ]
+ },
+ {
+  "id": "com-gao-lut",
+  "name": "Cơm gạo lứt",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kem",
+   "thuc-pham"
+  ],
+  "servings": 1,
+  "source": {
+   "name": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/169704/nutrients",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "com-gao-lut",
+    "g": 150,
+    "text": "Cơm gạo lứt (chín) 150 g"
+   }
+  ],
+  "unmeasured": [],
+  "prep": [],
+  "steps": [],
+  "serve": []
+ },
+ {
+  "id": "com-trang",
+  "name": "Cơm trắng",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-kem",
+   "thuc-pham"
+  ],
+  "servings": 1,
+  "source": {
+   "name": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/168878/nutrients",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "com-trang",
+    "g": 150,
+    "text": "Cơm trắng (chín) 150 g"
+   }
+  ],
+  "unmeasured": [],
+  "prep": [],
+  "steps": [],
+  "serve": []
+ },
+ {
+  "id": "khoai-lang-luoc",
+  "name": "Khoai lang luộc",
   "slots": [
    "sang",
    "phu1",
    "phu2"
   ],
   "tags": [
-   "nhanh"
+   "truoc-tap",
+   "thuc-pham"
   ],
+  "servings": 1,
+  "source": {
+   "name": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/168484/nutrients",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "khoai-lang-luoc",
+    "g": 150,
+    "text": "Khoai lang luộc 150 g"
+   }
+  ],
+  "unmeasured": [],
+  "prep": [],
+  "steps": [],
+  "serve": []
+ },
+ {
+  "id": "sua-chua-hy-lap",
+  "name": "Sữa chua Hy Lạp không đường",
+  "slots": [
+   "phu1",
+   "phu2"
+  ],
+  "tags": [
+   "thuc-pham"
+  ],
+  "servings": 1,
+  "source": {
+   "name": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/330137/nutrients",
+   "kcalPerServing": null
+  },
   "items": [
    {
     "ing": "sua-chua-hy-lap",
-    "g": 200
-   },
-   {
-    "ing": "yen-mach",
-    "g": 30
-   },
-   {
-    "ing": "mat-ong",
-    "g": 10
-   },
-   {
-    "ing": "hat-chia",
-    "g": 10
+    "g": 170,
+    "text": "Sữa chua Hy Lạp không đường 170 g"
    }
   ],
-  "steps": "Trộn tất cả, để tủ lạnh qua đêm (overnight oats) hoặc ăn ngay."
+  "unmeasured": [],
+  "prep": [],
+  "steps": [],
+  "serve": []
  },
  {
-  "id": "bun-ga",
-  "name": "Bún gà xé",
+  "id": "sua-chua-chuoi",
+  "name": "Sữa chua Hy Lạp và chuối",
+  "slots": [
+   "phu1",
+   "phu2"
+  ],
+  "tags": [
+   "truoc-tap",
+   "thuc-pham"
+  ],
+  "servings": 1,
+  "source": {
+   "name": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/330137/nutrients",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "sua-chua-hy-lap",
+    "g": 170,
+    "text": "Sữa chua Hy Lạp không đường 170 g"
+   },
+   {
+    "ing": "chuoi",
+    "g": 118,
+    "text": "Chuối 1 quả vừa (118 g)"
+   }
+  ],
+  "unmeasured": [],
+  "prep": [],
+  "steps": [],
+  "serve": []
+ },
+ {
+  "id": "chuoi",
+  "name": "Chuối",
+  "slots": [
+   "phu1",
+   "phu2"
+  ],
+  "tags": [
+   "truoc-tap",
+   "thuc-pham"
+  ],
+  "servings": 1,
+  "source": {
+   "name": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/173944/nutrients",
+   "kcalPerServing": null
+  },
+  "items": [
+   {
+    "ing": "chuoi",
+    "g": 118,
+    "text": "Chuối 1 quả vừa (118 g)"
+   }
+  ],
+  "unmeasured": [],
+  "prep": [],
+  "steps": [],
+  "serve": []
+ },
+ {
+  "id": "sua-tuoi",
+  "name": "Sữa tươi ít béo",
   "slots": [
    "sang",
-   "trua"
-  ],
-  "tags": [],
-  "items": [
-   {
-    "ing": "bun",
-    "g": 150
-   },
-   {
-    "ing": "uc-ga",
-    "g": 100
-   },
-   {
-    "ing": "rau-xanh",
-    "g": 50
-   },
-   {
-    "ing": "nuoc-mam",
-    "g": 10
-   }
-  ],
-  "steps": "Luộc ức gà rồi xé sợi, ăn với bún, rau và nước dùng gà."
- },
- {
-  "id": "trung-khoai-lang",
-  "name": "Trứng luộc và khoai lang",
-  "slots": [
-   "sang"
+   "phu1",
+   "phu2"
   ],
   "tags": [
-   "meal-prep",
-   "truoc-tap"
+   "thuc-pham"
   ],
+  "servings": 1,
+  "source": {
+   "name": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/746772/nutrients",
+   "kcalPerServing": null
+  },
   "items": [
    {
-    "ing": "trung-ga",
-    "g": 100
-   },
-   {
-    "ing": "long-trang-trung",
-    "g": 66
-   },
-   {
-    "ing": "khoai-lang",
-    "g": 200
+    "ing": "sua-tuoi",
+    "g": 250,
+    "text": "Sữa tươi ít béo 250 ml"
    }
   ],
-  "steps": "Luộc sẵn trứng và khoai lang cho 3–4 ngày; sáng chỉ cần lấy ra ăn."
+  "unmeasured": [],
+  "prep": [],
+  "steps": [],
+  "serve": []
  },
  {
-  "id": "banh-mi-ga-xe",
-  "name": "Bánh mì đen kẹp gà xé",
+  "id": "hanh-nhan",
+  "name": "Hạnh nhân",
   "slots": [
-   "sang"
+   "phu1",
+   "phu2"
   ],
   "tags": [
-   "nhanh",
-   "meal-prep"
+   "thuc-pham"
   ],
+  "servings": 1,
+  "source": {
+   "name": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+   "kcalPerServing": null
+  },
   "items": [
    {
-    "ing": "banh-mi-den",
-    "g": 80
-   },
-   {
-    "ing": "uc-ga",
-    "g": 80
-   },
-   {
-    "ing": "xa-lach",
-    "g": 30
-   },
-   {
-    "ing": "ca-chua",
-    "g": 30
-   },
-   {
-    "ing": "dua-leo",
-    "g": 30
+    "ing": "hanh-nhan",
+    "g": 20,
+    "text": "Hạnh nhân 20 g"
    }
   ],
-  "steps": "Kẹp gà xé (luộc sẵn) với rau vào bánh mì nguyên cám."
+  "unmeasured": [],
+  "prep": [],
+  "steps": [],
+  "serve": []
  },
  {
-  "id": "chao-yen-mach-ca-hoi",
-  "name": "Cháo yến mạch cá hồi nấm",
+  "id": "trung-luoc",
+  "name": "Trứng gà luộc",
   "slots": [
-   "sang"
+   "sang",
+   "phu1",
+   "phu2"
   ],
-  "tags": [],
+  "tags": [
+   "thuc-pham"
+  ],
+  "servings": 1,
+  "source": {
+   "name": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+   "kcalPerServing": null
+  },
   "items": [
    {
-    "ing": "yen-mach",
-    "g": 50
-   },
-   {
-    "ing": "ca-hoi",
-    "g": 80
-   },
-   {
-    "ing": "rau-xanh",
-    "g": 30
-   },
-   {
-    "ing": "nam",
-    "g": 30
+    "ing": "trung-luoc",
+    "g": 100,
+    "text": "Trứng gà luộc 2 quả (100 g)"
    }
   ],
-  "steps": "Nấu yến mạch với nước thành cháo, cho cá hồi cắt miếng và nấm vào nấu chín, nêm nhạt."
+  "unmeasured": [],
+  "prep": [],
+  "steps": [],
+  "serve": []
  },
  {
-  "id": "whey-chuoi-sua",
-  "name": "Sinh tố whey chuối",
+  "id": "whey-sua",
+  "name": "Whey pha sữa tươi",
   "slots": [
    "phu1",
    "phu2"
   ],
   "tags": [
    "sau-tap",
-   "nhanh"
+   "thuc-pham"
   ],
+  "servings": 1,
+  "source": {
+   "name": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/173177/nutrients",
+   "kcalPerServing": null
+  },
   "items": [
    {
     "ing": "whey",
-    "g": 30
-   },
-   {
-    "ing": "chuoi",
-    "g": 120
+    "g": 30,
+    "text": "Bột whey 30 g"
    },
    {
     "ing": "sua-tuoi",
-    "g": 250
+    "g": 250,
+    "text": "Sữa tươi ít béo 250 ml"
    }
   ],
-  "steps": "Xay tất cả với đá. Uống trong khoảng 1 giờ sau tập."
- },
- {
-  "id": "chuoi-bo-dau-phong",
-  "name": "Chuối và bơ đậu phộng",
-  "slots": [
-   "phu1",
-   "phu2"
+  "unmeasured": [],
+  "prep": [],
+  "steps": [
+   "Lắc đều whey với sữa. Uống trong khoảng 1 giờ sau tập."
   ],
-  "tags": [
-   "truoc-tap",
-   "nhanh"
-  ],
-  "items": [
-   {
-    "ing": "chuoi",
-    "g": 120
-   },
-   {
-    "ing": "bo-dau-phong",
-    "g": 15
-   }
-  ],
-  "steps": "Ăn 45–60 phút trước khi tập."
- },
- {
-  "id": "sua-chua-thanh-long",
-  "name": "Sữa chua Hy Lạp thanh long",
-  "slots": [
-   "phu1",
-   "phu2"
-  ],
-  "tags": [
-   "nhanh"
-  ],
-  "items": [
-   {
-    "ing": "sua-chua-hy-lap",
-    "g": 170
-   },
-   {
-    "ing": "thanh-long",
-    "g": 100
-   }
-  ],
-  "steps": "Cắt thanh long, trộn với sữa chua."
- },
- {
-  "id": "edamame-luoc",
-  "name": "Đậu nành Nhật luộc",
-  "slots": [
-   "phu1",
-   "phu2"
-  ],
-  "tags": [
-   "nhanh"
-  ],
-  "items": [
-   {
-    "ing": "edamame",
-    "g": 150
-   }
-  ],
-  "steps": "Luộc 5 phút với chút muối."
- },
- {
-  "id": "hanh-nhan-tao",
-  "name": "Hạnh nhân và táo",
-  "slots": [
-   "phu1",
-   "phu2"
-  ],
-  "tags": [
-   "nhanh"
-  ],
-  "items": [
-   {
-    "ing": "hanh-nhan",
-    "g": 20
-   },
-   {
-    "ing": "tao",
-    "g": 150
-   }
-  ],
-  "steps": "Một nắm hạnh nhân (khoảng 15 hạt) và một quả táo."
- },
- {
-  "id": "khoai-lang-sua-chua",
-  "name": "Khoai lang và sữa chua Hy Lạp",
-  "slots": [
-   "phu1",
-   "phu2"
-  ],
-  "tags": [
-   "truoc-tap",
-   "meal-prep"
-  ],
-  "items": [
-   {
-    "ing": "khoai-lang",
-    "g": 150
-   },
-   {
-    "ing": "sua-chua-hy-lap",
-    "g": 100
-   }
-  ],
-  "steps": "Khoai lang luộc sẵn, ăn cùng sữa chua trước khi tập."
- },
- {
-  "id": "sua-dau-nanh-banh-mi",
-  "name": "Sữa đậu nành và bánh mì bơ đậu phộng",
-  "slots": [
-   "phu1",
-   "phu2"
-  ],
-  "tags": [
-   "nhanh"
-  ],
-  "items": [
-   {
-    "ing": "sua-dau-nanh",
-    "g": 250
-   },
-   {
-    "ing": "banh-mi-den",
-    "g": 40
-   },
-   {
-    "ing": "bo-dau-phong",
-    "g": 10
-   }
-  ],
-  "steps": "Phết bơ đậu phộng lên lát bánh mì, uống cùng sữa đậu nành."
- },
- {
-  "id": "com-lut-uc-ga",
-  "name": "Cơm gạo lứt ức gà áp chảo",
-  "slots": [
-   "trua",
-   "toi"
-  ],
-  "tags": [
-   "meal-prep",
-   "sau-tap"
-  ],
-  "items": [
-   {
-    "ing": "com-gao-lut",
-    "g": 150
-   },
-   {
-    "ing": "uc-ga",
-    "g": 130
-   },
-   {
-    "ing": "bong-cai",
-    "g": 100
-   },
-   {
-    "ing": "dau-an",
-    "g": 7
-   }
-  ],
-  "steps": "Ướp ức gà với tỏi, tiêu, nước mắm; áp chảo mỗi mặt 5–6 phút. Luộc bông cải."
- },
- {
-  "id": "com-ca-hoi",
-  "name": "Cơm cá hồi áp chảo",
-  "slots": [
-   "trua",
-   "toi"
-  ],
-  "tags": [],
-  "items": [
-   {
-    "ing": "com-trang",
-    "g": 150
-   },
-   {
-    "ing": "ca-hoi",
-    "g": 120
-   },
-   {
-    "ing": "rau-xanh",
-    "g": 100
-   },
-   {
-    "ing": "dau-an",
-    "g": 5
-   }
-  ],
-  "steps": "Áp chảo cá hồi mặt da trước 4 phút, lật 2 phút. Ăn với cơm và rau luộc."
- },
- {
-  "id": "com-bo-xao-bong-cai",
-  "name": "Cơm gạo lứt bò xào bông cải",
-  "slots": [
-   "trua",
-   "toi"
-  ],
-  "tags": [
-   "sau-tap"
-  ],
-  "items": [
-   {
-    "ing": "com-gao-lut",
-    "g": 150
-   },
-   {
-    "ing": "bo-nac",
-    "g": 110
-   },
-   {
-    "ing": "bong-cai",
-    "g": 120
-   },
-   {
-    "ing": "dau-an",
-    "g": 8
-   },
-   {
-    "ing": "nuoc-mam",
-    "g": 5
-   }
-  ],
-  "steps": "Xào bò lửa lớn cho tái rồi để riêng, xào bông cải, trộn lại và nêm."
- },
- {
-  "id": "com-ca-basa-hap",
-  "name": "Cơm cá basa hấp gừng",
-  "slots": [
-   "trua",
-   "toi"
-  ],
-  "tags": [],
-  "items": [
-   {
-    "ing": "com-trang",
-    "g": 150
-   },
-   {
-    "ing": "ca-basa",
-    "g": 150
-   },
-   {
-    "ing": "rau-xanh",
-    "g": 100
-   },
-   {
-    "ing": "nuoc-mam",
-    "g": 10
-   }
-  ],
-  "steps": "Hấp cá với gừng, hành 10–12 phút, chấm nước mắm pha."
- },
- {
-  "id": "com-tom-xao-rau",
-  "name": "Cơm gạo lứt tôm xào rau",
-  "slots": [
-   "trua",
-   "toi"
-  ],
-  "tags": [],
-  "items": [
-   {
-    "ing": "com-gao-lut",
-    "g": 130
-   },
-   {
-    "ing": "tom",
-    "g": 150
-   },
-   {
-    "ing": "rau-xanh",
-    "g": 150
-   },
-   {
-    "ing": "dau-an",
-    "g": 7
-   }
-  ],
-  "steps": "Xào tôm với tỏi, cho rau vào xào nhanh lửa lớn."
- },
- {
-  "id": "com-dau-hu-sot-ca",
-  "name": "Cơm đậu hũ sốt cà chua trứng",
-  "slots": [
-   "trua",
-   "toi"
-  ],
-  "tags": [],
-  "items": [
-   {
-    "ing": "com-trang",
-    "g": 130
-   },
-   {
-    "ing": "dau-hu",
-    "g": 200
-   },
-   {
-    "ing": "trung-ga",
-    "g": 50
-   },
-   {
-    "ing": "ca-chua",
-    "g": 100
-   },
-   {
-    "ing": "dau-an",
-    "g": 8
-   }
-  ],
-  "steps": "Áp chảo đậu hũ, làm sốt cà chua, đập trứng vào đảo đều rồi rưới lên đậu."
- },
- {
-  "id": "salad-ca-ngu",
-  "name": "Salad cá ngừ trứng khoai lang",
-  "slots": [
-   "trua",
-   "toi"
-  ],
-  "tags": [
-   "nhanh"
-  ],
-  "items": [
-   {
-    "ing": "ca-ngu-hop",
-    "g": 120
-   },
-   {
-    "ing": "trung-ga",
-    "g": 50
-   },
-   {
-    "ing": "xa-lach",
-    "g": 80
-   },
-   {
-    "ing": "ca-chua",
-    "g": 80
-   },
-   {
-    "ing": "dua-leo",
-    "g": 80
-   },
-   {
-    "ing": "bo-trai",
-    "g": 50
-   },
-   {
-    "ing": "khoai-lang",
-    "g": 150
-   }
-  ],
-  "steps": "Trộn tất cả, rưới chanh, tiêu và chút nước mắm."
- },
- {
-  "id": "bun-bo-xao",
-  "name": "Bún bò xào",
-  "slots": [
-   "trua",
-   "toi"
-  ],
-  "tags": [],
-  "items": [
-   {
-    "ing": "bun",
-    "g": 150
-   },
-   {
-    "ing": "bo-nac",
-    "g": 100
-   },
-   {
-    "ing": "xa-lach",
-    "g": 50
-   },
-   {
-    "ing": "dua-leo",
-    "g": 50
-   },
-   {
-    "ing": "dau-phong",
-    "g": 10
-   },
-   {
-    "ing": "nuoc-mam",
-    "g": 10
-   },
-   {
-    "ing": "dau-an",
-    "g": 5
-   }
-  ],
-  "steps": "Xào bò với sả, tỏi; xếp lên bún và rau, rắc đậu phộng, chan nước mắm pha loãng."
- },
- {
-  "id": "heo-ap-chao-khoai-lang",
-  "name": "Thăn heo áp chảo, khoai lang",
-  "slots": [
-   "trua",
-   "toi"
-  ],
-  "tags": [
-   "meal-prep"
-  ],
-  "items": [
-   {
-    "ing": "than-heo",
-    "g": 140
-   },
-   {
-    "ing": "khoai-lang",
-    "g": 200
-   },
-   {
-    "ing": "bong-cai",
-    "g": 100
-   },
-   {
-    "ing": "dau-an",
-    "g": 5
-   }
-  ],
-  "steps": "Ướp thăn heo, áp chảo mỗi mặt 4 phút, nghỉ 5 phút rồi thái."
- },
- {
-  "id": "ga-nuong-salad",
-  "name": "Đùi gà nướng và salad",
-  "slots": [
-   "toi"
-  ],
-  "tags": [],
-  "items": [
-   {
-    "ing": "dui-ga",
-    "g": 130
-   },
-   {
-    "ing": "xa-lach",
-    "g": 80
-   },
-   {
-    "ing": "ca-chua",
-    "g": 80
-   },
-   {
-    "ing": "dua-leo",
-    "g": 80
-   },
-   {
-    "ing": "dau-an",
-    "g": 7
-   }
-  ],
-  "steps": "Nướng hoặc nồi chiên không dầu 180°C khoảng 20 phút. Bữa tối nhẹ, ít tinh bột."
- },
- {
-  "id": "com-lut-canh-dau-hu-nam",
-  "name": "Cơm gạo lứt, canh đậu hũ nấm và trứng luộc",
-  "slots": [
-   "trua",
-   "toi"
-  ],
-  "tags": [],
-  "items": [
-   {
-    "ing": "com-gao-lut",
-    "g": 130
-   },
-   {
-    "ing": "dau-hu",
-    "g": 150
-   },
-   {
-    "ing": "nam",
-    "g": 100
-   },
-   {
-    "ing": "rau-xanh",
-    "g": 50
-   },
-   {
-    "ing": "trung-ga",
-    "g": 100
-   }
-  ],
-  "steps": "Nấu canh đậu hũ với nấm và rau, ăn kèm 2 quả trứng luộc."
- },
- {
-  "id": "ca-hoi-nuong-khoai-lang",
-  "name": "Cá hồi nướng, khoai lang, bông cải",
-  "slots": [
-   "toi"
-  ],
-  "tags": [],
-  "items": [
-   {
-    "ing": "ca-hoi",
-    "g": 130
-   },
-   {
-    "ing": "khoai-lang",
-    "g": 150
-   },
-   {
-    "ing": "bong-cai",
-    "g": 100
-   }
-  ],
-  "steps": "Nướng cá hồi 200°C khoảng 12 phút, ăn với khoai lang và bông cải luộc."
- },
- {
-  "id": "com-ga-kho-gung",
-  "name": "Cơm gà kho gừng",
-  "slots": [
-   "trua",
-   "toi"
-  ],
-  "tags": [
-   "meal-prep"
-  ],
-  "items": [
-   {
-    "ing": "dui-ga",
-    "g": 130
-   },
-   {
-    "ing": "com-trang",
-    "g": 150
-   },
-   {
-    "ing": "rau-xanh",
-    "g": 100
-   },
-   {
-    "ing": "nuoc-mam",
-    "g": 10
-   }
-  ],
-  "steps": "Kho đùi gà với gừng, nước mắm, ít đường đến khi sệt. Để được 3 ngày trong tủ lạnh."
- },
- {
-  "id": "bo-luc-lac-salad",
-  "name": "Bò lúc lắc salad và cơm gạo lứt",
-  "slots": [
-   "trua",
-   "toi"
-  ],
-  "tags": [],
-  "items": [
-   {
-    "ing": "bo-nac",
-    "g": 120
-   },
-   {
-    "ing": "xa-lach",
-    "g": 80
-   },
-   {
-    "ing": "ca-chua",
-    "g": 80
-   },
-   {
-    "ing": "dau-an",
-    "g": 8
-   },
-   {
-    "ing": "com-gao-lut",
-    "g": 120
-   }
-  ],
-  "steps": "Bò cắt hạt lựu, lắc chảo lửa lớn 2–3 phút, ăn với xà lách, cà chua."
- },
- {
-  "id": "pho-bo-quan",
-  "name": "Phở bò ở quán (tô vừa)",
-  "slots": [
-   "sang",
-   "trua",
-   "toi"
-  ],
-  "tags": [
-   "an-ngoai"
-  ],
-  "macros": {
-   "kcal": 450,
-   "protein": 28,
-   "carb": 55,
-   "fat": 12
-  },
-  "steps": "Ăn ngoài: chọn bò tái/chín nạc, ít bánh, bỏ mỡ hành."
+  "serve": []
  }
 ]

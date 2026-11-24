@@ -51,3 +51,19 @@ test('mỗi ngày 1600–2000 kcal và protein ≥ 100 g', () => {
     assert.ok(planned.protein >= 100, `ngày ${wd}: ${planned.protein} g protein`);
   }
 });
+
+test('báo món không có nguồn (link công thức hoặc USDA)', () => {
+  const d = real();
+  d.dishes[0] = { ...d.dishes[0], source: undefined };
+  assert.ok(validateData(d).some((e) => e.includes(d.dishes[0].id) && e.includes('nguồn')));
+});
+
+test('báo nguyên liệu không có mã USDA hoặc chưa có số liệu', () => {
+  const d = real();
+  d.ingredients[0] = { ...d.ingredients[0], fdcId: undefined };
+  assert.ok(validateData(d).some((e) => e.includes(d.ingredients[0].id) && e.includes('fdcId')));
+});
+
+test('mọi món trong dữ liệu thật đều có link nguồn https', () => {
+  for (const dish of real().dishes) assert.match(dish.source.url, /^https:\/\//, dish.id);
+});

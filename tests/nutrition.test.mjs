@@ -31,3 +31,9 @@ test('safeDishMacros trả null khi thiếu nguyên liệu', async () => {
   assert.equal(safeDishMacros({ ...dish, items: [{ ing: 'khong-co', g: 10 }] }, ing), null);
   assert.equal(Math.round(safeDishMacros(dish, ing).kcal), 404);
 });
+
+test('món có servings: macro tính cho 1 phần', () => {
+  const forTwo = { ...dish, servings: 2 };
+  assert.equal(Math.round(dishMacros(forTwo, ing).kcal), 202);
+  assert.equal(Math.round(dishMacros(forTwo, ing, 2).kcal), 404);
+});

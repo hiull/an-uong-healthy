@@ -4,7 +4,7 @@ const KEYS = ['kcal', 'protein', 'carb', 'fat'];
 
 const zero = () => ({ kcal: 0, protein: 0, carb: 0, fat: 0 });
 
-/** Macro của một món, nhân với khẩu phần `scale`. */
+/** Macro của 1 phần ăn (công thức chia cho `servings` người), nhân với số phần `scale`. */
 export function dishMacros(dish, ingById, scale = 1) {
   const total = zero();
   if (dish.macros) {
@@ -14,7 +14,7 @@ export function dishMacros(dish, ingById, scale = 1) {
   for (const { ing, g } of dish.items ?? []) {
     const ingredient = ingById.get(ing);
     if (!ingredient) throw new Error(`Món "${dish.id}" dùng nguyên liệu không tồn tại: ${ing}`);
-    for (const k of KEYS) total[k] += (ingredient.per100g[k] ?? 0) * (g / 100) * scale;
+    for (const k of KEYS) total[k] += (ingredient.per100g[k] ?? 0) * (g / 100) * (scale / (dish.servings || 1));
   }
   return total;
 }

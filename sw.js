@@ -1,5 +1,5 @@
 // Service worker: dùng được khi mất mạng. Trả bản đã lưu ngay, đồng thời tải bản mới về cho lần mở sau.
-const CACHE = 'auh-v2';
+const CACHE = 'auh-v3';
 const FILES = [
   './',
   'index.html',

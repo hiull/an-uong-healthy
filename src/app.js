@@ -3,7 +3,18 @@ import { safeDishMacros, roundMacros } from './nutrition.js';
 import { dayMeals, dayTotals, dateKey, entryKey, weekdayLabel } from './plan.js';
 import { createStore } from './storage.js';
 
-const TAG_LABELS = { 'truoc-tap': 'Trước tập', 'sau-tap': 'Sau tập', nhanh: 'Nhanh', 'meal-prep': 'Nấu sẵn', 'an-ngoai': 'Ăn ngoài' };
+// Thẻ "xay-dung-co", "giam-mo", "an-kieng", "can-bang" là chuyên mục do chính trang công thức gốc phân loại.
+const TAG_LABELS = {
+  'xay-dung-co': 'Hỗ trợ xây dựng cơ',
+  'giam-mo': 'Giảm mỡ thừa',
+  'an-kieng': 'Ăn kiêng',
+  'can-bang': 'Cân bằng dinh dưỡng',
+  'truoc-tap': 'Trước tập',
+  'sau-tap': 'Sau tập',
+  'an-kem': 'Ăn kèm',
+};
+const fdcUrl = (fdcId) => `https://fdc.nal.usda.gov/food-details/${fdcId}/nutrients`;
+const fmtScale = (s) => String(s).replace('.', ',');
 const SHORT_WEEKDAYS = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'];
 const RING_LENGTH = 2 * Math.PI * 52;
 
@@ -107,7 +118,8 @@ function dishRow(meal, index, { id, scale }, day, eaten) {
     el('span', { className: 'dish-stats' },
       m ? el('span', { className: 'stat stat-protein', textContent: `${Math.round(m.protein)} g protein` }) : null,
       el('span', { className: 'stat stat-kcal', textContent: m ? `${m.kcal} kcal` : 'Chưa có số liệu' }),
-      tag ? el('span', { className: 'stat-tag', textContent: tag }) : null));
+      scale !== 1 ? el('span', { className: 'stat-tag', textContent: `${fmtScale(scale)} phần` }) : null,
+      tag && scale === 1 ? el('span', { className: 'stat-tag', textContent: tag }) : null));
   open.addEventListener('click', () => openSheet({ day, key, dish, scale }));
 
   return el('li', { className: `dish${isDone ? ' done' : ''}` }, open, el('label', { className: 'tick' }, box));
@@ -156,15 +168,47 @@ function openSheet(entry) {
       el('div', { className: 'split', 'aria-hidden': 'true' }, seg('p', kp), seg('c', kc), seg('f', kf)));
   }
 
+  const servings = dish.servings || 1;
+  const isFood = dish.tags?.includes('thuc-pham');
+  const portionNote = isFood
+    ? (scale !== 1 ? `Số liệu cho ${fmtScale(scale)} phần.` : null)
+    : `Số liệu cho ${fmtScale(scale)} phần ăn. Công thức gốc cho ${servings} người.`;
+  const notes = [
+    portionNote,
+    dish.source?.kcalPerServing ? `Trang gốc ghi ${dish.source.kcalPerServing} kcal/người (đã gồm dầu và gia vị).` : null,
+  ].filter(Boolean).map((t) => el('p', { className: 'sheet-note', textContent: t }));
+
+  // Mỗi dòng nguyên liệu: nguyên văn công thức, kèm link tới số liệu USDA đã dùng để tính
   const ingredients = dish.items?.length
-    ? [el('h3', { textContent: 'Nguyên liệu' }),
-      el('ul', { className: 'ingredients' }, ...dish.items.map(({ ing, g }) =>
-        el('li', {}, el('span', { textContent: data.ingById.get(ing)?.name ?? ing }), el('span', { textContent: `${Math.round(g * scale)} g` }))))]
+    ? [el('h3', { textContent: isFood ? 'Thành phần' : `Nguyên liệu (cho ${servings} người)` }),
+      el('ul', { className: 'ingredients' }, ...dish.items.map(({ ing, text }) => {
+        const ingredient = data.ingById.get(ing);
+        const link = el('a', { href: fdcUrl(ingredient?.fdcId), target: '_blank', rel: 'noopener', textContent: 'USDA' });
+        link.setAttribute('aria-label', `Số liệu USDA: ${ingredient?.fdcDescription ?? ing}`);
+        return el('li', {}, el('span', { textContent: text }), link);
+      }))]
     : [];
-  const steps = dish.steps ? [el('h3', { textContent: dish.tags?.includes('an-ngoai') ? 'Gợi ý' : 'Cách làm' }), el('p', { className: 'steps', textContent: dish.steps })] : [];
+  const unmeasured = dish.unmeasured?.length
+    ? [el('h3', { textContent: 'Gia vị, rau nêm (không tính vào số liệu)' }), el('p', { className: 'steps', textContent: dish.unmeasured.join(' · ') })]
+    : [];
+  const section = (title, lines) => (lines?.length ? [el('h3', { textContent: title }), ...lines.map((l) => el('p', { className: 'steps', textContent: l }))] : []);
+
+  const sourceLink = el('a', { className: 'source-link', href: dish.source.url, target: '_blank', rel: 'noopener', textContent: dish.source.name });
+  const source = el('p', { className: 'sheet-source' },
+    isFood ? 'Số liệu: ' : 'Công thức: ', sourceLink,
+    isFood ? null : '. Số liệu dinh dưỡng: USDA FoodData Central.');
 
   $('#sheet-title').textContent = dish.name;
-  $('#sheet-body').replaceChildren(tags.length ? el('div', { className: 'sheet-tags' }, ...tags) : '', macros ?? el('p', { className: 'steps', textContent: 'Món này chưa có số liệu dinh dưỡng.' }), ...ingredients, ...steps);
+  $('#sheet-body').replaceChildren(
+    tags.length ? el('div', { className: 'sheet-tags' }, ...tags) : '',
+    macros ?? el('p', { className: 'steps', textContent: 'Món này chưa có số liệu dinh dưỡng.' }),
+    ...notes,
+    ...ingredients,
+    ...unmeasured,
+    ...section('Sơ chế', dish.prep),
+    ...section(isFood ? 'Gợi ý' : 'Thực hiện', dish.steps),
+    ...section('Cách dùng', dish.serve),
+    source);
   const done = store.getEaten(day).has(key);
   const eatBtn = $('#sheet-eat');
   eatBtn.textContent = done ? 'Bỏ đánh dấu đã ăn' : 'Đã ăn món này';

@@ -4,6 +4,8 @@
   "type": "module",
   "scripts": {
     "test": "node --test tests/*.test.mjs",
-    "smoke": "node tests/smoke.mjs"
+    "smoke": "node tests/smoke.mjs",
+    "data:usda": "NODE_USE_ENV_PROXY=1 node scripts/fetch-usda.mjs",
+    "data:dishes": "node scripts/build-dishes.mjs"
   }
 }
