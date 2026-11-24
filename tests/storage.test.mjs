@@ -51,3 +51,14 @@ test('dữ liệu hỏng thì bắt đầu lại', () => {
   assert.equal(s.getEaten('d').size, 0);
   assert.equal(s.toggle('d', 'k'), true);
 });
+
+test('đọc localStorage ném SecurityError vẫn chạy', () => {
+  Object.defineProperty(globalThis, 'localStorage', { configurable: true, get() { throw new Error('SecurityError'); } });
+  try {
+    const s = createStore();
+    assert.equal(s.available, false);
+    assert.equal(s.toggle('d', 'k'), true);
+  } finally {
+    delete globalThis.localStorage;
+  }
+});

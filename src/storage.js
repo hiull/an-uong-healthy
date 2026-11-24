@@ -3,11 +3,13 @@
 const KEY = 'auh:v1';
 const KEEP_DAYS = 14;
 
-export function createStore(storage = globalThis.localStorage) {
+export function createStore(storage) {
   let state = { eaten: {} };
   let available = false;
 
   try {
+    // Đọc localStorage có thể ném SecurityError khi trình duyệt chặn lưu trữ.
+    if (storage === undefined) storage = globalThis.localStorage;
     if (storage) {
       const raw = storage.getItem(KEY);
       available = true;

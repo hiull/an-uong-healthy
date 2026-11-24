@@ -1,5 +1,5 @@
 // Thực đơn theo ngày: chọn bữa theo thứ trong tuần và tính tổng macro.
-import { dishMacros, sumMacros } from './nutrition.js';
+import { safeDishMacros, sumMacros } from './nutrition.js';
 
 export const SLOT_LABELS = {
   sang: 'Bữa sáng',
@@ -40,7 +40,8 @@ export function dayTotals(meals, dishById, ingById, eaten) {
     meal.dishes.forEach(({ id, scale }, i) => {
       const dish = dishById.get(id);
       if (!dish) return;
-      const m = dishMacros(dish, ingById, scale);
+      const m = safeDishMacros(dish, ingById, scale);
+      if (!m) return;
       planned.push(m);
       if (eaten.has(entryKey(meal.slot, i, id))) done.push(m);
     });

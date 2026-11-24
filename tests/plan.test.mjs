@@ -31,3 +31,15 @@ test('dayTotals chỉ tính món đã tick vào eaten', () => {
   assert.equal(t.eaten.kcal, 200);
   assert.equal(t.eaten.protein, 20);
 });
+
+test('dayTotals bỏ qua món thiếu nguyên liệu thay vì ném lỗi', () => {
+  const ingById = new Map([['x', { id: 'x', name: 'X', per100g: { kcal: 100, protein: 10, carb: 0, fat: 0 } }]]);
+  const dishById = new Map([
+    ['a', { id: 'a', name: 'A', slots: [], tags: [], items: [{ ing: 'x', g: 100 }] }],
+    ['hong', { id: 'hong', name: 'Hỏng', slots: [], tags: [], items: [{ ing: 'khong-co', g: 100 }] }],
+  ]);
+  const meals = [{ slot: 'sang', label: 'Bữa sáng', dishes: [{ id: 'a', scale: 1 }, { id: 'hong', scale: 1 }] }];
+  const t = dayTotals(meals, dishById, ingById, new Set(['sang:0:a', 'sang:1:hong']));
+  assert.equal(t.planned.kcal, 100);
+  assert.equal(t.eaten.kcal, 100);
+});

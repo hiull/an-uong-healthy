@@ -25,3 +25,9 @@ test('cộng danh sách, rỗng = 0', () => {
   assert.deepEqual(sumMacros([]), { kcal: 0, protein: 0, carb: 0, fat: 0 });
   assert.deepEqual(sumMacros([{ kcal: 1, protein: 2, carb: 3, fat: 4 }, { kcal: 1, protein: 1, carb: 1, fat: 1 }]), { kcal: 2, protein: 3, carb: 4, fat: 5 });
 });
+
+test('safeDishMacros trả null khi thiếu nguyên liệu', async () => {
+  const { safeDishMacros } = await import('../src/nutrition.js');
+  assert.equal(safeDishMacros({ ...dish, items: [{ ing: 'khong-co', g: 10 }] }, ing), null);
+  assert.equal(Math.round(safeDishMacros(dish, ing).kcal), 404);
+});

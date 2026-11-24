@@ -1,5 +1,5 @@
 // Màn hình "Hôm nay": hiển thị thực đơn theo ngày, tick món đã ăn.
-import { dishMacros, roundMacros } from './nutrition.js';
+import { safeDishMacros, roundMacros } from './nutrition.js';
 import { dayMeals, dayTotals, dateKey, entryKey, weekdayLabel } from './plan.js';
 import { createStore } from './storage.js';
 
@@ -62,7 +62,8 @@ function dishRow(meal, index, { id, scale }, day, eaten) {
   const dish = data.dishById.get(id);
   if (!dish) return null;
   const key = entryKey(meal.slot, index, id);
-  const m = roundMacros(dishMacros(dish, data.ingById, scale));
+  const raw = safeDishMacros(dish, data.ingById, scale);
+  const m = raw ? roundMacros(raw) : null;
   const isDone = eaten.has(key);
   const isOpen = expanded.has(key);
 
@@ -75,7 +76,7 @@ function dishRow(meal, index, { id, scale }, day, eaten) {
 
   const nameBtn = el('button', { className: 'dish-name', type: 'button' },
     el('span', { className: 'name', textContent: dish.name }),
-    el('span', { className: 'meta', textContent: `${m.kcal} kcal · ${Math.round(m.protein)} g protein` }));
+    el('span', { className: 'meta', textContent: m ? `${m.kcal} kcal · ${Math.round(m.protein)} g protein` : 'Chưa có số liệu' }));
   nameBtn.setAttribute('aria-expanded', String(isOpen));
   nameBtn.addEventListener('click', () => {
     if (expanded.has(key)) expanded.delete(key);
@@ -90,7 +91,7 @@ function dishRow(meal, index, { id, scale }, day, eaten) {
       ? el('ul', {}, ...dish.items.map(({ ing, g }) => el('li', { textContent: `${data.ingById.get(ing)?.name ?? ing}: ${Math.round(g * scale)} g` })))
       : null;
     row.append(el('div', { className: 'detail' }, el('div', {}, ...tags), items,
-      el('p', { textContent: `Carb ${Math.round(m.carb)} g · Béo ${Math.round(m.fat)} g` }),
+      m ? el('p', { textContent: `Carb ${Math.round(m.carb)} g · Béo ${Math.round(m.fat)} g` }) : null,
       dish.steps ? el('p', { textContent: dish.steps }) : null));
   }
   return row;

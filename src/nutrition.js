@@ -19,6 +19,15 @@ export function dishMacros(dish, ingById, scale = 1) {
   return total;
 }
 
+/** Như dishMacros nhưng trả null thay vì ném lỗi, dùng cho giao diện. */
+export function safeDishMacros(dish, ingById, scale = 1) {
+  try {
+    return dishMacros(dish, ingById, scale);
+  } catch {
+    return null;
+  }
+}
+
 export function sumMacros(list) {
   const total = zero();
   for (const m of list) for (const k of KEYS) total[k] += m[k];
