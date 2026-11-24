@@ -1,0 +1,860 @@
+[
+ {
+  "id": "yen-mach-whey-chuoi",
+  "name": "Yến mạch whey chuối",
+  "slots": [
+   "sang"
+  ],
+  "tags": [
+   "nhanh",
+   "sau-tap"
+  ],
+  "items": [
+   {
+    "ing": "yen-mach",
+    "g": 50
+   },
+   {
+    "ing": "whey",
+    "g": 30
+   },
+   {
+    "ing": "chuoi",
+    "g": 100
+   },
+   {
+    "ing": "sua-tuoi",
+    "g": 200
+   }
+  ],
+  "steps": "Nấu yến mạch với sữa 3 phút, tắt bếp rồi khuấy whey vào, thêm chuối thái lát."
+ },
+ {
+  "id": "banh-mi-trung-op-la",
+  "name": "Bánh mì đen trứng ốp la",
+  "slots": [
+   "sang"
+  ],
+  "tags": [
+   "nhanh"
+  ],
+  "items": [
+   {
+    "ing": "banh-mi-den",
+    "g": 80
+   },
+   {
+    "ing": "trung-ga",
+    "g": 100
+   },
+   {
+    "ing": "dau-an",
+    "g": 5
+   },
+   {
+    "ing": "ca-chua",
+    "g": 50
+   },
+   {
+    "ing": "dua-leo",
+    "g": 50
+   }
+  ],
+  "steps": "Ốp la 2 quả trứng với ít dầu, ăn cùng bánh mì nguyên cám, cà chua và dưa leo."
+ },
+ {
+  "id": "pho-bo-nha-lam",
+  "name": "Phở bò nạc nhà làm",
+  "slots": [
+   "sang",
+   "trua"
+  ],
+  "tags": [],
+  "items": [
+   {
+    "ing": "banh-pho",
+    "g": 150
+   },
+   {
+    "ing": "bo-nac",
+    "g": 100
+   },
+   {
+    "ing": "rau-xanh",
+    "g": 50
+   },
+   {
+    "ing": "nuoc-mam",
+    "g": 10
+   }
+  ],
+  "steps": "Trụng bánh phở, chần bò nạc thái mỏng, chan nước dùng hớt sạch mỡ, thêm rau thơm."
+ },
+ {
+  "id": "sua-chua-yen-mach-chia",
+  "name": "Sữa chua Hy Lạp yến mạch hạt chia",
+  "slots": [
+   "sang",
+   "phu1",
+   "phu2"
+  ],
+  "tags": [
+   "nhanh"
+  ],
+  "items": [
+   {
+    "ing": "sua-chua-hy-lap",
+    "g": 200
+   },
+   {
+    "ing": "yen-mach",
+    "g": 30
+   },
+   {
+    "ing": "mat-ong",
+    "g": 10
+   },
+   {
+    "ing": "hat-chia",
+    "g": 10
+   }
+  ],
+  "steps": "Trộn tất cả, để tủ lạnh qua đêm (overnight oats) hoặc ăn ngay."
+ },
+ {
+  "id": "bun-ga",
+  "name": "Bún gà xé",
+  "slots": [
+   "sang",
+   "trua"
+  ],
+  "tags": [],
+  "items": [
+   {
+    "ing": "bun",
+    "g": 150
+   },
+   {
+    "ing": "uc-ga",
+    "g": 100
+   },
+   {
+    "ing": "rau-xanh",
+    "g": 50
+   },
+   {
+    "ing": "nuoc-mam",
+    "g": 10
+   }
+  ],
+  "steps": "Luộc ức gà rồi xé sợi, ăn với bún, rau và nước dùng gà."
+ },
+ {
+  "id": "trung-khoai-lang",
+  "name": "Trứng luộc và khoai lang",
+  "slots": [
+   "sang"
+  ],
+  "tags": [
+   "meal-prep",
+   "truoc-tap"
+  ],
+  "items": [
+   {
+    "ing": "trung-ga",
+    "g": 100
+   },
+   {
+    "ing": "long-trang-trung",
+    "g": 66
+   },
+   {
+    "ing": "khoai-lang",
+    "g": 200
+   }
+  ],
+  "steps": "Luộc sẵn trứng và khoai lang cho 3–4 ngày; sáng chỉ cần lấy ra ăn."
+ },
+ {
+  "id": "banh-mi-ga-xe",
+  "name": "Bánh mì đen kẹp gà xé",
+  "slots": [
+   "sang"
+  ],
+  "tags": [
+   "nhanh",
+   "meal-prep"
+  ],
+  "items": [
+   {
+    "ing": "banh-mi-den",
+    "g": 80
+   },
+   {
+    "ing": "uc-ga",
+    "g": 80
+   },
+   {
+    "ing": "xa-lach",
+    "g": 30
+   },
+   {
+    "ing": "ca-chua",
+    "g": 30
+   },
+   {
+    "ing": "dua-leo",
+    "g": 30
+   }
+  ],
+  "steps": "Kẹp gà xé (luộc sẵn) với rau vào bánh mì nguyên cám."
+ },
+ {
+  "id": "chao-yen-mach-ca-hoi",
+  "name": "Cháo yến mạch cá hồi nấm",
+  "slots": [
+   "sang"
+  ],
+  "tags": [],
+  "items": [
+   {
+    "ing": "yen-mach",
+    "g": 50
+   },
+   {
+    "ing": "ca-hoi",
+    "g": 80
+   },
+   {
+    "ing": "rau-xanh",
+    "g": 30
+   },
+   {
+    "ing": "nam",
+    "g": 30
+   }
+  ],
+  "steps": "Nấu yến mạch với nước thành cháo, cho cá hồi cắt miếng và nấm vào nấu chín, nêm nhạt."
+ },
+ {
+  "id": "whey-chuoi-sua",
+  "name": "Sinh tố whey chuối",
+  "slots": [
+   "phu1",
+   "phu2"
+  ],
+  "tags": [
+   "sau-tap",
+   "nhanh"
+  ],
+  "items": [
+   {
+    "ing": "whey",
+    "g": 30
+   },
+   {
+    "ing": "chuoi",
+    "g": 120
+   },
+   {
+    "ing": "sua-tuoi",
+    "g": 250
+   }
+  ],
+  "steps": "Xay tất cả với đá. Uống trong khoảng 1 giờ sau tập."
+ },
+ {
+  "id": "chuoi-bo-dau-phong",
+  "name": "Chuối và bơ đậu phộng",
+  "slots": [
+   "phu1",
+   "phu2"
+  ],
+  "tags": [
+   "truoc-tap",
+   "nhanh"
+  ],
+  "items": [
+   {
+    "ing": "chuoi",
+    "g": 120
+   },
+   {
+    "ing": "bo-dau-phong",
+    "g": 15
+   }
+  ],
+  "steps": "Ăn 45–60 phút trước khi tập."
+ },
+ {
+  "id": "sua-chua-thanh-long",
+  "name": "Sữa chua Hy Lạp thanh long",
+  "slots": [
+   "phu1",
+   "phu2"
+  ],
+  "tags": [
+   "nhanh"
+  ],
+  "items": [
+   {
+    "ing": "sua-chua-hy-lap",
+    "g": 170
+   },
+   {
+    "ing": "thanh-long",
+    "g": 100
+   }
+  ],
+  "steps": "Cắt thanh long, trộn với sữa chua."
+ },
+ {
+  "id": "edamame-luoc",
+  "name": "Đậu nành Nhật luộc",
+  "slots": [
+   "phu1",
+   "phu2"
+  ],
+  "tags": [
+   "nhanh"
+  ],
+  "items": [
+   {
+    "ing": "edamame",
+    "g": 150
+   }
+  ],
+  "steps": "Luộc 5 phút với chút muối."
+ },
+ {
+  "id": "hanh-nhan-tao",
+  "name": "Hạnh nhân và táo",
+  "slots": [
+   "phu1",
+   "phu2"
+  ],
+  "tags": [
+   "nhanh"
+  ],
+  "items": [
+   {
+    "ing": "hanh-nhan",
+    "g": 20
+   },
+   {
+    "ing": "tao",
+    "g": 150
+   }
+  ],
+  "steps": "Một nắm hạnh nhân (khoảng 15 hạt) và một quả táo."
+ },
+ {
+  "id": "khoai-lang-sua-chua",
+  "name": "Khoai lang và sữa chua Hy Lạp",
+  "slots": [
+   "phu1",
+   "phu2"
+  ],
+  "tags": [
+   "truoc-tap",
+   "meal-prep"
+  ],
+  "items": [
+   {
+    "ing": "khoai-lang",
+    "g": 150
+   },
+   {
+    "ing": "sua-chua-hy-lap",
+    "g": 100
+   }
+  ],
+  "steps": "Khoai lang luộc sẵn, ăn cùng sữa chua trước khi tập."
+ },
+ {
+  "id": "sua-dau-nanh-banh-mi",
+  "name": "Sữa đậu nành và bánh mì bơ đậu phộng",
+  "slots": [
+   "phu1",
+   "phu2"
+  ],
+  "tags": [
+   "nhanh"
+  ],
+  "items": [
+   {
+    "ing": "sua-dau-nanh",
+    "g": 250
+   },
+   {
+    "ing": "banh-mi-den",
+    "g": 40
+   },
+   {
+    "ing": "bo-dau-phong",
+    "g": 10
+   }
+  ],
+  "steps": "Phết bơ đậu phộng lên lát bánh mì, uống cùng sữa đậu nành."
+ },
+ {
+  "id": "com-lut-uc-ga",
+  "name": "Cơm gạo lứt ức gà áp chảo",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "meal-prep",
+   "sau-tap"
+  ],
+  "items": [
+   {
+    "ing": "com-gao-lut",
+    "g": 150
+   },
+   {
+    "ing": "uc-ga",
+    "g": 130
+   },
+   {
+    "ing": "bong-cai",
+    "g": 100
+   },
+   {
+    "ing": "dau-an",
+    "g": 7
+   }
+  ],
+  "steps": "Ướp ức gà với tỏi, tiêu, nước mắm; áp chảo mỗi mặt 5–6 phút. Luộc bông cải."
+ },
+ {
+  "id": "com-ca-hoi",
+  "name": "Cơm cá hồi áp chảo",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [],
+  "items": [
+   {
+    "ing": "com-trang",
+    "g": 150
+   },
+   {
+    "ing": "ca-hoi",
+    "g": 120
+   },
+   {
+    "ing": "rau-xanh",
+    "g": 100
+   },
+   {
+    "ing": "dau-an",
+    "g": 5
+   }
+  ],
+  "steps": "Áp chảo cá hồi mặt da trước 4 phút, lật 2 phút. Ăn với cơm và rau luộc."
+ },
+ {
+  "id": "com-bo-xao-bong-cai",
+  "name": "Cơm gạo lứt bò xào bông cải",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "sau-tap"
+  ],
+  "items": [
+   {
+    "ing": "com-gao-lut",
+    "g": 150
+   },
+   {
+    "ing": "bo-nac",
+    "g": 110
+   },
+   {
+    "ing": "bong-cai",
+    "g": 120
+   },
+   {
+    "ing": "dau-an",
+    "g": 8
+   },
+   {
+    "ing": "nuoc-mam",
+    "g": 5
+   }
+  ],
+  "steps": "Xào bò lửa lớn cho tái rồi để riêng, xào bông cải, trộn lại và nêm."
+ },
+ {
+  "id": "com-ca-basa-hap",
+  "name": "Cơm cá basa hấp gừng",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [],
+  "items": [
+   {
+    "ing": "com-trang",
+    "g": 150
+   },
+   {
+    "ing": "ca-basa",
+    "g": 150
+   },
+   {
+    "ing": "rau-xanh",
+    "g": 100
+   },
+   {
+    "ing": "nuoc-mam",
+    "g": 10
+   }
+  ],
+  "steps": "Hấp cá với gừng, hành 10–12 phút, chấm nước mắm pha."
+ },
+ {
+  "id": "com-tom-xao-rau",
+  "name": "Cơm gạo lứt tôm xào rau",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [],
+  "items": [
+   {
+    "ing": "com-gao-lut",
+    "g": 130
+   },
+   {
+    "ing": "tom",
+    "g": 150
+   },
+   {
+    "ing": "rau-xanh",
+    "g": 150
+   },
+   {
+    "ing": "dau-an",
+    "g": 7
+   }
+  ],
+  "steps": "Xào tôm với tỏi, cho rau vào xào nhanh lửa lớn."
+ },
+ {
+  "id": "com-dau-hu-sot-ca",
+  "name": "Cơm đậu hũ sốt cà chua trứng",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [],
+  "items": [
+   {
+    "ing": "com-trang",
+    "g": 130
+   },
+   {
+    "ing": "dau-hu",
+    "g": 200
+   },
+   {
+    "ing": "trung-ga",
+    "g": 50
+   },
+   {
+    "ing": "ca-chua",
+    "g": 100
+   },
+   {
+    "ing": "dau-an",
+    "g": 8
+   }
+  ],
+  "steps": "Áp chảo đậu hũ, làm sốt cà chua, đập trứng vào đảo đều rồi rưới lên đậu."
+ },
+ {
+  "id": "salad-ca-ngu",
+  "name": "Salad cá ngừ trứng khoai lang",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "nhanh"
+  ],
+  "items": [
+   {
+    "ing": "ca-ngu-hop",
+    "g": 120
+   },
+   {
+    "ing": "trung-ga",
+    "g": 50
+   },
+   {
+    "ing": "xa-lach",
+    "g": 80
+   },
+   {
+    "ing": "ca-chua",
+    "g": 80
+   },
+   {
+    "ing": "dua-leo",
+    "g": 80
+   },
+   {
+    "ing": "bo-trai",
+    "g": 50
+   },
+   {
+    "ing": "khoai-lang",
+    "g": 150
+   }
+  ],
+  "steps": "Trộn tất cả, rưới chanh, tiêu và chút nước mắm."
+ },
+ {
+  "id": "bun-bo-xao",
+  "name": "Bún bò xào",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [],
+  "items": [
+   {
+    "ing": "bun",
+    "g": 150
+   },
+   {
+    "ing": "bo-nac",
+    "g": 100
+   },
+   {
+    "ing": "xa-lach",
+    "g": 50
+   },
+   {
+    "ing": "dua-leo",
+    "g": 50
+   },
+   {
+    "ing": "dau-phong",
+    "g": 10
+   },
+   {
+    "ing": "nuoc-mam",
+    "g": 10
+   },
+   {
+    "ing": "dau-an",
+    "g": 5
+   }
+  ],
+  "steps": "Xào bò với sả, tỏi; xếp lên bún và rau, rắc đậu phộng, chan nước mắm pha loãng."
+ },
+ {
+  "id": "heo-ap-chao-khoai-lang",
+  "name": "Thăn heo áp chảo, khoai lang",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "meal-prep"
+  ],
+  "items": [
+   {
+    "ing": "than-heo",
+    "g": 140
+   },
+   {
+    "ing": "khoai-lang",
+    "g": 200
+   },
+   {
+    "ing": "bong-cai",
+    "g": 100
+   },
+   {
+    "ing": "dau-an",
+    "g": 5
+   }
+  ],
+  "steps": "Ướp thăn heo, áp chảo mỗi mặt 4 phút, nghỉ 5 phút rồi thái."
+ },
+ {
+  "id": "ga-nuong-salad",
+  "name": "Đùi gà nướng và salad",
+  "slots": [
+   "toi"
+  ],
+  "tags": [],
+  "items": [
+   {
+    "ing": "dui-ga",
+    "g": 130
+   },
+   {
+    "ing": "xa-lach",
+    "g": 80
+   },
+   {
+    "ing": "ca-chua",
+    "g": 80
+   },
+   {
+    "ing": "dua-leo",
+    "g": 80
+   },
+   {
+    "ing": "dau-an",
+    "g": 7
+   }
+  ],
+  "steps": "Nướng hoặc nồi chiên không dầu 180°C khoảng 20 phút. Bữa tối nhẹ, ít tinh bột."
+ },
+ {
+  "id": "com-lut-canh-dau-hu-nam",
+  "name": "Cơm gạo lứt, canh đậu hũ nấm và trứng luộc",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [],
+  "items": [
+   {
+    "ing": "com-gao-lut",
+    "g": 130
+   },
+   {
+    "ing": "dau-hu",
+    "g": 150
+   },
+   {
+    "ing": "nam",
+    "g": 100
+   },
+   {
+    "ing": "rau-xanh",
+    "g": 50
+   },
+   {
+    "ing": "trung-ga",
+    "g": 100
+   }
+  ],
+  "steps": "Nấu canh đậu hũ với nấm và rau, ăn kèm 2 quả trứng luộc."
+ },
+ {
+  "id": "ca-hoi-nuong-khoai-lang",
+  "name": "Cá hồi nướng, khoai lang, bông cải",
+  "slots": [
+   "toi"
+  ],
+  "tags": [],
+  "items": [
+   {
+    "ing": "ca-hoi",
+    "g": 130
+   },
+   {
+    "ing": "khoai-lang",
+    "g": 150
+   },
+   {
+    "ing": "bong-cai",
+    "g": 100
+   }
+  ],
+  "steps": "Nướng cá hồi 200°C khoảng 12 phút, ăn với khoai lang và bông cải luộc."
+ },
+ {
+  "id": "com-ga-kho-gung",
+  "name": "Cơm gà kho gừng",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "meal-prep"
+  ],
+  "items": [
+   {
+    "ing": "dui-ga",
+    "g": 130
+   },
+   {
+    "ing": "com-trang",
+    "g": 150
+   },
+   {
+    "ing": "rau-xanh",
+    "g": 100
+   },
+   {
+    "ing": "nuoc-mam",
+    "g": 10
+   }
+  ],
+  "steps": "Kho đùi gà với gừng, nước mắm, ít đường đến khi sệt. Để được 3 ngày trong tủ lạnh."
+ },
+ {
+  "id": "bo-luc-lac-salad",
+  "name": "Bò lúc lắc salad và cơm gạo lứt",
+  "slots": [
+   "trua",
+   "toi"
+  ],
+  "tags": [],
+  "items": [
+   {
+    "ing": "bo-nac",
+    "g": 120
+   },
+   {
+    "ing": "xa-lach",
+    "g": 80
+   },
+   {
+    "ing": "ca-chua",
+    "g": 80
+   },
+   {
+    "ing": "dau-an",
+    "g": 8
+   },
+   {
+    "ing": "com-gao-lut",
+    "g": 120
+   }
+  ],
+  "steps": "Bò cắt hạt lựu, lắc chảo lửa lớn 2–3 phút, ăn với xà lách, cà chua."
+ },
+ {
+  "id": "pho-bo-quan",
+  "name": "Phở bò ở quán (tô vừa)",
+  "slots": [
+   "sang",
+   "trua",
+   "toi"
+  ],
+  "tags": [
+   "an-ngoai"
+  ],
+  "macros": {
+   "kcal": 450,
+   "protein": 28,
+   "carb": 55,
+   "fat": 12
+  },
+  "steps": "Ăn ngoài: chọn bò tái/chín nạc, ít bánh, bỏ mỡ hành."
+ }
+]

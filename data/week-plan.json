@@ -1,0 +1,298 @@
+{
+ "days": {
+  "0": [
+   {
+    "slot": "sang",
+    "dishes": [
+     {
+      "id": "pho-bo-nha-lam"
+     }
+    ]
+   },
+   {
+    "slot": "phu1",
+    "dishes": [
+     {
+      "id": "sua-chua-thanh-long"
+     }
+    ]
+   },
+   {
+    "slot": "trua",
+    "dishes": [
+     {
+      "id": "com-ca-hoi"
+     }
+    ]
+   },
+   {
+    "slot": "phu2",
+    "dishes": [
+     {
+      "id": "hanh-nhan-tao"
+     }
+    ]
+   },
+   {
+    "slot": "toi",
+    "dishes": [
+     {
+      "id": "ga-nuong-salad"
+     }
+    ]
+   }
+  ],
+  "1": [
+   {
+    "slot": "sang",
+    "dishes": [
+     {
+      "id": "yen-mach-whey-chuoi"
+     }
+    ]
+   },
+   {
+    "slot": "phu1",
+    "dishes": [
+     {
+      "id": "hanh-nhan-tao"
+     }
+    ]
+   },
+   {
+    "slot": "trua",
+    "dishes": [
+     {
+      "id": "com-lut-uc-ga"
+     }
+    ]
+   },
+   {
+    "slot": "phu2",
+    "dishes": [
+     {
+      "id": "chuoi-bo-dau-phong"
+     }
+    ]
+   },
+   {
+    "slot": "toi",
+    "dishes": [
+     {
+      "id": "com-tom-xao-rau"
+     }
+    ]
+   }
+  ],
+  "2": [
+   {
+    "slot": "sang",
+    "dishes": [
+     {
+      "id": "banh-mi-trung-op-la"
+     }
+    ]
+   },
+   {
+    "slot": "phu1",
+    "dishes": [
+     {
+      "id": "sua-chua-thanh-long"
+     }
+    ]
+   },
+   {
+    "slot": "trua",
+    "dishes": [
+     {
+      "id": "bun-bo-xao"
+     }
+    ]
+   },
+   {
+    "slot": "phu2",
+    "dishes": [
+     {
+      "id": "whey-chuoi-sua"
+     }
+    ]
+   },
+   {
+    "slot": "toi",
+    "dishes": [
+     {
+      "id": "ca-hoi-nuong-khoai-lang"
+     }
+    ]
+   }
+  ],
+  "3": [
+   {
+    "slot": "sang",
+    "dishes": [
+     {
+      "id": "trung-khoai-lang"
+     }
+    ]
+   },
+   {
+    "slot": "phu1",
+    "dishes": [
+     {
+      "id": "edamame-luoc"
+     }
+    ]
+   },
+   {
+    "slot": "trua",
+    "dishes": [
+     {
+      "id": "heo-ap-chao-khoai-lang"
+     }
+    ]
+   },
+   {
+    "slot": "phu2",
+    "dishes": [
+     {
+      "id": "whey-chuoi-sua"
+     }
+    ]
+   },
+   {
+    "slot": "toi",
+    "dishes": [
+     {
+      "id": "com-ca-basa-hap"
+     }
+    ]
+   }
+  ],
+  "4": [
+   {
+    "slot": "sang",
+    "dishes": [
+     {
+      "id": "banh-mi-ga-xe"
+     }
+    ]
+   },
+   {
+    "slot": "phu1",
+    "dishes": [
+     {
+      "id": "sua-chua-yen-mach-chia"
+     }
+    ]
+   },
+   {
+    "slot": "trua",
+    "dishes": [
+     {
+      "id": "com-bo-xao-bong-cai"
+     }
+    ]
+   },
+   {
+    "slot": "phu2",
+    "dishes": [
+     {
+      "id": "chuoi-bo-dau-phong"
+     }
+    ]
+   },
+   {
+    "slot": "toi",
+    "dishes": [
+     {
+      "id": "com-lut-canh-dau-hu-nam"
+     }
+    ]
+   }
+  ],
+  "5": [
+   {
+    "slot": "sang",
+    "dishes": [
+     {
+      "id": "chao-yen-mach-ca-hoi"
+     }
+    ]
+   },
+   {
+    "slot": "phu1",
+    "dishes": [
+     {
+      "id": "hanh-nhan-tao"
+     }
+    ]
+   },
+   {
+    "slot": "trua",
+    "dishes": [
+     {
+      "id": "salad-ca-ngu"
+     }
+    ]
+   },
+   {
+    "slot": "phu2",
+    "dishes": [
+     {
+      "id": "whey-chuoi-sua"
+     }
+    ]
+   },
+   {
+    "slot": "toi",
+    "dishes": [
+     {
+      "id": "com-ga-kho-gung"
+     }
+    ]
+   }
+  ],
+  "6": [
+   {
+    "slot": "sang",
+    "dishes": [
+     {
+      "id": "bun-ga"
+     }
+    ]
+   },
+   {
+    "slot": "phu1",
+    "dishes": [
+     {
+      "id": "sua-dau-nanh-banh-mi"
+     }
+    ]
+   },
+   {
+    "slot": "trua",
+    "dishes": [
+     {
+      "id": "com-dau-hu-sot-ca"
+     }
+    ]
+   },
+   {
+    "slot": "phu2",
+    "dishes": [
+     {
+      "id": "khoai-lang-sua-chua"
+     }
+    ]
+   },
+   {
+    "slot": "toi",
+    "dishes": [
+     {
+      "id": "bo-luc-lac-salad"
+     }
+    ]
+   }
+  ]
+ }
+}

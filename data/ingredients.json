@@ -1,0 +1,402 @@
+[
+ {
+  "id": "uc-ga",
+  "name": "Ức gà bỏ da (chín)",
+  "per100g": {
+   "kcal": 165,
+   "protein": 31,
+   "carb": 0,
+   "fat": 3.6
+  }
+ },
+ {
+  "id": "dui-ga",
+  "name": "Đùi gà bỏ da (chín)",
+  "per100g": {
+   "kcal": 179,
+   "protein": 24.8,
+   "carb": 0,
+   "fat": 8.2
+  }
+ },
+ {
+  "id": "bo-nac",
+  "name": "Thịt bò nạc (chín)",
+  "per100g": {
+   "kcal": 190,
+   "protein": 28,
+   "carb": 0,
+   "fat": 8
+  }
+ },
+ {
+  "id": "than-heo",
+  "name": "Thăn heo (chín)",
+  "per100g": {
+   "kcal": 143,
+   "protein": 26.2,
+   "carb": 0,
+   "fat": 3.5
+  }
+ },
+ {
+  "id": "ca-hoi",
+  "name": "Cá hồi (chín)",
+  "per100g": {
+   "kcal": 206,
+   "protein": 22,
+   "carb": 0,
+   "fat": 12.4
+  }
+ },
+ {
+  "id": "ca-basa",
+  "name": "Cá basa (chín)",
+  "per100g": {
+   "kcal": 105,
+   "protein": 19,
+   "carb": 0,
+   "fat": 3
+  }
+ },
+ {
+  "id": "ca-ngu-hop",
+  "name": "Cá ngừ ngâm nước (hộp, để ráo)",
+  "per100g": {
+   "kcal": 116,
+   "protein": 25.5,
+   "carb": 0,
+   "fat": 0.8
+  }
+ },
+ {
+  "id": "tom",
+  "name": "Tôm (chín)",
+  "per100g": {
+   "kcal": 99,
+   "protein": 24,
+   "carb": 0.2,
+   "fat": 0.3
+  }
+ },
+ {
+  "id": "trung-ga",
+  "name": "Trứng gà (cả quả, ~50 g/quả)",
+  "per100g": {
+   "kcal": 143,
+   "protein": 12.6,
+   "carb": 0.7,
+   "fat": 9.5
+  }
+ },
+ {
+  "id": "long-trang-trung",
+  "name": "Lòng trắng trứng",
+  "per100g": {
+   "kcal": 52,
+   "protein": 10.9,
+   "carb": 0.7,
+   "fat": 0.2
+  }
+ },
+ {
+  "id": "dau-hu",
+  "name": "Đậu hũ (đậu phụ)",
+  "per100g": {
+   "kcal": 95,
+   "protein": 10.9,
+   "carb": 1.1,
+   "fat": 5.4
+  }
+ },
+ {
+  "id": "edamame",
+  "name": "Đậu nành Nhật (luộc, bỏ vỏ)",
+  "per100g": {
+   "kcal": 121,
+   "protein": 11.9,
+   "carb": 8.9,
+   "fat": 5.2
+  }
+ },
+ {
+  "id": "sua-chua-hy-lap",
+  "name": "Sữa chua Hy Lạp không đường, ít béo",
+  "per100g": {
+   "kcal": 59,
+   "protein": 10.2,
+   "carb": 3.6,
+   "fat": 0.4
+  }
+ },
+ {
+  "id": "sua-tuoi",
+  "name": "Sữa tươi ít béo không đường",
+  "per100g": {
+   "kcal": 42,
+   "protein": 3.4,
+   "carb": 5,
+   "fat": 1
+  }
+ },
+ {
+  "id": "sua-dau-nanh",
+  "name": "Sữa đậu nành không đường",
+  "per100g": {
+   "kcal": 33,
+   "protein": 2.9,
+   "carb": 1.7,
+   "fat": 1.6
+  }
+ },
+ {
+  "id": "whey",
+  "name": "Bột whey protein (~30 g/muỗng)",
+  "per100g": {
+   "kcal": 400,
+   "protein": 80,
+   "carb": 8,
+   "fat": 6
+  }
+ },
+ {
+  "id": "com-trang",
+  "name": "Cơm trắng (chín)",
+  "per100g": {
+   "kcal": 130,
+   "protein": 2.7,
+   "carb": 28.2,
+   "fat": 0.3
+  }
+ },
+ {
+  "id": "com-gao-lut",
+  "name": "Cơm gạo lứt (chín)",
+  "per100g": {
+   "kcal": 123,
+   "protein": 2.7,
+   "carb": 25.6,
+   "fat": 1
+  }
+ },
+ {
+  "id": "bun",
+  "name": "Bún tươi",
+  "per100g": {
+   "kcal": 110,
+   "protein": 1.7,
+   "carb": 25,
+   "fat": 0.1
+  }
+ },
+ {
+  "id": "banh-pho",
+  "name": "Bánh phở tươi",
+  "per100g": {
+   "kcal": 141,
+   "protein": 3.2,
+   "carb": 32.1,
+   "fat": 0.4
+  }
+ },
+ {
+  "id": "yen-mach",
+  "name": "Yến mạch cán (khô)",
+  "per100g": {
+   "kcal": 389,
+   "protein": 16.9,
+   "carb": 66.3,
+   "fat": 6.9
+  }
+ },
+ {
+  "id": "khoai-lang",
+  "name": "Khoai lang (luộc)",
+  "per100g": {
+   "kcal": 76,
+   "protein": 1.4,
+   "carb": 17.7,
+   "fat": 0.1
+  }
+ },
+ {
+  "id": "banh-mi-den",
+  "name": "Bánh mì nguyên cám",
+  "per100g": {
+   "kcal": 247,
+   "protein": 13,
+   "carb": 41,
+   "fat": 3.4
+  }
+ },
+ {
+  "id": "chuoi",
+  "name": "Chuối",
+  "per100g": {
+   "kcal": 89,
+   "protein": 1.1,
+   "carb": 22.8,
+   "fat": 0.3
+  }
+ },
+ {
+  "id": "tao",
+  "name": "Táo",
+  "per100g": {
+   "kcal": 52,
+   "protein": 0.3,
+   "carb": 13.8,
+   "fat": 0.2
+  }
+ },
+ {
+  "id": "thanh-long",
+  "name": "Thanh long",
+  "per100g": {
+   "kcal": 60,
+   "protein": 1.2,
+   "carb": 13,
+   "fat": 0.4
+  }
+ },
+ {
+  "id": "bo-trai",
+  "name": "Bơ (trái)",
+  "per100g": {
+   "kcal": 160,
+   "protein": 2,
+   "carb": 8.5,
+   "fat": 14.7
+  }
+ },
+ {
+  "id": "rau-xanh",
+  "name": "Rau xanh luộc (cải, rau muống)",
+  "per100g": {
+   "kcal": 25,
+   "protein": 2.5,
+   "carb": 4,
+   "fat": 0.3
+  }
+ },
+ {
+  "id": "bong-cai",
+  "name": "Bông cải xanh (luộc)",
+  "per100g": {
+   "kcal": 35,
+   "protein": 2.4,
+   "carb": 7.2,
+   "fat": 0.4
+  }
+ },
+ {
+  "id": "dua-leo",
+  "name": "Dưa leo",
+  "per100g": {
+   "kcal": 15,
+   "protein": 0.7,
+   "carb": 3.6,
+   "fat": 0.1
+  }
+ },
+ {
+  "id": "ca-chua",
+  "name": "Cà chua",
+  "per100g": {
+   "kcal": 18,
+   "protein": 0.9,
+   "carb": 3.9,
+   "fat": 0.2
+  }
+ },
+ {
+  "id": "xa-lach",
+  "name": "Xà lách",
+  "per100g": {
+   "kcal": 15,
+   "protein": 1.4,
+   "carb": 2.9,
+   "fat": 0.2
+  }
+ },
+ {
+  "id": "nam",
+  "name": "Nấm (chín)",
+  "per100g": {
+   "kcal": 28,
+   "protein": 2.2,
+   "carb": 5.3,
+   "fat": 0.5
+  }
+ },
+ {
+  "id": "dau-an",
+  "name": "Dầu ăn / dầu ô liu",
+  "per100g": {
+   "kcal": 884,
+   "protein": 0,
+   "carb": 0,
+   "fat": 100
+  }
+ },
+ {
+  "id": "dau-phong",
+  "name": "Đậu phộng rang",
+  "per100g": {
+   "kcal": 567,
+   "protein": 25.8,
+   "carb": 16.1,
+   "fat": 49.2
+  }
+ },
+ {
+  "id": "hanh-nhan",
+  "name": "Hạnh nhân",
+  "per100g": {
+   "kcal": 579,
+   "protein": 21.2,
+   "carb": 21.6,
+   "fat": 49.9
+  }
+ },
+ {
+  "id": "bo-dau-phong",
+  "name": "Bơ đậu phộng",
+  "per100g": {
+   "kcal": 588,
+   "protein": 25,
+   "carb": 20,
+   "fat": 50
+  }
+ },
+ {
+  "id": "hat-chia",
+  "name": "Hạt chia",
+  "per100g": {
+   "kcal": 486,
+   "protein": 16.5,
+   "carb": 42.1,
+   "fat": 30.7
+  }
+ },
+ {
+  "id": "mat-ong",
+  "name": "Mật ong",
+  "per100g": {
+   "kcal": 304,
+   "protein": 0.3,
+   "carb": 82.4,
+   "fat": 0
+  }
+ },
+ {
+  "id": "nuoc-mam",
+  "name": "Nước mắm",
+  "per100g": {
+   "kcal": 35,
+   "protein": 5.1,
+   "carb": 3.6,
+   "fat": 0
+  }
+ }
+]
