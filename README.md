@@ -55,3 +55,15 @@ python3 -m http.server   # chạy thử tại http://localhost:8000
 ```
 
 Không có bước build: HTML, CSS và JavaScript thuần.
+
+## Đăng lên mạng (GitHub Pages)
+
+Làm một lần:
+
+1. Merge nhánh này vào `main`.
+2. Trên GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+3. Mỗi lần push vào `main`, workflow `Deploy lên GitHub Pages` sẽ chạy test, kiểm tra dữ liệu rồi đăng lại.
+
+Link app: `https://<tên-tài-khoản>.github.io/an-uong-healthy/`
+
+Lưu ý: GitHub Pages của repo riêng tư cần gói GitHub trả phí; với tài khoản miễn phí, repo phải để công khai.
