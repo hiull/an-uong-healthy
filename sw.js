@@ -1,5 +1,5 @@
 // Service worker: dùng được khi mất mạng. Trả bản đã lưu ngay, đồng thời tải bản mới về cho lần mở sau.
-const CACHE = 'auh-v1';
+const CACHE = 'auh-v2';
 const FILES = [
   './',
   'index.html',
@@ -13,6 +13,18 @@ const FILES = [
   'data/dishes.json',
   'data/week-plan.json',
   'icons/icon.svg',
+  'fonts/be-vietnam-pro-vietnamese-400-normal.woff2',
+  'fonts/be-vietnam-pro-vietnamese-500-normal.woff2',
+  'fonts/be-vietnam-pro-vietnamese-600-normal.woff2',
+  'fonts/be-vietnam-pro-vietnamese-700-normal.woff2',
+  'fonts/be-vietnam-pro-latin-400-normal.woff2',
+  'fonts/be-vietnam-pro-latin-500-normal.woff2',
+  'fonts/be-vietnam-pro-latin-600-normal.woff2',
+  'fonts/be-vietnam-pro-latin-700-normal.woff2',
+  'fonts/be-vietnam-pro-latin-ext-400-normal.woff2',
+  'fonts/be-vietnam-pro-latin-ext-500-normal.woff2',
+  'fonts/be-vietnam-pro-latin-ext-600-normal.woff2',
+  'fonts/be-vietnam-pro-latin-ext-700-normal.woff2',
   'icons/icon-192.png',
   'icons/icon-512.png',
 ];
@@ -24,7 +36,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((k) => k.startsWith('auh-') && k !== CACHE).map((k) => caches.delete(k))))
       .then(() => self.clients.claim()),
   );
 });

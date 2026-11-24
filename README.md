@@ -56,6 +56,8 @@ python3 -m http.server   # chạy thử tại http://localhost:8000
 
 Không có bước build: HTML, CSS và JavaScript thuần.
 
+Font: [Be Vietnam Pro](https://github.com/bettergui/BeVietnamPro), giấy phép SIL Open Font License (`fonts/LICENSE-OFL.txt`), đặt sẵn trong `fonts/` để chạy được khi không có mạng.
+
 ## Đăng lên mạng (GitHub Pages)
 
 Làm một lần:

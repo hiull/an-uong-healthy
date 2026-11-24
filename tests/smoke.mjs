@@ -46,6 +46,24 @@ try {
   check((await page.textContent('#day-title')).includes('Thứ 3'), 'qua nửa đêm chuyển sang Thứ 3');
   check((await page.locator('.dish input[type=checkbox]:checked').count()) === 0, 'ngày mới không có món nào được tick');
 
+  // Dải tuần: 7 ngày, chạm một ngày để chuyển sang ngày đó
+  check((await page.locator('.week-day').count()) === 7, 'dải tuần có 7 ngày');
+  await page.locator('.week-day[data-date="2026-11-25"]').click();
+  check((await page.textContent('#day-title')).includes('Thứ 4'), 'chạm ngày trong dải tuần chuyển sang Thứ 4');
+  check(await page.isVisible('#go-today'), 'hiện nút Về hôm nay khi xem ngày khác');
+  await page.click('#go-today');
+  check((await page.textContent('#day-title')).includes('Thứ 3'), 'Về hôm nay quay lại Thứ 3');
+
+  // Bảng chi tiết món
+  await page.locator('.dish-open').first().click();
+  check(await page.isVisible('#dish-sheet'), 'chạm món mở bảng chi tiết');
+  check((await page.locator('#dish-sheet .ingredients li').count()) > 0, 'bảng chi tiết có danh sách nguyên liệu');
+  await page.click('#sheet-eat');
+  check(await page.locator('.dish input[type=checkbox]').first().isChecked(), 'nút trong bảng chi tiết đánh dấu đã ăn');
+  check(!(await page.isVisible('#dish-sheet')), 'bảng chi tiết đóng sau khi đánh dấu');
+
+  check(await page.evaluate(async () => { await document.fonts.ready; return document.fonts.check('600 16px "Be Vietnam Pro"'); }), 'font Be Vietnam Pro đã tải');
+
   check((await page.evaluate(() => document.documentElement.scrollWidth)) <= 390, 'không cuộn ngang');
   check(errors.length === 0, `không có lỗi console ${errors.join(' | ')}`);
   await browser.close();
