@@ -43,3 +43,9 @@ Tài khoản, server, đồng bộ nhiều máy, xem tiến độ từ xa, nhậ
 
 ## Để người xây quyết định
 Bố cục và màu sắc cụ thể, công thức tính calo chi tiết, cách lưu và định dạng nhãn ước lượng.
+
+## Cập nhật sau khi chốt cách tiếp cận (đã được người đặt đồng ý)
+- Làm theo giai đoạn: (1) màn "Hôm nay" + tick + thanh tiến độ + khoảng 30 món, thực đơn xếp tay; (2) hồ sơ, tự xếp thực đơn tuần, đổi món, nút "ăn ngoài / món khác", sao lưu xuất/nhập; (3) bảng nguyên liệu, script CSV, mở rộng kho; (4) danh sách đi chợ, ngày tập và ngày nghỉ.
+- Món lưu theo nguyên liệu × gram, macro tự tính từ bảng khoảng 200 nguyên liệu (macro mỗi 100g, từ USDA và bảng thành phần Việt Nam). Món mua ngoài hoặc đóng gói cho nhập thẳng calo và protein.
+- Xếp thực đơn bằng thuật toán đơn giản: mỗi bữa chiếm tỷ lệ calo cố định, chọn món ngẫu nhiên đúng thẻ, co giãn khẩu phần cho khớp mục tiêu. Khoảng 150 món cộng khẩu phần co giãn là đủ đa dạng; 1000 món là khả năng mở rộng, không phải điều kiện bắt buộc.
+- Cô ấy tự chỉnh được món và hồ sơ trong app, để dùng được dù đây là quà bất ngờ hay cô ấy góp ý từ đầu (mình chọn thế vì chưa rõ cô ấy có biết hay không).
